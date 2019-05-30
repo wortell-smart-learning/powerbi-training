@@ -8,60 +8,46 @@ Start Power BI Desktop met een nieuw, leeg rapport zonder verbinding naar een ku
 
 ## CSV-Data inladen
 
-Importeer een CSV-bestand via "Get Data" -> "Text/CSV"
+Om een CSV-bestand in te laden ga je naar **Get Data** -> **Text/CSV**
 
 ![Get data](img/importeer-csv.png)
 
-Importeer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "csv".
+Importeer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "C:\Repos\powerbi-training\03-Self-service-reporting\csv".
 
-## Culture van een CSV-berstand
+## Data verkennen
 
-Afhankelijk van de regio-instellingen van je Windows-installatie (de _culture_) gaat Power BI (net als bijv. Excel) anders met punten en komma's om:
+Aan de rechterzijde zie je nu een tabel "2014-01" staan, met daaronder enkele velden. Momenteel zit er nog niet heel veel nuttige informatie in het datamodel: er is data van één periode uit 2014 aanwezig, maar alle verwijzingen naar winkels, producten en verkoopgebieden zijn enkel nog technische sleutels (de kolommen die een database onder water gebruikt om rijen uniek te kunnen identificeren - in dit geval bijv. `TerritoryID` en `ProductID`).
 
-* In Nederland gebruiken we een decimale komma, en een punt als duizendtalscheiding (dus hebben we het over € 1.000,00)
-* In de V.S. (waar AdventureWorks zit) wordt een decimale punt gebruikt, en een komma als duizendtalscheiding (dus schrijf je $ 1,000.00)
+Maak nu drie Power BI visualisaties. Zorg ervoor dat de "per" velden hieronder niet worden gesommeerd, maar netjes uitsplitsen! Gebruik de standaard staafdiagrammen, en voer de bijbehorende wijzigingen door
 
-In het screenshot hieronder zie je een dergelijke "misinterpretatie": de TotalDue van een bepaalde verkoop staat op "263243267":
+1. **TotalDue** per **TerritoryID**
+   * Maak de titel van de grafiek:
+     * gecentreerd
+     * rood
+     * lettertype comic sans, 24pt (*en laat dit de laatste keer zijn dat je comic sans gebruikt in een datavisualisatie*)
+   * Voeg voor **TerritoryID** een **Top 6 filter** toe, op basis van **TotalDue**
+   * Verander de X-as van **Continuous** naar **Categorical**
+   * Voeg een titel toe aan de X-as
+2. **TaxAmt** per **ProductID**
+   * Maak de X-as **Categorical**, en zet deze vervolgens uit
+   * Stel als **Data colors** een **Conditional formatting** in (hint: klik op de puntjes naar *Default color*)
+     * Stel de minimum-kleur in op de lichtste grijstint binnen de thema-kleuren
+     * Stel de maximum-kleur in op de donkerste grijstint (niet zwart) binnen de thema-kleuren
+     * Laat de overige instellingen standaard staan
+     * Klik "OK"
+3. Voeg een **slicer** toe voor het veld **Day**
 
-![Preview import 2014-01](img/2014-01.png)
+![Slicer-element](img/add-slicer.png)
 
-Wanneer je de inhoud van ["2014-01.csv"](csv/2014-01.csv) bekijkt, zie je dat dit eigenlijk kommagetal had moeten zijn:
+> Wanneer je het bestand ["2014-01.csv"](csv/2014-01.csv) in een teksteditor bekijkt (op de cursus-VM staan o.a. *Visual Studio Code* en *Notepad++* geïnstalleerd), dan zul je zien dat het veld *Day* hier niet voorkomt. Power BI heeft hier gezien dat we een datum-veld in de brondata hadden zitten, en hier voor ons alvast een hiërarchie (Year, Quarter, Month, Day) op aangebracht.
+>
+> Handig, want veel van onze analyses zetten we uit over de tijd heen, en zelden hebben we daarbij het datum-niveau direct nodig!
 
-![Werkelijke waarde regel 1 2014-01](img/2014-01-csv.png)
+Hieronder zie je een mogelijke uitkomst.
 
-Klik in het preview-venster daarom niet op *Load* maar op *Edit*. Er opent zich nu een nieuw venster - de Power Query Editor.
+![Mogelijke uitkomst van rapport](img/mogelijke-uitkomst.png)
 
-## Power Query Editor
-
-Power Query is de "ETL" van Power BI: hierin kun je allerhande bestandstypen inladen, en volgens een dataflow inladen.
-
-> Aan de achterzijde van Power Query zit een functionele programmeertaal ("Power Query Language, informally known as M") waarmee je bijzonder krachtig dataflows kunt inrichten om data te laden in je Power BI model. **Je hoeft deze programmeertaal zelden te gebruiken**. Veruit de meeste bewerkingen op je data kun je heel goed via de Ribbon doen (of via een rechtsklik op een kolom, waarmee je ook acties te zien krijgt). Eén van de uitzonderingen waar je wél de query taal nodig hebt is bij het inladen van data met een andere *culture*.
-
-Later gaan we dieper in op Power Query - voor nu behandelen we alleen wat er nodig is om Power Query te kunnen gebruiken:
-
-![Power Query venster - de basics](img/power-query-venster-basics.png)
-
-1. Aan de linkerzijde zie je alle *queries*. Elke tabel die in het datamodel van Power BI opgeslagen staat heeft minimaal één query aan de achterzijde. Momenteel zie je dus één query met de naam '2014-01'.
-2. Van de geselecteerde query zie je aan de rechterzijde de *query settings*. Hier zie je twee componenten
-   * De naam (dus "2014-01")
-   * De *Applied steps*. Dit is vergelijkbaar met een dataflow, en heeft een één-op-één relatie met een achterliggend stuk code
-3. De *Advanced Editor* geeft toegang tot de code die de dataflow definieert.
-
-* Klik op onder "Applied Steps" achtereenvolgens op "Source", "Promoted Headers" en "Changed Type". In welke stap verdwijnt de decimale punt?
-* Open de "Advanced Editor" en bekijk de code. Herken je de stappen uit de dataflow?
-
-![Advanced Power Query Editor](img/advanced-editor.png)
-
-De stap waarin de decimale punt verloren gaat, is de stap met de naam `Changed Type`. Omdat hier een spatie in staat wordt deze in Power Query-taal weergegeven als `#"Changed Type"`. De uitvoer van deze stap is als volgt gedefinieerd:
-
-```OCaml
-#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"TotalDue", type number}, {"SubTotal", type number}, {"TaxAmt", type number}, {"Freight", type number}, {"ProductID", Int64.Type}, {"StoreID", Int64.Type}, {"TerritoryID", Int64.Type}, {"OrderDate", type datetime}})
-```
-
-* In [de documentatie van Power Query language over Table.TransformColumnType](https://docs.microsoft.com/en-us/powerquery-m/table-transformcolumntypes) staat beschreven hoe je de culture aanpast. Doe dit om ervoor te zorgen dat de decimale punten correct worden geïmplementeerd.
-* Als de cijfers in TotalDue, SubTotal, TaxAmt en Freight correct worden weergegeven (dus inclusief cijfers achter de komma), klik je op "Close & Apply" linksbovenin het Power Query venster
-
-![Close and Apply Power Query venster](img/power-query-close.png)
+**Sla het bestand op - we gaan hier in het volgende onderdeel mee verder**.
 
 ## Volgende modules
 

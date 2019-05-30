@@ -1,6 +1,12 @@
 # SQL-bronnen inladen
 
-Om de data nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Maak verbinding met de SQL Server-database die op je lokale VM staat:
+## Voorbereiding
+
+We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
+
+## Inladen van SQL-data
+
+De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Server**-database die op je lokale VM staat:
 
 * Adres: .
 
@@ -8,11 +14,15 @@ Laat de Data Connectivity mode op "Import" staan:
 
 ![Connect to SQL Server](img/sqlserver-connect.png)
 
+In het volgende venster word je gevraagd hoe je verbinding met deze database wilt maken. Laat de standaard-instelling voor **Windows** credentials en **use my current credentials** hier staan, klik op **Connect**.
+
+![Connection credentials](img/sqlserver-connect-credentials.png)
+
 Wanneer er een waarschuwing komt over een niet-versleutelde verbinding ("encryption support"), geef hier dan "OK":
 
 ![Encryption support warning](img/encryption-support.png)
 
-Het venster "Navigator" opent. Klap hier de database "AdventureWorks2017" uit. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Selecteer de volgende _tabellen_:
+Het venster "Navigator" opent. Klap hier de database "AdventureWorks2017" uit. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! Selecteer de volgende _tabellen_:
 
 * Person.CountryRegion
 * Sales.SalesTerritory
@@ -26,7 +36,7 @@ Je kunt hier de zoekfunctie voor gebruiken:
 
 Klik op "Load" om de data in te laden.
 
-Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritory. Vervang ProductID door de kolom "Name" uit ProductCategory.
+Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritory. Vervang ProductID door de kolom "Name" uit ProductCategory. Zet de weergave van de X-as weer aan voor deze grafiek.
 
 ![TotalDue by Territory, TaxAmt by Category](img/pbi-secondviz.png)
 
@@ -34,8 +44,11 @@ Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
 
 * server: bitrainerpbi.database.windows.net
 * database: AW
+
+Selecteer hiervoor **Database credentials**, met de volgende logingegevens:
+
 * username: powerbiuser
-* apssword: PowerBI2
+* pass: PowerBI2
 
 Voeg nu in het rapport achtereenvolgens de volgende velden toe:
 
