@@ -125,13 +125,13 @@ Het eindresultaat kan er bijvoorbeeld als volgt uit zien:
 
 De volgende module is **Self-service reporting**, waarbij we starten met  [CSV-bestanden inladen](../03-Self-service-reporting/03-csv-inladen.md). Hieronder vind je een overzicht van alle modules:
 
-1. [Introductie Power BI Desktop](../01-Introduction/01-introductie-powerbi-desktop.md)
-2. [Rapporteren op kubus-data en eerste visualisatie](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md) (huidige module)
+1. [Introductie Power BI Desktop](../01-Introduction/01-introductie-powerbi-desktop.md) (huidige module)
+2. [Rapporteren op kubus-data en eerste visualisatie](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md)
 3. Self-service reporting
    * [CSV-bestanden inladen](../03-Self-service-reporting/03-csv-inladen.md)
    * [SQL data inladen](../03-Self-service-reporting/04-sql-inladen.md)
 4. Data Modeling 101
-   * [Relaties](../04-Data-Modeling-101/04-relaties.md)
-   * [Opschonen van je datamodel](../04-Data-Modeling-101/05-opschonen.md)
-   * [Verrijken met Calculated Columns](../04-Data-Modeling-101/06-calc-columns.md)
-5. [Introductie Power Query (GUI)](../05-Power-Query-GUI/07-power-query.md)
+   * [Relaties](../04-Data-Modeling-101/05-relaties.md)
+   * [Opschonen van je datamodel](../04-Data-Modeling-101/06-opschonen.md)
+   * [Verrijken met Calculated Columns](../04-Data-Modeling-101/07-calc-columns.md)
+5. [Introductie Power Query (GUI)](../05-Power-Query-GUI/08-power-query.md)

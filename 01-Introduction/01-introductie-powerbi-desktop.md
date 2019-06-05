@@ -50,7 +50,7 @@ De volgende module is [Module 2: Rapporteren op kubus-data](../02-Reporting-on-C
    * [CSV-bestanden inladen](../03-Self-service-reporting/03-csv-inladen.md)
    * [SQL data inladen](../03-Self-service-reporting/04-sql-inladen.md)
 4. Data Modeling 101
-   * [Relaties](../04-Data-Modeling-101/04-relaties.md)
-   * [Opschonen van je datamodel](../04-Data-Modeling-101/05-opschonen.md)
-   * [Verrijken met Calculated Columns](../04-Data-Modeling-101/06-calc-columns.md)
-5. [Introductie Power Query (GUI)](../05-Power-Query-GUI/07-power-query.md)
+   * [Relaties](../04-Data-Modeling-101/05-relaties.md)
+   * [Opschonen van je datamodel](../04-Data-Modeling-101/06-opschonen.md)
+   * [Verrijken met Calculated Columns](../04-Data-Modeling-101/07-calc-columns.md)
+5. [Introductie Power Query (GUI)](../05-Power-Query-GUI/08-power-query.md)
