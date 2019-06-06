@@ -95,7 +95,7 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Wan
 
 ![Top N filtering](img/08-top-n-filter.png)
 
-17. Filter deze op de top 6, vul onder **by value** de waarde **Internet Total Sales** in.
+17. Filter deze op de top 6, sleep het veld "**Internet Total Sales** naar het kopje **by value**.
 18. Klik **Apply filter**
 
 Als het goed is, ziet je grafiek er nu als volgt uit:
