@@ -97,10 +97,6 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Wan
 
 17. Filter deze op de top 6, sleep het veld "**Internet Total Sales** naar het kopje **by value**.
 18. Klik **Apply filter**
-
-Als het goed is, ziet je grafiek er nu als volgt uit:
-
-
 19. Probeer nu zelf een **map visual** toe te voegen (dit is het "witte" wereldbolletje onder **Visualizations**). Zet hierin de **Country Region Name** uit tegen **Internet Total Sales**. Maak de grafiek vervolgens breed genoeg zodat alle landen waar verkocht wordt duidelijk zichtbaar zijn.
 20. Voeg nu een tabel toe met de volgende daarin de volgende velden:
    * **Country Region Name**
