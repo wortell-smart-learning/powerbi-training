@@ -75,43 +75,35 @@ Klik op één van de landen in de eerste grafiek. Zoals je ziet verandert de and
 
 ![Interactie tussen grafieken](img/07-interactie-tussen-grafieken.png)
 
-## Meerdere pagina's
-
-Een rapport kan uit meerdere pagina's bestaan. Deze worden als "tabjes" weergegeven onder aan het rapport. 
-
-9. Klik op het plus-teken om een nieuwe pagina toe te voegen.
-10. Hernoem de eerste pagina naar "Overzicht"
-11. Hernoem de tweede pagina naar "Finance-specifiek"
-
 ## Hands-on: rapportage maken
 
 Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Wanneer je er niet uitkomt: even vragen! Het niveau is hier bewust wat hoger, om je ervaring met de tool te vergroten.
 
-12. Maak een nieuwe tab, genaamd 'Product Sales'
-13. Schakel naar deze nieuwe tab
-14. Maak een grafiek waarin je de **Internet Total Sales** uitzet tegenover **Product Subcategory Name**
-15. Selecteer deze grafiek.
-16. Verander de **Visual level filter** voor **Product Subcategory Name** in een **Top N** filter
+9. Maak een nieuwe tab, genaamd 'Product Sales'
+10. Schakel naar deze nieuwe tab
+11. Maak een grafiek waarin je de **Internet Total Sales** uitzet tegenover **Product Subcategory Name**
+12. Selecteer deze grafiek.
+13. Verander de **Visual level filter** voor **Product Subcategory Name** in een **Top N** filter
 
 ![Top N filtering](img/08-top-n-filter.png)
 
-17. Filter deze op de top 6, sleep het veld "**Internet Total Sales** naar het kopje **by value**.
-18. Klik **Apply filter**
-19. Probeer nu zelf een **map visual** toe te voegen (dit is het "witte" wereldbolletje onder **Visualizations**). Zet hierin de **Country Region Name** uit tegen **Internet Total Sales**. Maak de grafiek vervolgens breed genoeg zodat alle landen waar verkocht wordt duidelijk zichtbaar zijn.
-20. Voeg nu een tabel toe met de volgende daarin de volgende velden:
+14. Filter deze op de top 6, sleep het veld "**Internet Total Sales** naar het kopje **by value**.
+15. Klik **Apply filter**
+16. Probeer nu zelf een **map visual** toe te voegen (dit is het "witte" wereldbolletje onder **Visualizations**). Zet hierin de **Country Region Name** uit tegen **Internet Total Sales**. Maak de grafiek vervolgens breed genoeg zodat alle landen waar verkocht wordt duidelijk zichtbaar zijn.
+17. Voeg nu een tabel toe met de volgende daarin de volgende velden:
    * **Country Region Name**
    * **State Province Name**
    * **City**
    * **Internet Total Sales**
    * **Internet Total Margin**
-21. Plaats de tabel en kaart direct onder elkaar, en maak ze exact even breed.
-22. Voeg nu een titel toe aan de pagina, door een **Text box** te kiezen uit de **Home** ribbon. Maak deze tekst groter (bijv. 32), en vul de tekst **Product Sales** in. Plaats deze volledig linksbovenin het rapport
-23. Voeg drie **Card** visuals toe, voor de volgende velden:
+18. Plaats de tabel en kaart direct onder elkaar, en maak ze exact even breed.
+19. Voeg nu een titel toe aan de pagina, door een **Text box** te kiezen uit de **Home** ribbon. Maak deze tekst groter (bijv. 32), en vul de tekst **Product Sales** in. Plaats deze volledig linksbovenin het rapport
+20. Voeg drie **Card** visuals toe, voor de volgende velden:
    * **Internet Total Sales**
    * **Internet Total Margin**
    * **Internet Total Units**
-24. Zet de drie **Card** visuals strak naast elkaar direct onder de titel.
-25. Maak de pagina af met een willekeurig bedrijfslogo rechtsbovenin (je kunt hier bijvoorbeeld het AdventureWorks-logo opzoeken)
+21. Zet de drie **Card** visuals strak naast elkaar direct onder de titel.
+22. Maak de pagina af met een willekeurig bedrijfslogo rechtsbovenin (je kunt hier bijvoorbeeld het AdventureWorks-logo opzoeken)
 
 Het eindresultaat kan er bijvoorbeeld als volgt uit zien:
 
