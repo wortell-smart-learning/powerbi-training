@@ -48,7 +48,6 @@ Wanneer je drillthrough pagina correct werkt, zou je vanaf pagina "Product Sales
 
 ## Drillthrough tussen meerdere rapporten
 
-<<<<<<< HEAD
 *Drillthrough* is ook mogelijk tussen meerdere rapporten. Op deze manier kun meerdere rapporten binnen je workspace gebruik maken van de drillthrough-functionaliteit in jouw rapport.
 
 In [deze video](https://www.youtube.com/watch?v=OcZr_70OGPo) legt Patrick LeBlanc uit hoe dit werkt. Bekijk de video (in de training kunnen we deze ook gezamenlijk bekijken wanneer iedereen de bovenstaande oefening klaar heeft), en probeer vervolgens een drillthrough tussen meerdere rapporten als volgt werkend te krijgen:
@@ -102,7 +101,7 @@ Wanneer je in de app kijkt, opent zich standaard het eerste rapport dat je ooit 
 Wanneer je deze opent, zie je ook het "doel" rapport staan.
 
 Publiceer de app opnieuw, maar zorg er deze keer voor dat het "doelrapport" van de drillthrough níet zichtbaar is. Het moet nog wel steeds werken als drillthrough!
-=======
+
 ## Volgende modules
 
 De volgende module is Self-service reporting, waarbij we starten met [CSV-bestanden inladen](../06-self-service-reporting/03-csv-inladen.md)). Hieronder vind je een overzicht van alle modules:
@@ -120,4 +119,3 @@ De volgende module is Self-service reporting, waarbij we starten met [CSV-bestan
    * [Opschonen van je datamodel](../07-Data-Modeling-101/06-opschonen.md)
    * [Verrijken met Calculated Columns](../07-Data-Modeling-101/07-calc-columns.md)
 8. [Introductie Power Query (GUI)](../08-Power-Query-GUI/08-power-query.md)
->>>>>>> b80db7327e30734b8f59314a2d36cc0d5f1d97bb
