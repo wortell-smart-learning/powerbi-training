@@ -16,7 +16,7 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 Zoals je in [de vorige module](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md) gezien hebt, is er binnen Power BI automatisch *interactie* tussen de grafieken. Wanneer je op één grafiek klikt, heeft dit effect op een andere grafiek:
 
-![Interactie tussen grafieken](img/01-interactie-tussen-grafieken.gif)
+![Interactie tussen grafieken](img/01-interactie-tussen-grafieken.png)
 
 * Selecteer nu de rechtergrafiek op **Page 1** (*Internet Total Tax Amt by Total Children and Number of Children At Home*).
 
@@ -28,15 +28,15 @@ Op het moment dat je een grafiek selecteert, verschijnt er bovenin het scherm he
 
 ![Knop Edit interactions](img/03-edit-interactions.png)
 
-Je ziet nu in je rapport rechtsboven elk object waar data in zit één of meer van de volgende icoontjes verschijnen:
+Je ziet nu in je rapport rechtsboven elk object waar data in zit *behalve de huidig geselecteerde grafiek* één of meer van de volgende icoontjes verschijnen:
 
 ![Interaction Icons](img/04-interaction-options.png)
 
 Dit bepaalt hoe de bewuste grafiek zal reageren wanneer je de door jou geselecteerde grafiek van selectie verandert:
 
-* Filteren (optie 1) - alle data die niet binnen de selectie valt, wordt niet weergegeven
-* Markeren (optie 2, standaardinstelling) - alles buiten de selectie wordt lichter gekleurd weergegeven
-* Niet filteren (optie 3) - er verandert niets, ongeacht wat je aanklikt
+* **Filteren** (optie 1) - alle data die niet binnen de selectie valt, wordt niet weergegeven
+* **Markeren** (optie 2, standaardinstelling) - alles buiten de selectie wordt lichter gekleurd weergegeven
+* **Niet filteren** (optie 3) - er verandert niets, ongeacht wat je aanklikt
 
 Probeer de drie opties uit, en zie de effecten.
 
@@ -47,7 +47,9 @@ Verander nu het rapport op de pagina **Product Sales** zodanig dat:
 
 Controleer de resultaten door "Road Bikes" te selecteren. Het resultaat zal als volgt zijn:
 
-![Interaction oefening](img/05-interaction-setting-1.gif)
+![Interaction oefening](img/05-interaction-setting-1.png)
+
+![Interaction oefening](img/05-interaction-setting-2.png)
 
 ## Hiërarchie en drilldown
 
@@ -105,7 +107,7 @@ De hiërarchie is nu *in deze grafiek* Jaar-Maand-Dag geworden. Verifieer dit.
 
 De grafiektitel is nu *Internet Total Sales by Country Region Name*, en we kunnen via een *drilldown* verder afdalen door de *Category* hiërarchie, op basis van het land dat we bekijken.
 
-![Drilldown per market](img/10-drilldown-per-market.gif)
+![Drilldown per market](img/10-drilldown-per-market.png)
 
 ### Go to the next level
 
@@ -119,7 +121,7 @@ Ga in de linkergrafiek naar het hoogste niveau (dus *Country Region Name*), en p
 
 Zoals je wellicht opgevallen is, zorgt een *drilldown* er ook voor dat andere grafieken gefilterd worden: wanneer je in de linkergrafiek een land selecteert, verandert de grafiek *Internet Total Sales by Year* ook mee:
 
-![Drilldown filtering](img/12-drilldown-filter.gif)
+![Drilldown filtering](img/12-drilldown-filter.png)
 
 Standaard werkt de filtering van een *drilldown* gelijk aan de filtering van een *selectie* (die je bijvoorbeeld via **Edit interactions** ingesteld hebt) binnen de grafiek. Je kunt de drilldown-filtering echter ook uitschakelen.
 
