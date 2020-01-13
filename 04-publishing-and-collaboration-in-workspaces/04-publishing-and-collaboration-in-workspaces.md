@@ -23,14 +23,14 @@ In de online omgeving van Power BI heb je naast rapporten ook *dashboards* tot j
 
 Power BI vraagt je vervolgens om een dashboard waar hij deze visual kan "vastpinnen". Wanneer je nog geen dashboards hebt, kun je hier enkel *Nieuw dashboard* kiezen.
 
-* Kies **Nieuw dashboard**, geef deze de naam **Mijn Dashboard**
-* Klik op **Vastmaken**
+* Kies **New dashboard**, geef deze de naam **Mijn Dashboard**
+* Klik op **Pin**
 * Schakel nu naar het tabblad **Product Sales**. Selecteer hier op de kaart de regio Australië.
 * **Pin** nu de grafiek **Internet Total Sales per Product Subcategory Name** aan het zojuist aangemaakte dashboard.
 
 ![Pin visual to existing dashboard](img/02-pin-to-existing-dashboard.png)
 
-* Open nu **My Workspace** (of **Mijn werkruimte**, afhankelijk van de ingestelde taal)
+* Open nu **My Workspace**
 * Bovenaan onder **Dashboards** staat nu **Mijn Dashboard**. Klik hierop.
 
 Zoals je ziet, worden de visuals weergegeven op de manier waarop je ze in het rapport zag op het moment dat je ze vastpinde. De **Internet Total Sales per product subcategory name** heeft dus een gefilterde weergave. De inhoud wordt echter wel bijgewerkt wanneer de achterliggende data wijzigt.
@@ -48,11 +48,14 @@ Het dashboard bestaat uit zogenaamde "tiles" of "tegels". Dit zijn niet alleen d
 
 Om samen aan rapporten te kunnen werken, kun je in de Power BI portal zogenaamde "workspaces" of "werkruimten" maken.
 
-* Klik op "Werkruimten" / "Workspaces"
-* Klik "App-werkruimte maken" / "Create app workspace"
-* Geef de werkruimte een creatieve naam, die je duidelijk herkent als een trainings-ruimte (zodat je deze ook achteraf netjes kunt opruimen)
+* Klik op "Workspaces"
+* Klik "Create a workspace"
 
-In de cursusruimte kun je ook collega's toevoegen om je werk te delen. Dit is enigszins vergelijkbaar met hoe Office 365-groepen werken. In het verleden was elke Power BI-groep ook automatisch een Office 365-groep - sinds april 2019 is dit echter verleden tijd en worden Power BI groepen apart beheerd binnen de Power BI portal.
+> Het venster **Upgrade to Power BI Pro** komt nu naar boven. Kies hier voor **Try Pro for free** - je kunt dan 60 dagen lang gebruik maken van de features van Power BI Pro.
+
+* Geef de werkruimte een creatieve naam
+
+In de werkruimte kun je ook mede-cursisten toevoegen om je werk te delen. Dit is enigszins vergelijkbaar met hoe Office 365-groepen werken. In het verleden was elke Power BI-groep ook automatisch een Office 365-groep - sinds april 2019 is dit echter verleden tijd en worden Power BI groepen apart beheerd binnen de Power BI portal.
 
 ## Uploaden en downloaden binnen een workspace
 
@@ -60,17 +63,21 @@ We gaan nu Power BI-rapporten uploaden en delen met collega's. Omdat iedereen ec
 
 * Open Power BI Desktop
 * Sla het bestand 'startpunt-module-4' op onder een andere naam (bijvoorbeeld iets met je eigen naam erin).
-* Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt
-* Probeer of je enkele collega's kunt toevoegen aan je werkruimte, en kijk rond in de werkruimtes van collega's waar jij wordt toegevoegd.
-* Download een rapport van een collega, maak wat mooie aanpassingen, en publiceer het opnieuw naar zijn/haar werkruimte.
+* Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt  
+![Publiceer naar de werkruimte](img/04b-publish-to-workspace.png)
+* Probeer of je enkele mede-cursisten kunt toevoegen aan je werkruimte, en kijk rond in de werkruimtes van mede-cursisten waar jij wordt toegevoegd.
+  * Het zou kunnen dat je Power BI opnieuw moet opstarten, voordat Power BI je (zojuist aangemaakte) Pro-trial herkent. Deze licentie heb je nodig om te mogen publiceren naar een *workspace*.
+* Download een rapport van een mede-cursist, maak wat mooie aanpassingen, en publiceer het opnieuw naar zijn/haar werkruimte.
+
+> Wat je zojuist gedaan hebt, is het **samenwerken** - dit is voor de "achterkant" van Power BI: de mensen die je rechten wilt geven om jouw rapporten te bewerken, voeg je hier toe. Samen met hen ben je dan verantwoordelijk voor het *bouwen* van rapporten.
 
 ## Publiceren van een "App"
 
 De samenwerkingsmogelijkheden in workspaces zijn gericht op rapport-ontwikkelaars. Het is echter niet handig om deze direct met alle eindgebruikers te delen:
 
-* Niet al te gebruiksvriendelijk: je moet eerst naar een "workspace", om daar het juiste rapport aan te klikken.
-* Ook niet heel handig wanneer je veel rapporten afneemt van diverse teams: dan zou je alle workspaces door moeten op zoek naar de rapporten die je nodig hebt
-* Ten slotte beperkt het je als eigenaar / ontwikkelaar in je mogelijkheden: als je een nieuwe pagina aan het ontwikkelen bent (waarvan de data wellicht nog niet 100% correct is), ziet de eindgebruiker direct alle wijzigingen.
+* Workspaces zijn niet al te (eind)gebruiksvriendelijk: je moet eerst naar een "workspace", om daar het juiste rapport aan te klikken.
+* Workspaces zijn ook niet heel handig wanneer je (als eindgebruiker) veel rapporten afneemt van diverse teams: dan zou je alle workspaces door moeten op zoek naar de rapporten die je nodig hebt
+* Delen met een eindgebruiker via een workspace beperkt je als rapport-eigenaar / -ontwikkelaar in je mogelijkheden: als je een nieuwe pagina aan het ontwikkelen bent (waarvan de data wellicht nog niet 100% correct is), ziet de eindgebruiker direct alle wijzigingen.
 
 Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te delen heeft Microsoft de zogenaamde "Power BI Apps" gemaakt. Dit houdt in dat je als rapport-eigenaar een rapport kunt *publiceren* als ware het een app, waarna de eindgebruiker *binnen de Power BI portal* deze weer kan "ophalen". Globaal ziet dat er als volgt uit:
 
