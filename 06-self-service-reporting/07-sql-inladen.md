@@ -43,7 +43,7 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
 
 * server: bitrainer.database.windows.net
-* database: AdventureWorksLT-1
+* database: AdventureWorksLT
 
 Selecteer hiervoor **Database credentials**, met de volgende logingegevens:
 
