@@ -1,18 +1,20 @@
 # Drillthrough
 
-In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*: het "inzoomen" op lagere niveaus van de data.
+Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geografische mogelijkheden van Power BI. Het is echter niet heel handig om alle geografische achtergrondinformatie over een regio in elk rapport te herhalen. Het liefst zou ze bij bijvoorbeeld een uitschieter in verkopen in een bepaald land willen kunnen "doorklikken" naar alle informatie van dat land. Bijvoorbeeld de trend in verkopen de afgelopen jaren, het aantal vestigingen in dat land, etc..
 
-De meeste Business Intelligence-tools kennen nog een tweede manier om de data aan een nader onderzoek te onderwerpen: de *drillthrough*. Dit houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land:
+Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land:
 
-![Voorbeeld van drillthrough](img/01-drillthrough-sample.gif)
+![Voorbeeld van een drillthrough - gebruiker rechtsklikt op tabblad "Page 2"  op het land " Germany](img/01a-drillthrough-sample-step1.png)
+![Voorbeeld van een drillthrough - gebruiker kiest in context menu voor de optie "Drill through", daarna "Country Details"](img/01a-drillthrough-sample-step2.png)
+![Voorbeeld van een drillthrough - Het tabblad "Country Details" opent, nu gefilterd op basis van Germany](img/01a-drillthrough-sample-step3.png)
 
 ## Drillthrough binnen een rapport
 
 Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de volgende zaken regelen:
 
-1. Er moet een pagina zijn wat het *doel* van je drillthrough is. 
+1. Er moet een pagina zijn wat het *doel* van je drillthrough is.
    * In het voorbeeld hierboven: de pagina "Country Details"
-2. Op deze pagina moet je een "drillthrough filter" instellen. In het voorbeeld hierboven is dit de naam van het land: wanneer je die ergens in het rapport tegenkomt, kun je in twee klikken naar de drillthrough-pagina navigeren, wat dan automatisch gefilterd is op de betreffende categorie. 
+2. Op deze pagina moet je een "drillthrough filter" instellen. In het voorbeeld hierboven is dit de naam van het land: wanneer je die ergens in het rapport tegenkomt, kun je in twee klikken naar de drillthrough-pagina navigeren, wat dan automatisch gefilterd is op de betreffende categorie.
    * In het voorbeeld hierboven is het *drillthrough* filter `Country Region Name`.
 
 ### Drillthrough instellen in je rapport
@@ -22,13 +24,14 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 * Voeg hierop een *map visual* toe (![Icon of map visual](img/02-map-visual.png)). Configureer deze als volgt:
   * **Location**: **State Province Name** (tabel *Geography*)
   * **Size**: **Internet Total Sales** (tabel *Internet Sales*)
-* Voeg nu ook een zgn. "Treemap" toe voor *Internet Total Sales by Category*:  
+* Voeg nu ook een zgn. "Treemap" toe voor *Internet Total Sales by Product Category Name*:
+  * Gebruik hier het veld **Product Category Name** uit de tabel **Product Category**
 ![Voorbeeld treemap](img/03-treemap.png)
 * Klik ergens op het canvas zodat er geen *visual* meer geselecteerd is.
 * Onder het kopje **Drillthrough** vind je nu een vakje "Add drillthrough filters here". Sleep hier het veld **Country Region Name** heen (tabel *Geography*)
 * Ga terug naar de pagina *Page 2*, en rechtsklik op één van de landen in de grafiek. Als het goed is heb je nu een submenu *Drillthrough* naar de *Country Details*-pagina
 
-Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab). Publiceer de pagina naar een workspace, publiceer deze als app, en bekijk het resultaten in de app.
+Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer de pagina naar een workspace, publiceer deze als app, en bekijk het resultaten in de app.
 
 Probeer nu zelf een tweede drillthrough-pagina "Product Category Details" aan te maken waarbij je alle gegevens binnen een productcategorie op een rij zet. Filter op basis van het veld **Product Category Name** (tabel *Product Category*). Geef de volgende zaken weer:
 
@@ -50,20 +53,20 @@ Wanneer je drillthrough pagina correct werkt, zou je vanaf pagina "Product Sales
 
 *Drillthrough* is ook mogelijk tussen meerdere rapporten. Op deze manier kun meerdere rapporten binnen je workspace gebruik maken van de drillthrough-functionaliteit in jouw rapport.
 
-In [deze video](https://www.youtube.com/watch?v=OcZr_70OGPo) legt Patrick LeBlanc uit hoe dit werkt. Bekijk de video (in de training kunnen we deze ook gezamenlijk bekijken wanneer iedereen de bovenstaande oefening klaar heeft), en probeer vervolgens een drillthrough tussen meerdere rapporten als volgt werkend te krijgen:
+In de video [http://bit.ly/pbi-drillthrough](http://bit.ly/pbi-drillthrough) legt Patrick LeBlanc uit hoe dit werkt. Bekijk de video, en probeer vervolgens een drillthrough tussen meerdere rapporten als volgt werkend te krijgen. (Het bekijken van de video is niet strikt noodzakelijk - alle stappen staan hieronder - maar helpt je wel om het concept helder te krijgen)
 
 * Het rapport waar we tot nu toe mee werkten is de *source* (deze heeft het overzicht, hier moet alles vandaan komen).
 * Maak een nieuw rapport dat verbinding maakt met Analysis Services:
-  * `asazure://westeurope.asazure.windows.net/bitrainer`
+  * `asazure://westeurope.asazure.windows.net/bitrainerpbi`
   * Credentials:
-    * Username: `student@bitrainer.nl`
+    * Username: *je persoonlijke BITrainer.nl-gebruikersaccount*
     * Password: `BITrainer.nl`
 
 Maak in dit rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 
 ![Use calendar year as drillthrough per category](img/04-calendar-year-drillthrough-as-category.png)
 
-Je kunt vervolgens in het lijstje onder deze instelling een jaar kiezen dat je *nu* wilt weergeven. Dit wordt uiteraard vervangen zodra je een drillthrough doet, maar dit geeft je een beter gevoel over hoe de cijfers eruit zou zien bij een drillthrough van (bijvoorbeeld) 2012.
+Je kunt vervolgens in het lijstje onder deze instelling een jaar kiezen dat je *nu* wilt weergeven (feitelijk filter je de data op "alleen de data van jaar X"). Zodra je via een *drillthrough* op dit rapport belandt, wordt dit filter vervangen door het jaartal waarmee je de drillthrough uitvoert. Het toevoegen van dit filter geeft je echter een beter gevoel over hoe de cijfers eruit zou zien bij een drillthrough van (bijvoorbeeld) 2012.
 
 Vul vervolgens het rapport met inzichten over een jaar:
 
@@ -94,7 +97,7 @@ Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zor
 
 ### Onzichtbare drillthrough-rapporten
 
-Wanneer je in de app kijkt, opent zich standaard het eerste rapport dat je ooit publiceerde. Je kunt echter wisselen tussen alle items in een app, door de knop "Inhoudslijst weergeven" / "Show content list":
+Wanneer je in de app kijkt, opent zich standaard het eerste rapport dat je ooit publiceerde. Aan de linkerzijde zie je echter alle items (rapporten en dashboards) die aanwezig zijn in een app:
 
 ![Show content list](img/08-show-content-list.png)
 
