@@ -1,12 +1,14 @@
 # SQL-bronnen inladen
 
+De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Het blijkt echter dat ook deze context niet in het Data Warehouse ontsloten is. En aangezien we wel graag snel enkele inzichten hierover willen, moeten we verder zoeken. We komen uit bij twee operationele bronsystemen, waar de data voor ons beschikbaar is.
+
 ## Voorbereiding
 
 We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
 
 ## Inladen van SQL-data
 
-De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Server**-database die op je lokale VM staat:
+Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Server**-database die op je lokale VM staat:
 
 * Adres: .
 
@@ -40,6 +42,12 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 
 ![TotalDue by Territory, TaxAmt by Category](img/pbi-secondviz.png)
 
+> ### Automagie
+>
+> Power BI heeft hier enkele relaties voor je aangelegd, zodat de data die je zojuist hebt ingeladen gekoppeld kon worden aan de data die uit een CSV-bestand kwam. Dit doet Power BI op basis van de kolomnamen, en op basis van de inhoud daarvan (alle waarden uit kolom A in tabel 1 moeten exact één keer voorkomen in kolom A in tabel 2).
+>
+> Als je het interessant vindt, kun je kijken of je kunt achterhalen tussen welke kolommen de relatie gelegd is en welke "richting" deze heeft.
+
 Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
 
 * server: bitrainer.database.windows.net
@@ -48,7 +56,9 @@ Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
 Selecteer hiervoor **Database credentials**, met de volgende logingegevens:
 
 * username: powerbiuser
-* pass: PowerBI2
+* password: PowerBI2
+
+![Kies voor "Database" credentials](img/databasecredentials.png)
 
 Voeg nu in het rapport achtereenvolgens de volgende velden toe:
 
@@ -61,7 +71,7 @@ Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("f
 
 ## Volgende modules
 
-De volgende module is Module 4: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../04-Data-Modeling-101/05-relaties.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is Module 7: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../04-Data-Modeling-101/05-relaties.md). Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-Introduction/01-introductie-powerbi-desktop.md) (huidige module)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md)
