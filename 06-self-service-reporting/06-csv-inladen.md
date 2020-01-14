@@ -1,5 +1,7 @@
 # CSV-data inladen, introductie Power Query en eerste visualisatie
 
+Binnen het AdventureWorks Data Warehouse is veel data aanwezig, maar niet alle data. Het blijkt dat voor specifieke historische verkoopcijfers uit 2014 er nog extra data uit een oud systeem zijn, die niet in het Data Warehouse aanwezig zijn. Nu heeft de beheer-afdeling CSV-exports hiervan gemaakt, in de hoop dat jij deze inzichtelijk kunt maken in een rapport.
+
 In deze module laden we CSV-data in. Omdat CSV-data niet bijzonder scherp gedefinieerd is qua inhoud, kun je hier soms tegen uitdagingen aanlopen. We kijken daarom alvast een klein beetje naar Power Query om deze uitdagingen het hoofd te bieden. Ten slotte maken we een eerste visualisatie
 
 ## Voorbereiding
@@ -12,7 +14,7 @@ Om een CSV-bestand in te laden ga je naar **Get Data** -> **Text/CSV**
 
 ![Get data](img/importeer-csv.png)
 
-Importeer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "C:\Repos\powerbi-training\03-Self-service-reporting\csv".
+Importeer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "C:\Repos\powerbi-training\06-Self-service-reporting\csv".
 
 ## Data verkennen
 
@@ -51,7 +53,7 @@ Hieronder zie je een mogelijke uitkomst.
 
 ## Volgende modules
 
-Binnen deze module over Self-service reporting is de volgende les [SQL data inladen](../03-Self-service-reporting/04-sql-inladen.md). Hieronder vind je een overzicht van alle modules:
+Binnen deze module over Self-service reporting is de volgende les [SQL data inladen](../06-Self-service-reporting/07-sql-inladen.md). Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-Introduction/01-introductie-powerbi-desktop.md) (huidige module)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md)
