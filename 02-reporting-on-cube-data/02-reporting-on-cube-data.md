@@ -128,19 +128,18 @@ Het eindresultaat kan er bijvoorbeeld als volgt uit zien:
 
 ## Volgende modules
 
-De volgende module is [Visuals en interactie](../03-Visuals-and-interaction/03-visuals-and-interaction.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md). Hieronder vind je een overzicht van alle modules:
 
-1. [Introductie Power BI Desktop](../01-Introduction/01-introductie-powerbi-desktop.md)
-2. [Rapporteren op kubus-data en eerste visualisatie](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md) (huidige module)
-3. [Visuals en interactie](../03-Visuals-and-interaction/03-visuals-and-interaction.md)
+1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md) (huidige module)
+3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
 5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
 6. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/03-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/04-sql-inladen.md)
+   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
+   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
 7. Data Modeling 101
-   * [Relaties](../07-Data-Modeling-101/05-relaties.md)
-   * [Opschonen van je datamodel](../07-Data-Modeling-101/06-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-Data-Modeling-101/07-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-Power-Query-GUI/08-power-query.md)
-
+   * [Relaties](../07-data-modeling-101/08-relaties.md)
+   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
+   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
+8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
