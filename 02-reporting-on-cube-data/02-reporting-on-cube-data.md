@@ -9,11 +9,11 @@ Maak binnen Power BI verbinding met Analysis Services:
 * Klik "Get Data"
 * Klik "Analysis Services"
 * Vul bij "Server" de volgende naam in:
-  * `asazure://westeurope.asazure.windows.net/bitrainerpbi`
+  * `asazure://westeurope.asazure.windows.net/bitrainer`
 * Verifieer dat **Connect live** geselecteerd is. Dit zorgt ervoor dat alle queries direct naar de kubus gaan, en we zelf geen data hoeven in te laden of te modelleren.  
 ![Connect live to SSAS](img/connect-ssas.png)
 * Klik op **OK**
-* Log in met je BITrainer.nl-account
+* Log in met je Sigma Data-account
 * Selecteer nu de database **adventureworks**, kubus **Model**. Aan de rechterzijde zie je een lijst met dimensies en measures die beschikbaar zijn in deze kubus.
 * Klik op **OK**
 

@@ -1,5 +1,5 @@
 # powerbi-training
 
-Repository for [BI Trainer.nl](http://www.bitrainer.nl)'s training "Analyzing data with Power BI"
+Repository for [Sigma Data Learning](https://www.sigmadatalearning.nl)'s training "Power BI: Rapporten en Dashboards"
 
-More info about this training can be found at [https://www.bitrainer.nl/training/training-data-analyse-met-power-bi/](https://www.bitrainer.nl/training/training-data-analyse-met-power-bi/)
+More info about this training can be found at [https://sigmadatalearning.nl/training/training-power-bi-rapporten-en-dashboards/](https://sigmadatalearning.nl/training/training-power-bi-rapporten-en-dashboards/)
