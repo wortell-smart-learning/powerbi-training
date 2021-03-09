@@ -59,7 +59,8 @@ In de video [http://bit.ly/pbi-drillthrough](http://bit.ly/pbi-drillthrough) leg
 
 * Het rapport waar we tot nu toe mee werkten is de *source* (deze heeft het overzicht, hier moet alles vandaan komen).
 * Maak een nieuw rapport dat verbinding maakt met Analysis Services:
-  * `asazure://westeurope.asazure.windows.net/bitrainer`
+  * `asazure://westeurope.asazure.windows.net/sigmadatapowerbi
+`
 
 Maak in dit rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 

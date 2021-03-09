@@ -9,7 +9,8 @@ Maak binnen Power BI verbinding met Analysis Services:
 * Klik op het pijltje onder "Get Data"
 * Kies "Analysis Services"
 * Vul bij "Server" de volgende naam in:
-  * `asazure://westeurope.asazure.windows.net/bitrainer`
+  * `asazure://westeurope.asazure.windows.net/sigmadatapowerbi
+`
 * Verifieer dat **Connect live** geselecteerd is. Dit zorgt ervoor dat alle queries direct naar de kubus gaan, en we zelf geen data hoeven in te laden of te modelleren.  
 ![Connect live to SSAS](img/connect-ssas.png)
 * Klik op **OK**
