@@ -6,8 +6,8 @@ Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikk
 
 Maak binnen Power BI verbinding met Analysis Services:
 
-* Klik "Get Data"
-* Klik "Analysis Services"
+* Klik op het pijltje onder "Get Data"
+* Kies "Analysis Services"
 * Vul bij "Server" de volgende naam in:
   * `asazure://westeurope.asazure.windows.net/bitrainer`
 * Verifieer dat **Connect live** geselecteerd is. Dit zorgt ervoor dat alle queries direct naar de kubus gaan, en we zelf geen data hoeven in te laden of te modelleren.  

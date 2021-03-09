@@ -35,7 +35,7 @@ Power BI vraagt je vervolgens om een dashboard waar hij deze visual kan "vastpin
 
 Zoals je ziet, worden de visuals weergegeven op de manier waarop je ze in het rapport zag op het moment dat je ze vastpinde. De **Internet Total Sales per product subcategory name** heeft dus een gefilterde weergave. De inhoud wordt echter wel bijgewerkt wanneer de achterliggende data wijzigt.
 
-Het dashboard bestaat uit zogenaamde "tiles" of "tegels". Dit zijn niet alleen de visuals, maar ook andere tegels die je kunt toevoegen. Bijvoorbeeld via de knop "Tegel toevoegen" / "Add Tile":
+Het dashboard bestaat uit zogenaamde "tiles" of "tegels". Dit zijn niet alleen de visuals, maar ook andere tegels die je kunt toevoegen. Bijvoorbeeld via de knop "Tegel toevoegen"in het menu "Bewerken":
 
 ![Tiles](img/03-tiles.png)
 
@@ -89,7 +89,7 @@ Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te d
 6. Zodra je een nieuwe(re) versie van een rapport wilt publiceren, publiceer je de app opnieuw. De eindgebruiker krijgt nu automatisch de nieuwste versie van het rapport.
 
 * Open nu de werkruimte die je eerder hebt aangemaakt
-* Rechtsklik bovenin op de knop "Publish App" / "App publiceren"
+* Rechtsklik bovenin op de knop "App maken"
 
 ![Publish app button](img/05-publish-app.png)
 
@@ -106,7 +106,7 @@ Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te d
 
 Dit is de weergave voor de gebruikers van Power BI apps. Als je een app publiceert, ben je zelf automatisch ook gebruiker, zodat je goed kunt zien hoe de app er voor je eindgebruikers uit zou zien.
 
-* Selecteer "Get apps" met de gele knop rechtsbovenin (in het Nederlands is deze knop een beetje gek vertaald met "Apps downloaden")
+* Selecteer de gele knop "Get apps" (in het Nederlands is deze knop een beetje gek vertaald met "Apps downloaden")
 
 ![Get apps NL](img/06-get-apps.png)
 

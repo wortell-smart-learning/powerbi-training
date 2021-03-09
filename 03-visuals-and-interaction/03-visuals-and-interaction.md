@@ -20,7 +20,7 @@ Zoals je in [de vorige module](../02-Reporting-on-Cube-Data/02-reporting-on-cube
 
 * Selecteer nu de rechtergrafiek op **Page 1** (*Internet Total Tax Amt by Total Children and Number of Children At Home*).
 
-Op het moment dat je een grafiek selecteert, verschijnt er bovenin het scherm het groene menu *Visual Tools*:
+Op het moment dat je een grafiek selecteert, verschijnen er bovenin het scherm twee nieuwe items op het lint: *Format* en *Data / Drill*
 
 ![Menu visual tools](img/02-visual-tools.png)
 

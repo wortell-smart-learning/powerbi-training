@@ -8,9 +8,13 @@ We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
 
 ## Inladen van SQL-data
 
-Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Server**-database die op je lokale VM staat:
+Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Database** die op Azure staat:
 
-* Adres: .
+* Adres: sigmadatalearning.database.windows.net
+* Database: AdventureWorks2019
+* Login:
+  * User: PowerBIUser
+  * Password: PowerBI2
 
 Laat de Data Connectivity mode op "Import" staan:
 
@@ -24,7 +28,7 @@ Wanneer er een waarschuwing komt over een niet-versleutelde verbinding ("encrypt
 
 ![Encryption support warning](img/encryption-support.png)
 
-Het venster "Navigator" opent. Klap hier de database "AdventureWorks2017" uit. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! Selecteer de volgende _tabellen_:
+Het venster "Navigator" opent. Klap hier de database "AdventureWorks2019" uit. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! Selecteer de volgende _tabellen_:
 
 * Person.CountryRegion
 * Sales.SalesTerritory
@@ -50,7 +54,7 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 
 Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
 
-* server: bitrainer.database.windows.net
+* server: sigmadatalearning.database.windows.net
 * database: AdventureWorksLT
 
 Selecteer hiervoor **Database credentials**, met de volgende logingegevens:
