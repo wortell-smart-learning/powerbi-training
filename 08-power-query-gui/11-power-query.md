@@ -68,7 +68,7 @@ Dit was de laatste module in deze cursus. Benieuwd naar meer? [BI Trainer.nl](ht
 
 Hieronder vind je een overzicht van alle modules:
 
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) 
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
@@ -79,5 +79,5 @@ Hieronder vind je een overzicht van alle modules:
 7. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md) (huidige module)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
+8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md) (huidige module)

@@ -4,6 +4,8 @@ Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geo
 
 Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land:
 
+![Bewegend voorbeeld van drillthrough](img/01-drillthrough-sample.gif)
+
 ![Voorbeeld van een drillthrough - gebruiker rechtsklikt op tabblad "Page 2"  op het land " Germany](img/01a-drillthrough-sample-step1.png)
 ![Voorbeeld van een drillthrough - gebruiker kiest in context menu voor de optie "Drill through", daarna "Country Details"](img/01a-drillthrough-sample-step2.png)
 ![Voorbeeld van een drillthrough - Het tabblad "Country Details" opent, nu gefilterd op basis van Germany](img/01a-drillthrough-sample-step3.png)
@@ -57,10 +59,7 @@ In de video [http://bit.ly/pbi-drillthrough](http://bit.ly/pbi-drillthrough) leg
 
 * Het rapport waar we tot nu toe mee werkten is de *source* (deze heeft het overzicht, hier moet alles vandaan komen).
 * Maak een nieuw rapport dat verbinding maakt met Analysis Services:
-  * `asazure://westeurope.asazure.windows.net/bitrainerpbi`
-  * Credentials:
-    * Username: *je persoonlijke BITrainer.nl-gebruikersaccount*
-    * Password: `BITrainer.nl`
+  * `asazure://westeurope.asazure.windows.net/bitrainer`
 
 Maak in dit rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 
