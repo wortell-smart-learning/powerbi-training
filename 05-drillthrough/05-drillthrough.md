@@ -107,7 +107,7 @@ Publiceer de app opnieuw, maar zorg er deze keer voor dat het "doelrapport" van 
 
 ## Volgende modules
 
-De volgende module is Self-service reporting, waarbij we starten met [CSV-bestanden inladen](../06-self-service-reporting/03-csv-inladen.md)). Hieronder vind je een overzicht van alle modules:
+De volgende module is Self-service reporting, waarbij we starten met [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md). Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
