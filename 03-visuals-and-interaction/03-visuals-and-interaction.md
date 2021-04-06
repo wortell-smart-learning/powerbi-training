@@ -63,13 +63,13 @@ Veel van de data die we analyseren heeft een hiërarchie in zich:
 
 In de datamodellen die we vanuit een kubus of Power BI-model afnemen, wordt data vaak al in een hiërarchie aangeboden. Bijvoorbeeld de Category-hiërarchie in de tabel *Product*:
 
-* Open een nieuw tabblad
+* Maak een nieuw tabblad
 * Selecteer de *measure* **Internet Total Sales**
 * Selecteer de *hiërarchie* **Category** in de tabel **Product**
 * Bekijk de grafiek-eigenschappen. 
   * Onder "Axis" staat *Category*
   * Je ziet hier diverse niveaus (Category, Subcategory, Model, Product), toch is in de grafiek momenteel enkel het hoogste niveau zichtbaar.
-  * Maak de grafiek wat breder, zodat je de volledige titel kunt zien. De titel is momenteel "Internet Total Sales by Category": het zichtbare niveau dus.
+* Maak de grafiek wat breder, zodat je de volledige titel kunt zien. De titel is momenteel "Internet Total Sales by Category": het zichtbare niveau dus.
 
 ![Axis eigenschap grafiek A1](img/06-reportinghierarchy.png)
 
@@ -91,8 +91,8 @@ Rechtsboven in de grafiek bevindt zich een verzameling met pijltjes. Deze zijn b
 Een andere hiërarchie die in deze kubus aanwezig is, is de *Calendar* hiërarchie (binnen de tabel **Date**). 
 
 * Maak een grafiek waarin de **Internet Total Sales** wordt uitgesplitst over **Calendar**.
-* *Drilldown* naar het jaar 2010.
-  * Zoals je ziet, filtert ook de grafiek **Internet Total Sales by Category** mee.
+* *Drilldown* naar het jaar 2020.
+  * De grafiek **Internet Total Sales by Category** filtert nu mee.
 
 Wanneer we nu een *drill down* doen op een jaar, komen we eerst bij een semester, en daarna bij een kwartaal. Dat is wel een beetje veel van het goede. Daarom gaan we deze velden (voor deze specifieke grafiek) uit de hiërarchie halen.
 
