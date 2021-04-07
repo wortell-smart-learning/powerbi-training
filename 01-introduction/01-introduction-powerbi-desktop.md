@@ -53,18 +53,9 @@ Merk de volgende zaken op:
 
 ## Volgende modules
 
-De volgende module is [Module 2: Rapporteren op kubus-data](../02-reporting-on-cube-data/02-reporting-on-cube-data.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [Module 2: Rapporteren op de kubus: Power BI als rapportageschil](../02-reporting-on-cube-data/02-reporting-on-cube-data.md). Hieronder vind je een overzicht van alle modules van deze week:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) (huidige module)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
-   * [Relaties](../07-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
