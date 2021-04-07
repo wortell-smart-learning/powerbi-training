@@ -2,7 +2,7 @@
 
 Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geografische mogelijkheden van Power BI. Het is echter niet heel handig om alle geografische achtergrondinformatie over een regio in elk rapport te herhalen. Het liefst zou ze bij bijvoorbeeld een uitschieter in verkopen in een bepaald land willen kunnen "doorklikken" naar alle informatie van dat land. Bijvoorbeeld de trend in verkopen de afgelopen jaren, het aantal vestigingen in dat land, etc..
 
-Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land:
+Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land. Hieronder staat een voorbeeld **zoals het aan het einde van de module gaat werken** (zodat je ziet hoe een drillthrough werkt).
 
 ![Bewegend voorbeeld van drillthrough](img/01-drillthrough-sample.gif)
 
@@ -16,12 +16,12 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 
 1. Er moet een pagina zijn wat het *doel* van je drillthrough is.
    * In het voorbeeld hierboven: de pagina "Country Details"
-2. Op deze pagina moet je een "drillthrough filter" instellen. In het voorbeeld hierboven is dit de naam van het land: wanneer je die ergens in het rapport tegenkomt, kun je in twee klikken naar de drillthrough-pagina navigeren, wat dan automatisch gefilterd is op de betreffende categorie.
+2. Op deze *doel*pagina moet je een "drillthrough filter" instellen. In het voorbeeld hierboven is dit de naam van het land: wanneer je die ergens in het rapport tegenkomt, kun je in twee klikken naar de drillthrough-pagina navigeren, wat dan automatisch gefilterd is op de betreffende categorie.
    * In het voorbeeld hierboven is het *drillthrough* filter `Country Region Name`.
 
 ### Drillthrough instellen in je rapport
 
-* Open het rapport 'startpunt-module-5.pbix'
+* Open het rapport 'startpunt-module-4.pbix'
 * Voeg een pagina toe met de naam "Country Details"
 * Voeg hierop een *map visual* toe (![Icon of map visual](img/02-map-visual.png)). Configureer deze als volgt:
   * **Location**: **State Province Name** (tabel *Geography*)
@@ -35,7 +35,7 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 
 Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer de pagina naar een workspace, publiceer deze als app, en bekijk het resultaten in de app.
 
-Probeer nu zelf een tweede drillthrough-pagina "Product Category Details" aan te maken waarbij je alle gegevens binnen een productcategorie op een rij zet. Filter op basis van het veld **Product Category Name** (tabel *Product Category*). Geef de volgende zaken weer:
+Probeer nu zelf een tweede drillthrough-pagina "Product Category Details" aan te maken waarbij je alle gegevens binnen een productcategorie op een rij zet. Filter op basis van het veld **Product Subcategory Name** (tabel *Product Subcategory*). Geef de volgende zaken weer:
 
 *Bij elk punt staat wat extra uitdaging - deze hoef je niet uit te voeren. Mocht alles je echter gemakkelijk afgaan en je wilt wat meer de grenzen van Power BI opzoeken, dan kun je je hier even in vastbijten*
 
@@ -58,9 +58,7 @@ Wanneer je drillthrough pagina correct werkt, zou je vanaf pagina "Product Sales
 In de video [http://bit.ly/pbi-drillthrough](http://bit.ly/pbi-drillthrough) legt Patrick LeBlanc uit hoe dit werkt. Bekijk de video, en probeer vervolgens een drillthrough tussen meerdere rapporten als volgt werkend te krijgen. (Het bekijken van de video is niet strikt noodzakelijk - alle stappen staan hieronder - maar helpt je wel om het concept helder te krijgen)
 
 * Het rapport waar we tot nu toe mee werkten is de *source* (deze heeft het overzicht, hier moet alles vandaan komen).
-* Maak een nieuw rapport dat verbinding maakt met Analysis Services:
-  * `asazure://westeurope.asazure.windows.net/sigmadatapowerbi
-`
+* Maak een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace
 
 Maak in dit rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 
@@ -72,7 +70,6 @@ Vul vervolgens het rapport met inzichten over een jaar:
 
 1. Het verloop van verkopen door het jaar heen (let op dat deze correct gesorteerd is)
 2. De verhouding tussen de verkopen t.o.v. een kwartaal geleden
-3. Een KPI visual voor **Internet Current Quarter Sales Performance**
 
 Stel vervolgens de drillthrough reporting in:
 
@@ -85,7 +82,7 @@ Stel vervolgens de drillthrough reporting in:
   * Zet het vinkje **Cross-report** bij je **Drillthrough filter**  
 ![Enable cross report drillthrough in target report](img/07-enable-cross-report-drillthrough-target.png)
 
-Publiceer de app, en test of de drillthrough over rapporten heen werkt.
+Publiceer het rapport, en test of de drillthrough over rapporten heen werkt in de Power BI Portal.
 
 ## Bonus-opgaven
 
@@ -95,30 +92,11 @@ Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zor
 
 ![Deze beschrijving kan beter...](img/09-onzinnige-naam.png)
 
-### Onzichtbare drillthrough-rapporten
-
-Wanneer je in de app kijkt, opent zich standaard het eerste rapport dat je ooit publiceerde. Aan de linkerzijde zie je echter alle items (rapporten en dashboards) die aanwezig zijn in een app:
-
-![Show content list](img/08-show-content-list.png)
-
-Wanneer je deze opent, zie je ook het "doel" rapport staan.
-
-Publiceer de app opnieuw, maar zorg er deze keer voor dat het "doelrapport" van de drillthrough níet zichtbaar is. Het moet nog wel steeds werken als drillthrough!
-
 ## Volgende modules
 
-De volgende module is Self-service reporting, waarbij we starten met [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md). Hieronder vind je een overzicht van alle modules:
+Dit was de laatste module van deze week! Volgende week gaan we verder met het zelf inladen en modelleren van data.
 
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) (huidige module)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md) (huidige module)
-6. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
-   * [Relaties](../07-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
