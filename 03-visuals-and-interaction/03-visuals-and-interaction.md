@@ -10,7 +10,15 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand **startpunt-module-3.pbix**.
+**Open** het bestand **startpunt-module-3.pbit**.
+
+Tijdens het openen krijg je wellicht de volgende melding. 
+
+![Unable to connect](img/00-01-unable-to-connect.png)
+
+Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
+
+![Select a dataset](img/00-02-select-dataset.png)
 
 ## Interactions
 
