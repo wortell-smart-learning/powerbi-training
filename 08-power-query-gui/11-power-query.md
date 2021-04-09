@@ -64,7 +64,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Laatste module
 
-Dit was de laatste module in deze cursus. Benieuwd naar meer? [BI Trainer.nl](https://www.bitrainer.nl/) biedt ook een verdiepende training [DAX voor Power BI - https://www.bitrainer.nl/dax](http://www.bitrainer.nl/dax).
+Dit was de laatste module in deze cursus. Benieuwd naar meer? [Sigma Data Learning](https://www.sigmadatalearning.nl/) biedt ook diverse verdiepende trainingen op het gebied van Power BI. Kijk voor meer info op [https://sigmadatalearning.nl/training/](https://sigmadatalearning.nl/training/).
 
 Hieronder vind je een overzicht van alle modules:
 
