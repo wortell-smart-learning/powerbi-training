@@ -127,7 +127,7 @@ Test dit:
 
 ## Volgende modules
 
-De volgende module is [Drillthrough](../05-drillthrough/05-drillthrough.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md). Hieronder vind je een overzicht van alle modules:
 
 ### Week 1
 
