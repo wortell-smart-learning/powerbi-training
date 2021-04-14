@@ -4,9 +4,9 @@ In de vorige module zagen we dat er een relatie ontbrak tussen de tabel *Store* 
 
 ## Aanmaken van relaties
 
-Om relaties aan te maken, schakel je naar de "Relationships" weergave.
+Om relaties aan te maken, schakel je naar de "Model" weergave.
 
-![Relationships weergave in Power BI](img/relationships.png)
+![Model weergave in Power BI](img/relationships.png)
 
 Zoals je ziet, liggen er diverse relaties, weergegeven door lijntjes tussen de tabellen. Wanneer op een relatie klikt, zie je hoe de relatie loopt en welke kolommen naar elkaar refereren. In een relatie zijn drie belangrijke kenmerken:
 

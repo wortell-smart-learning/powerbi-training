@@ -2,7 +2,7 @@
 
 Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
 
-Opschonen van je model en calculated columns
+## Opschonen van je model en calculated columns
 
 Om het huidige model - dat direct uit een 3NF-bronsysteem afkomstig is - beter leesbaar te maken, kunnen we enkele zaken eenvoudig oppakken:
 
@@ -17,10 +17,13 @@ Om het model leesbaarder te houden, kunnen we overbodige kolommen verwijderen of
 
 * Bij verwijderen van een kolom wordt deze uit het datamodel verwijderd.
   * De kolom neemt dan geen ruimte meer in.
-  * Dit doen we bijvoorbeeld voor niet-gebruikte kolommen die geen relevante betekenis voor ons hebben, of kolommen die bijzonder veel ruimte innemen (zoals XML-data of afbeeldingen)
+  * Dit doen we bijvoorbeeld voor niet-gebruikte kolommen die geen relevante betekenis voor ons hebben, of kolommen die bijzonder veel ruimte innemen zoals:
+    * XML-data
+    * Globally Unique IDentifiers (GUID-velden)
+    * Afbeeldingen
 * Bij verbergen van een kolom is deze standaard onzichtbaar voor een gebruiker.
   * Dit maakt het model meer toegankelijk, maar houdt de kolommen wel beschikbaar.
-  * Dit is bijvoorbeeld handig voor ID-kolommen: die hebben geen betekenis.
+  * Dit is bijvoorbeeld handig voor ID-kolommen: die hebben geen betekenis, maar zijn wel belangrijk om bijvoorbeeld een relatie te leggen.
 
 Voer de volgende zaken uit om het model leesbaarder te maken:
 
@@ -35,7 +38,7 @@ Voer de volgende zaken uit om het model leesbaarder te maken:
   * Bijv. in de tabel "Store" de kolom "Name" -> "Store Name"
 * Hernoem de kolom "Group" in de tabel "Sales Territory" naar "Sales Territory Group"
 * Verberg alle ID-kolommen
-* Verwijder kolommen met XML- en GUID-data, en kolommen met "ModifiedDate"
+* Verwijder kolommen met XML- en GUID-data, en kolommen met de naam "ModifiedDate"
 
 ## Calculated Columns
 
