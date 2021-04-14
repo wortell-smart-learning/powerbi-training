@@ -60,7 +60,7 @@ Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toe
 
 ## Volgende modules
 
-Binnen deze module over Data Modeling is de volgende les [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md). Hieronder vind je een overzicht van alle modules:
+Binnen deze module over Data Modeling is de volgende les [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md). Hieronder vind je een overzicht van alle modules:
 
 ### Week 1
 
