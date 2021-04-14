@@ -1,6 +1,6 @@
 # Power Query via de GUI
 
-In [module 2](02-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
+In [module 6](../06-self-service-reporting/06-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
 
 In de meeste Power BI modellen zul je echter deze code niet hoeven te gebruiken: het grootste gedeelte van het werk is eenvoudig uit te voeren in de GUI. In deze module laden we een "lastig" bestand in via Power Query.
 
@@ -64,7 +64,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Laatste module
 
-Dit was de laatste module in deze cursus. Benieuwd naar meer? [BI Trainer.nl](https://www.bitrainer.nl/) biedt ook een verdiepende training [DAX voor Power BI - https://www.bitrainer.nl/dax](http://www.bitrainer.nl/dax).
+Dit was de laatste module in deze basiscursus Power BI. Je hebt nu diverse uithoeken van Power BI gezien, en de mogelijkheid Uiteraard gaan we in het leertraject nog veel verder - maar je he
 
 Hieronder vind je een overzicht van alle modules:
 
