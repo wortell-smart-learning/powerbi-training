@@ -125,11 +125,14 @@ Binnen deze module over Self-service reporting is de volgende les [SQL data inla
 
 ### Week 2
 
-5. [Publiceren en samenwerken in workspaces](../05-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
-6. Self-service reporting
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md) (huidige module)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
