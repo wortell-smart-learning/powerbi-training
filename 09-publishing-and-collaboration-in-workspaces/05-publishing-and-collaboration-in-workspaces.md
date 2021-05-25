@@ -4,11 +4,24 @@
 
 Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het rapport **startpunt-module-4.pbix**
+* Open het Power BI template-rapport **startpunt-module-5.pbit**
+
+De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
+
+![Unable to connect](img/00-unable-to-connect.png)
+
+* Klik op **Edit**
+* Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
+
+![Kies AdventureWorks](img/SelectModelFromPBI.png)
+
+* Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 5"
 * Onder de **Home** ribbon, klik op **Publish**
 * In het venster **Publish to Power BI**, selecteer je **My workspace**. Dit is je eigen privé-omgeving binnen de Power BI-portal, en de plek waar we initieel een rapport gaan plaatsen.
 
-Nadat het rapport geüploadet is, krijg je van Power BI een directe link naar het rapport. Klik op de link *Open 'startpunt-module-4.pbix' in Power BI* om het rapport weer te geven.
+![Select My Workspace](img/00-01-select-my-workspace.png)
+
+Nadat het rapport geüploadet is, krijg je van Power BI een directe link naar het rapport. Klik op de link *Open 'Module 5.pbix' in Power BI* om het rapport weer te geven.
 
 Zoals je ziet, kun je het rapport nu vanuit een webbrowser bekijken en gebruiken.
 
@@ -16,7 +29,7 @@ Zoals je ziet, kun je het rapport nu vanuit een webbrowser bekijken en gebruiken
 
 In de online omgeving van Power BI heb je naast rapporten ook *dashboards* tot je beschikking. Dit zijn door jou samengestelde verzamelingen van diverse *visuals* uit de rapporten die je gepubliceerd hebt. Volg de volgende stappen om een dashboard samen te stellen:
 
-* Met het rapport **startpunt-module-4** geopend op de tab **Page 2**, wijs je met de muis naar **Internet Total Sales by Year**
+* Met het rapport **Module 5** geopend op de tab **Page 2**, wijs je met de muis naar **Internet Total Sales by Year**
 * Klik op het icoontje van een pin dat onder of boven de grafiek verschijnt (dit is afhankelijk van je browser en schermresolutie):
 
 ![Pin visual icon](img/01-pin-visual.png)
@@ -25,13 +38,17 @@ Power BI vraagt je vervolgens om een dashboard waar hij deze visual kan "vastpin
 
 * Kies **New dashboard**, geef deze de naam **Mijn Dashboard**
 * Klik op **Pin**
+
+
+![Pin visual to new dashboard](img/02-pin-to-new-dashboard.png)
+
 * Schakel nu naar het tabblad **Product Sales**. Selecteer hier op de kaart de regio Australië.
 * **Pin** nu de grafiek **Internet Total Sales per Product Subcategory Name** aan het zojuist aangemaakte dashboard.
 
 ![Pin visual to existing dashboard](img/02-pin-to-existing-dashboard.png)
 
-* Open nu **My Workspace**
-* Bovenaan onder **Dashboards** staat nu **Mijn Dashboard**. Klik hierop.
+* Open nu **My Workspace** (*Mijn werkruimte*)
+* In je lijst met inhoud staat **Mijn Dashboard**. Klik hierop.
 
 Zoals je ziet, worden de visuals weergegeven op de manier waarop je ze in het rapport zag op het moment dat je ze vastpinde. De **Internet Total Sales per product subcategory name** heeft dus een gefilterde weergave. De inhoud wordt echter wel bijgewerkt wanneer de achterliggende data wijzigt.
 
@@ -51,23 +68,23 @@ Om samen aan rapporten te kunnen werken, kun je in de Power BI portal zogenaamde
 * Klik op "Workspaces"
 * Klik "Create a workspace"
 
-> Het venster **Upgrade to Power BI Pro** komt nu naar boven. Kies hier voor **Try Pro for free** - je kunt dan 60 dagen lang gebruik maken van de features van Power BI Pro.
+> Wanneer je gebruik maakt van de gratis versie van Power BI, krijg je hier waarschijnlijk een venster **Upgrade to Power BI Pro**. Kies hier voor **Try Pro for free** - je kunt dan 60 dagen lang gebruik maken van de features van Power BI Pro.
 
 * Geef de werkruimte een creatieve naam
 
-In de werkruimte kun je ook mede-cursisten toevoegen om je werk te delen. Dit is enigszins vergelijkbaar met hoe Office 365-groepen werken. In het verleden was elke Power BI-groep ook automatisch een Office 365-groep - sinds april 2019 is dit echter verleden tijd en worden Power BI groepen apart beheerd binnen de Power BI portal.
+In de werkruimte kun je ook collega's toevoegen om je werk te delen. Dit is enigszins vergelijkbaar met hoe Office 365-groepen werken. In het verleden was elke Power BI-groep ook automatisch een Office 365-groep - sinds april 2019 is dit echter verleden tijd en worden Power BI groepen apart beheerd binnen de Power BI portal.
 
 ## Uploaden en downloaden binnen een workspace
 
-We gaan nu Power BI-rapporten uploaden en delen met collega's. Omdat iedereen echter exact hetzelfde rapport heeft met exact dezelfde naam, gaan we ze eerst duidelijk herkenbaar maken. Dit hoef je uiteraard bij je "echte" Power BI-gebruik niet te doen, maar is voor dit stukje van de cursus wel zo duidelijk:
+We gaan nu Power BI-rapporten uploaden en delen. Wanneer je geen collega's hebt die Power BI gebruiken of dit Power BI leertraject volgen, kun je ook zelf collega "spelen". Om het doeleinde (en de herkomst) van deze rapporten overduidelijk te maken, geven we ze eerst een andere naam. Dit hoef je in je dagelijks werk uiteraard niet te doen, maar is voor de training wel zo handig:
 
 * Open Power BI Desktop
-* Sla het bestand 'startpunt-module-4' op onder een andere naam (bijvoorbeeld iets met je eigen naam erin).
+* Sla het bestand 'Module 5' op onder een andere naam (bijvoorbeeld iets "Power BI leertraject Sigma Data" en je eigen naam erin).
 * Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt  
 ![Publiceer naar de werkruimte](img/04b-publish-to-workspace.png)
-* Probeer of je enkele mede-cursisten kunt toevoegen aan je werkruimte, en kijk rond in de werkruimtes van mede-cursisten waar jij wordt toegevoegd.
+* Probeer of je enkele collega's kunt toevoegen aan je werkruimte, en kijk of jij in een werkruimte van een collega kunt meekijken.
   * Het zou kunnen dat je Power BI opnieuw moet opstarten, voordat Power BI je (zojuist aangemaakte) Pro-trial herkent. Deze licentie heb je nodig om te mogen publiceren naar een *workspace*.
-* Download een rapport van een mede-cursist, maak wat mooie aanpassingen, en publiceer het opnieuw naar zijn/haar werkruimte.
+* Vraag een collega om een rapport van jou te downloaden, wat mooie aanpassingen te doen, en het opnieuw te publiceren naar jouw werkruimte. Kijk zelf mee wat er gebeurt.
 
 > Wat je zojuist gedaan hebt, is het **samenwerken** - dit is voor de "achterkant" van Power BI: de mensen die je rechten wilt geven om jouw rapporten te bewerken, voeg je hier toe. Samen met hen ben je dan verantwoordelijk voor het *bouwen* van rapporten.
 
@@ -76,10 +93,10 @@ We gaan nu Power BI-rapporten uploaden en delen met collega's. Omdat iedereen ec
 De samenwerkingsmogelijkheden in workspaces zijn gericht op rapport-ontwikkelaars. Het is echter niet handig om deze direct met alle eindgebruikers te delen:
 
 * Workspaces zijn niet al te (eind)gebruiksvriendelijk: je moet eerst naar een "workspace", om daar het juiste rapport aan te klikken.
-* Workspaces zijn ook niet heel handig wanneer je (als eindgebruiker) veel rapporten afneemt van diverse teams: dan zou je alle workspaces door moeten op zoek naar de rapporten die je nodig hebt
+* Workspaces zijn ook niet heel handig wanneer je (als eindgebruiker) veel rapporten afneemt van diverse teams: dan zou je alle workspaces van die teams door moeten op zoek naar de rapporten die je nodig hebt
 * Delen met een eindgebruiker via een workspace beperkt je als rapport-eigenaar / -ontwikkelaar in je mogelijkheden: als je een nieuwe pagina aan het ontwikkelen bent (waarvan de data wellicht nog niet 100% correct is), ziet de eindgebruiker direct alle wijzigingen.
 
-Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te delen heeft Microsoft de zogenaamde "Power BI Apps" gemaakt. Dit houdt in dat je als rapport-eigenaar een rapport kunt *publiceren* als ware het een app, waarna de eindgebruiker *binnen de Power BI portal* deze weer kan "ophalen". Globaal ziet dat er als volgt uit:
+Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te delen heeft Microsoft de zogenaamde "Power BI Apps" gemaakt. Dit houdt in dat je als rapport-eigenaar een rapport kunt *publiceren* als ware het een "app", waarna de eindgebruiker *binnen de Power BI portal* deze weer kan "ophalen". Globaal ziet dat er als volgt uit:
 
 1. Je werkt met collega's aan een rapport in een werkruimte
 2. Je bereikt een "stabiele versie" die je wilt gaan delen met je eindgebruikers
@@ -127,18 +144,25 @@ Test dit:
 
 ## Volgende modules
 
-De volgende module is [Drillthrough](../05-drillthrough/05-drillthrough.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md). Hieronder vind je een overzicht van alle modules:
+
+### Week 1
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md) (huidige module)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md) (huidige module)

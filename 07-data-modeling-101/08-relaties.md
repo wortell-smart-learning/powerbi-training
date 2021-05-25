@@ -4,9 +4,9 @@ In de vorige module zagen we dat er een relatie ontbrak tussen de tabel *Store* 
 
 ## Aanmaken van relaties
 
-Om relaties aan te maken, schakel je naar de "Relationships" weergave.
+Om relaties aan te maken, schakel je naar de "Model" weergave.
 
-![Relationships weergave in Power BI](img/relationships.png)
+![Model weergave in Power BI](img/relationships.png)
 
 Zoals je ziet, liggen er diverse relaties, weergegeven door lijntjes tussen de tabellen. Wanneer op een relatie klikt, zie je hoe de relatie loopt en welke kolommen naar elkaar refereren. In een relatie zijn drie belangrijke kenmerken:
 
@@ -35,16 +35,23 @@ Keer nu terug naar de "report" weergave en verifieer dat de weergave van vrachtk
 
 Binnen deze module over Data Modeling is de volgende les [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md). Hieronder vind je een overzicht van alle modules:
 
+### Week 1
+
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md) (huidige module)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)

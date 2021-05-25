@@ -8,39 +8,35 @@ We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
 
 ## Inladen van SQL-data
 
-Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. Hiervoor maken we verbinding met de **SQL Database** die op Azure staat:
+Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. 
 
-* Adres: sigmadatalearning.database.windows.net
-* Database: AdventureWorks2019
-* Login:
-  * User: PowerBIUser
-  * Password: PowerBI2
+1. Maak hiervoor verbinding met de **SQL Database** die op Azure staat:
+   * Adres: sigmadatalearning.database.windows.net
+   * Database: AdventureWorks2019
+1. Laat de Data Connectivity mode op "Import" staan:
+   ![Connect to SQL Server](img/sqlserver-connect.png)
 
-Laat de Data Connectivity mode op "Import" staan:
+In het volgende venster word je gevraagd hoe je verbinding met deze database wilt maken.
 
-![Connect to SQL Server](img/sqlserver-connect.png)
+3. Kies voor een **Database** login en vul de volgende login-gegevens in:
+   * User: PowerBIUser
+   * Password: PowerBI2
+   ![Connection credentials](img/sqlserver-connect-credentials.png)
 
-In het volgende venster word je gevraagd hoe je verbinding met deze database wilt maken. Laat de standaard-instelling voor **Windows** credentials en **use my current credentials** hier staan, klik op **Connect**.
+Het venster "Navigator" opent. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! 
 
-![Connection credentials](img/sqlserver-connect-credentials.png)
-
-Wanneer er een waarschuwing komt over een niet-versleutelde verbinding ("encryption support"), geef hier dan "OK":
-
-![Encryption support warning](img/encryption-support.png)
-
-Het venster "Navigator" opent. Klap hier de database "AdventureWorks2019" uit. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! Selecteer de volgende _tabellen_:
-
-* Person.CountryRegion
-* Sales.SalesTerritory
-* Production.Product
-* Production.ProductSubcategory
-* Production.ProductCategory
+4. Selecteer de volgende _tabellen_:
+   * Person.CountryRegion
+   * Sales.SalesTerritory
+   * Production.Product
+   * Production.ProductSubcategory
+   * Production.ProductCategory
 
 Je kunt hier de zoekfunctie voor gebruiken:
 
 ![Power BI Navigator zoekfunctie](img/powerbi-navigator-zoekfunctie.png)
 
-Klik op "Load" om de data in te laden.
+5. Klik op **Load** om de data in te laden.
 
 Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritory. Vervang ProductID door de kolom "Name" uit ProductCategory. Zet de weergave van de X-as weer aan voor deze grafiek.
 
@@ -52,17 +48,10 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 >
 > Als je het interessant vindt, kun je kijken of je kunt achterhalen tussen welke kolommen de relatie gelegd is en welke "richting" deze heeft.
 
-Laad nu de tabel "Store" vanuit de Azure SQL Database "AdventureworksLT"
+Laad nu de tabel "SalesLT.Store" vanuit de Azure SQL Database "AdventureworksLT"
 
 * server: sigmadatalearning.database.windows.net
 * database: AdventureWorksLT
-
-Selecteer hiervoor **Database credentials**, met de volgende logingegevens:
-
-* username: powerbiuser
-* password: PowerBI2
-
-![Kies voor "Database" credentials](img/databasecredentials.png)
 
 Voeg nu in het rapport achtereenvolgens de volgende velden toe:
 
@@ -71,22 +60,30 @@ Voeg nu in het rapport achtereenvolgens de volgende velden toe:
 
 ![Aanvinken van store en 2014-01](img/store-aanvinken.gif)
 
-Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven. Dit is een indicator dat er relaties ontbreken.
+Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven. Dit is uiteraard niet correct!
+Het geeft aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Freight]`) geen relatie bestaat. In een volgende module kijken we hoe we deze relatie kunnen vormgeven.
 
 ## Volgende modules
 
 De volgende module is Module 7: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../07-data-modeling-101/08-relaties.md). Hieronder vind je een overzicht van alle modules:
 
+### Week 1
+
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md) (huidige module)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)

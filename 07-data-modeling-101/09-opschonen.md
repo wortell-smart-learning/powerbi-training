@@ -2,7 +2,7 @@
 
 Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
 
-Opschonen van je model en calculated columns
+## Opschonen van je model en calculated columns
 
 Om het huidige model - dat direct uit een 3NF-bronsysteem afkomstig is - beter leesbaar te maken, kunnen we enkele zaken eenvoudig oppakken:
 
@@ -17,10 +17,13 @@ Om het model leesbaarder te houden, kunnen we overbodige kolommen verwijderen of
 
 * Bij verwijderen van een kolom wordt deze uit het datamodel verwijderd.
   * De kolom neemt dan geen ruimte meer in.
-  * Dit doen we bijvoorbeeld voor niet-gebruikte kolommen die geen relevante betekenis voor ons hebben, of kolommen die bijzonder veel ruimte innemen (zoals XML-data of afbeeldingen)
+  * Dit doen we bijvoorbeeld voor niet-gebruikte kolommen die geen relevante betekenis voor ons hebben, of kolommen die bijzonder veel ruimte innemen zoals:
+    * XML-data
+    * Globally Unique IDentifiers (GUID-velden)
+    * Afbeeldingen
 * Bij verbergen van een kolom is deze standaard onzichtbaar voor een gebruiker.
   * Dit maakt het model meer toegankelijk, maar houdt de kolommen wel beschikbaar.
-  * Dit is bijvoorbeeld handig voor ID-kolommen: die hebben geen betekenis.
+  * Dit is bijvoorbeeld handig voor ID-kolommen: die hebben geen betekenis, maar zijn wel belangrijk om bijvoorbeeld een relatie te leggen.
 
 Voer de volgende zaken uit om het model leesbaarder te maken:
 
@@ -35,7 +38,7 @@ Voer de volgende zaken uit om het model leesbaarder te maken:
   * Bijv. in de tabel "Store" de kolom "Name" -> "Store Name"
 * Hernoem de kolom "Group" in de tabel "Sales Territory" naar "Sales Territory Group"
 * Verberg alle ID-kolommen
-* Verwijder kolommen met XML- en GUID-data, en kolommen met "ModifiedDate"
+* Verwijder kolommen met XML- en GUID-data, en kolommen met de naam "ModifiedDate"
 
 ## Calculated Columns
 
@@ -57,18 +60,25 @@ Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toe
 
 ## Volgende modules
 
-Binnen deze module over Data Modeling is de volgende les [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md). Hieronder vind je een overzicht van alle modules:
+Binnen deze module over Data Modeling is de volgende les [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md). Hieronder vind je een overzicht van alle modules:
+
+### Week 1
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md) (huidige module)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)

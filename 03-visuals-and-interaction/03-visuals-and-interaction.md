@@ -10,7 +10,15 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand **startpunt-module-3.pbix**.
+**Open** het bestand **startpunt-module-3.pbit**.
+
+Tijdens het openen krijg je wellicht de volgende melding. 
+
+![Unable to connect](img/00-01-unable-to-connect.png)
+
+Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
+
+![Select a dataset](img/00-02-select-dataset.png)
 
 ## Interactions
 
@@ -63,13 +71,13 @@ Veel van de data die we analyseren heeft een hiërarchie in zich:
 
 In de datamodellen die we vanuit een kubus of Power BI-model afnemen, wordt data vaak al in een hiërarchie aangeboden. Bijvoorbeeld de Category-hiërarchie in de tabel *Product*:
 
-* Open een nieuw tabblad
+* Maak een nieuw tabblad
 * Selecteer de *measure* **Internet Total Sales**
 * Selecteer de *hiërarchie* **Category** in de tabel **Product**
 * Bekijk de grafiek-eigenschappen. 
   * Onder "Axis" staat *Category*
   * Je ziet hier diverse niveaus (Category, Subcategory, Model, Product), toch is in de grafiek momenteel enkel het hoogste niveau zichtbaar.
-  * Maak de grafiek wat breder, zodat je de volledige titel kunt zien. De titel is momenteel "Internet Total Sales by Category": het zichtbare niveau dus.
+* Maak de grafiek wat breder, zodat je de volledige titel kunt zien. De titel is momenteel "Internet Total Sales by Category": het zichtbare niveau dus.
 
 ![Axis eigenschap grafiek A1](img/06-reportinghierarchy.png)
 
@@ -91,8 +99,8 @@ Rechtsboven in de grafiek bevindt zich een verzameling met pijltjes. Deze zijn b
 Een andere hiërarchie die in deze kubus aanwezig is, is de *Calendar* hiërarchie (binnen de tabel **Date**). 
 
 * Maak een grafiek waarin de **Internet Total Sales** wordt uitgesplitst over **Calendar**.
-* *Drilldown* naar het jaar 2010.
-  * Zoals je ziet, filtert ook de grafiek **Internet Total Sales by Category** mee.
+* *Drilldown* naar het jaar 2020.
+  * De grafiek **Internet Total Sales by Category** filtert nu mee.
 
 Wanneer we nu een *drill down* doen op een jaar, komen we eerst bij een semester, en daarna bij een kwartaal. Dat is wel een beetje veel van het goede. Daarom gaan we deze velden (voor deze specifieke grafiek) uit de hiërarchie halen.
 
@@ -133,18 +141,25 @@ Nu zorgt een *drilldown* niet meer automatisch voor een filtering binnen een and
 
 ## Volgende modules
 
-De volgende module is [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [Module 4: Drillthrough](../04-drillthrough/04-drillthrough.md). Hieronder vind je een overzicht van alle modules:
+
+### Week 1
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md) (huidige module)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
