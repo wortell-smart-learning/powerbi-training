@@ -64,7 +64,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Laatste module
 
-Dit was de laatste module in deze basiscursus Power BI. Je hebt nu diverse uithoeken van Power BI gezien, en de mogelijkheid Uiteraard gaan we in het leertraject nog veel verder - maar je he
+Dit was de laatste module in deze cursus. Benieuwd naar meer? [Sigma Data Learning](https://www.sigmadatalearning.nl/) biedt ook diverse verdiepende trainingen op het gebied van Power BI. Kijk voor meer info op [https://sigmadatalearning.nl/training/](https://sigmadatalearning.nl/training/).
 
 Hieronder vind je een overzicht van alle modules:
 
