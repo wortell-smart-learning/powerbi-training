@@ -1,6 +1,6 @@
 # Power Query via de GUI
 
-In [module 2](02-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
+In [module 6](../06-self-service-reporting/06-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
 
 In de meeste Power BI modellen zul je echter deze code niet hoeven te gebruiken: het grootste gedeelte van het werk is eenvoudig uit te voeren in de GUI. In deze module laden we een "lastig" bestand in via Power Query.
 
@@ -68,16 +68,23 @@ Dit was de laatste module in deze cursus. Benieuwd naar meer? [Sigma Data Learni
 
 Hieronder vind je een overzicht van alle modules:
 
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) 
+### Week 1
+
+1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
 2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+
+### Week 2
+
+5. Self-service reporting
    * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../07-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md) (huidige module)
+7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md) (huidige module)
+
+### Week 3
+
+8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)

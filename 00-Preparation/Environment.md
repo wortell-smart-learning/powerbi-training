@@ -5,32 +5,11 @@
 Voor de training "self-service met Power BI" zijn de volgende zaken nodig:
 
 * Per deelnemer:
-  * Een Power BI VM
-  * DownloadAndAttachDBs uitgevoerd
-  * IE ESC uitgeschakeld
-  * Default browser naar Google Chrome gezet
+  * Een Power BI account. Voor het delen van rapporten (module 4) is de Pro-licentie nodig
+  * Power BI Desktop (recente editie) geïnstalleerd op de eigen machine
 * Per groep
-  * Een AAS instance (Developer) met een gevuld sample
-  * Studenten moeten toegang krijgen met hun persoonlijke BITrainer.nl-account!
-
-{
-  "create": {
-    "parentObject": {
-      "database": "adventureworks"
-    },
-    "role": {
-      "name": "Role",
-      "modelPermission": "administrator",
-      "members": [
-        {
-          "memberName": "studentvs@bitrainer.nl",
-          "identityProvider": "AzureAD"
-        }
-      ]
-    }
-  }
-}
+  * Een SQL Database beschikbaar
 
 * Per cursus
-  * Cursusmateriaal op GitHub of gedrukt
+  * Cursusmateriaal op GitHub, export naar PDF, of gedrukt
   * Opdrachten met bijbehorende bronbestanden
