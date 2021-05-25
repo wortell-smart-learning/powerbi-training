@@ -129,7 +129,7 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Dit
 
 16. Maak een nieuwe pagina, genaamd 'Product Sales'
 16. Schakel naar deze nieuwe pagina
-16. Maak een grafiek waarin je de **Internet Total Sales** uitzet tegenover *6Product Subcategory Name** (*neem deze uit de dimensie Product Subcategory*!)
+16. Maak een grafiek waarin je de **Internet Total Sales** uitzet tegenover *Product Subcategory Name** (*neem deze uit de dimensie Product Subcategory*!)
 16. Selecteer deze grafiek.
 16. Verander de **Filter on this visual** voor **Product Subcategory Name** in een **Top N** filter
 
