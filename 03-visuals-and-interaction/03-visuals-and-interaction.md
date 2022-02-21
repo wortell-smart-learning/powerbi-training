@@ -150,11 +150,11 @@ Hieronder vind je een overzicht van alle modules:
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md) (huidige module)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
+   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
+   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/10-calc-columns.md)
+   * [Relaties](../06-data-modeling-101/07-relaties.md)
+   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
+7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
