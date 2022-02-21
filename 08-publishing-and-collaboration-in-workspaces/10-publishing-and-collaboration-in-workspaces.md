@@ -76,10 +76,10 @@ In de werkruimte kun je ook collega's toevoegen om je werk te delen. Dit is enig
 
 ## Uploaden en downloaden binnen een workspace
 
-We gaan nu Power BI-rapporten uploaden en delen. Wanneer je geen collega's hebt die Power BI gebruiken of dit Power BI leertraject volgen, kun je ook zelf collega "spelen". Om het doeleinde (en de herkomst) van deze rapporten overduidelijk te maken, geven we ze eerst een andere naam. Dit hoef je in je dagelijks werk uiteraard niet te doen, maar is voor de training wel zo handig:
+We gaan nu Power BI-rapporten uploaden en delen. Wanneer je geen collega's hebt die Power BI gebruiken of deze Power BI training volgen, kun je ook zelf collega "spelen". Om het doeleinde (en de herkomst) van deze rapporten overduidelijk te maken, geven we ze eerst een andere naam. Dit hoef je in je dagelijks werk uiteraard niet te doen, maar is voor de training wel zo handig:
 
 * Open Power BI Desktop
-* Sla het bestand 'Module 5' op onder een andere naam (bijvoorbeeld iets "Power BI leertraject Sigma Data" en je eigen naam erin).
+* Sla het bestand 'Module 5' op onder een andere naam (bijvoorbeeld iets "Power BI training Wortell Smart" en je eigen naam erin).
 * Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt  
 ![Publiceer naar de werkruimte](img/04b-publish-to-workspace.png)
 * Probeer of je enkele collega's kunt toevoegen aan je werkruimte, en kijk of jij in een werkruimte van een collega kunt meekijken.
