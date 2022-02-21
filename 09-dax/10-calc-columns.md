@@ -49,18 +49,18 @@ Na de aanpassing van deze definities en codes, is het tijd om wat zaken aan te g
 
 ## Volgende modules
 
-De volgende module is [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md). Hieronder vind je een overzicht van alle modules:
+De volgende module is [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md). Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
+2. [Rapporteren op dataset-data en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
 5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
 6. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
+   * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
+   * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
 7. Data Modeling 101
-   * [Relaties](../07-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../07-data-modeling-101/10-calc-columns.md) (huidige module)
-8. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+   * [Relaties](../06-data-modeling-101/08-relaties.md)
+   * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
+   * [Verrijken met Calculated Columns](../06-data-modeling-101/10-calc-columns.md) (huidige module)
+8. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
