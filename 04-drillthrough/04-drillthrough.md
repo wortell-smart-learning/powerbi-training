@@ -54,14 +54,16 @@ Wanneer je drillthrough pagina correct werkt, zou je vanaf pagina "Product Sales
 
 ## Drillthrough tussen meerdere rapporten
 
-*Drillthrough* is ook mogelijk tussen meerdere rapporten. Op deze manier kun meerdere rapporten binnen je workspace gebruik maken van de drillthrough-functionaliteit in jouw rapport.
+*Drillthrough* is ook mogelijk tussen meerdere rapporten: je kunt dan de data vanuit een andere invalshoek meer verdieping geven in een ander rapport.
 
-In de video [http://bit.ly/pbi-drillthrough](http://bit.ly/pbi-drillthrough) legt Patrick LeBlanc uit hoe dit werkt. Bekijk de video, en probeer vervolgens een drillthrough tussen meerdere rapporten als volgt werkend te krijgen. (Het bekijken van de video is niet strikt noodzakelijk - alle stappen staan hieronder - maar helpt je wel om het concept helder te krijgen)
+Om Drillthrough tussen meerdere rapporten werkend te krijgen hebben we (minstens) twee rapporten nodig:
 
-* Het rapport waar we tot nu toe mee werkten is de *source* (deze heeft het overzicht, hier moet alles vandaan komen).
-* Maak een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace
+* Het *bron-rapport*. Dit is het rapport waar je vandaan komt (hier "doe" je een drillthrough)
+* Het *doel-rapport*. Dit is het rapport waar je terecht komt na een drillthrough.
 
-Maak in dit rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
+Maak nu een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace.
+
+Maak in dit nieuwe rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 
 ![Use calendar year as drillthrough per category](img/04-calendar-year-drillthrough-as-category.png)
 

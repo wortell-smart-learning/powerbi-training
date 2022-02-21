@@ -48,12 +48,13 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 >
 > Als je het interessant vindt, kun je kijken of je kunt achterhalen tussen welke kolommen de relatie gelegd is en welke "richting" deze heeft.
 
-Laad nu de tabel "SalesLT.Store" vanuit de Azure SQL Database "AdventureworksLT"
+In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. Deze data gaan we nu inladen.
 
 * server: sigmadatalearning.database.windows.net
 * database: AdventureWorksLT
+* tabel: SalesLT.Store
 
-Voeg nu in het rapport achtereenvolgens de volgende velden toe:
+Probeer nu de vrachtkosten per winkel weer te geven. Dit doe je door in het rapport achtereenvolgens de volgende velden toe te voegen:
 
 1. Store -> Name
 2. 2014-01 -> Freight

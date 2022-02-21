@@ -40,6 +40,8 @@ Voordat we met deze dataset van start kunnen, moet je de dataset op jouw eigen P
 1. Sluit het venster door op de knop **Got it** te klikken
 1. Sluit het Power BI venster
 
+**Let op: het is belangrijk dat je geen Power BI-vensters meer open hebt staan na deze stappen!**
+
 ## Verbinding maken met de Power BI Dataset
 
 Je hebt zojuist een Power BI dataset voor jezelf klaargezet. Dit was een stukje voorbereiding dat we nu zelf moesten doen, maar normaal gesproken kan dit ook door iemand anders gebeuren. Bijvoorbeeld door iemand uit een Business Intelligence- of Data Engineering-team, die data heeft klaargezet die breed gebruikt wordt op diverse plekken in de organisatie.
@@ -78,7 +80,7 @@ Deze is redelijk eenvoudig:
    ![Search box for fields in Power BI](img/internet-total-sales-searchbox.png)
 9. Zoek nu naar "Country", en vink **Country Region Name** aan.
 
-Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de dataset erg groot kan zijn, kun je eenvoudig zoeken in de lijst met velden.
+Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de hoeveelheid tabellen en kolommen erg groot kan zijn, kun je eenvoudig zoeken in de lijst met velden.
 
 ### Internet Total Tax per Total Children
 
