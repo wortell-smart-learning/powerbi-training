@@ -4,7 +4,7 @@ Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikk
 
 > ### Wat is een dataset
 >
-> Een dataset is een analytische database (ook wel een *OLAP*-database genoemd), waarin een datamodel klaar staat voor analyse. Allerlei logica kan vooraf ingebouwd worden, zodat je door een paar klikken nieuwe vragen kunt stellen. Een paar termen die hier veel bij voorkomen:
+> Een dataset is een datamodel (verzameling aan tabellen en onderlinge verwijzingen) dat klaar staat voor analyse. Allerlei logica kan vooraf ingebouwd worden, zodat je door een paar klikken nieuwe vragen kunt stellen. Een paar termen die hier veel bij voorkomen:
 >
 > * **Measures** (ook wel metingen of meetwaarden) zijn de cijfers die je wilt analyseren.
 >   * Vaak zijn dit eenvoudige, logisch optelbare waarden (zoals "aantal verkochte schroefjes")
@@ -24,15 +24,13 @@ Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikk
 >     * Productcategorie
 >     * etc.
 >
-> Vaak zijn datasetsen alleen voorgedefinieerd voor veelgebruikte rapportages en analyses. Je kunt echter ook Power BI zélf zo'n analytisch datamodel vormgeven. Het heet dan officieel geen dataset, maar kan wel dezelfde functionaliteiten bevatten
-
-In deze module gebruiken we een Power BI dataset: dit werkt hetzelfde als de eerder benoemde "dataset", en bevat alle logica om slim mee te kkunnen rapporteren.
+> Datasets maken het ook mogelijk om het ontsluiten en modelleren van data door andere personen te laten doen dan het maken van de rapporten zelf. Maar ook wanneer je alles helemaal zelf doet, maak je altijd onder water een dataset aan.
 
 ## Voorbereiding
 
 Voordat we met deze dataset van start kunnen, moet je de dataset op jouw eigen Power BI-omgeving klaarzetten. Neem daarvoor de volgende stappen:
 
-1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/master/02-reporting-on-cube-data/AdventureWorks.pbix)
+1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/master/02-reporting-on-dataset/AdventureWorks.pbix)
 1. Klik op de knop **Publish**  
    ![Klik op de Publish-knop](img/00-prep-publishdataset.png)  
    Het venster **Publish to Power BI** opent zich nu, en vraagt je om een *workspace* te selecteren om je publicatie in te doen.
