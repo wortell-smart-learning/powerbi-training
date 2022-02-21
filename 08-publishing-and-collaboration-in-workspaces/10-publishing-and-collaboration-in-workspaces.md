@@ -4,7 +4,7 @@
 
 Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het Power BI template-rapport **startpunt-module-5.pbit**
+* Open het Power BI template-rapport **startpunt-module-8.pbit**
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
@@ -15,13 +15,13 @@ De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benadere
 
 ![Kies AdventureWorks](img/SelectModelFromPBI.png)
 
-* Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 5"
+* Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 8"
 * Onder de **Home** ribbon, klik op **Publish**
 * In het venster **Publish to Power BI**, selecteer je **My workspace**. Dit is je eigen privé-omgeving binnen de Power BI-portal, en de plek waar we initieel een rapport gaan plaatsen.
 
 ![Select My Workspace](img/00-01-select-my-workspace.png)
 
-Nadat het rapport geüploadet is, krijg je van Power BI een directe link naar het rapport. Klik op de link *Open 'Module 5.pbix' in Power BI* om het rapport weer te geven.
+Nadat het rapport geüploadet is, krijg je van Power BI een directe link naar het rapport. Klik op de link *Open 'Module 8.pbix' in Power BI* om het rapport weer te geven.
 
 Zoals je ziet, kun je het rapport nu vanuit een webbrowser bekijken en gebruiken.
 
@@ -29,7 +29,7 @@ Zoals je ziet, kun je het rapport nu vanuit een webbrowser bekijken en gebruiken
 
 In de online omgeving van Power BI heb je naast rapporten ook *dashboards* tot je beschikking. Dit zijn door jou samengestelde verzamelingen van diverse *visuals* uit de rapporten die je gepubliceerd hebt. Volg de volgende stappen om een dashboard samen te stellen:
 
-* Met het rapport **Module 5** geopend op de tab **Page 2**, wijs je met de muis naar **Internet Total Sales by Year**
+* Met het rapport **Module 8** geopend op de tab **Page 2**, wijs je met de muis naar **Internet Total Sales by Year**
 * Klik op het icoontje van een pin dat onder of boven de grafiek verschijnt (dit is afhankelijk van je browser en schermresolutie):
 
 ![Pin visual icon](img/01-pin-visual.png)
@@ -79,7 +79,7 @@ In de werkruimte kun je ook collega's toevoegen om je werk te delen. Dit is enig
 We gaan nu Power BI-rapporten uploaden en delen. Wanneer je geen collega's hebt die Power BI gebruiken of deze Power BI training volgen, kun je ook zelf collega "spelen". Om het doeleinde (en de herkomst) van deze rapporten overduidelijk te maken, geven we ze eerst een andere naam. Dit hoef je in je dagelijks werk uiteraard niet te doen, maar is voor de training wel zo handig:
 
 * Open Power BI Desktop
-* Sla het bestand 'Module 5' op onder een andere naam (bijvoorbeeld iets "Power BI training Wortell Smart" en je eigen naam erin).
+* Sla het bestand 'Module 8' op onder een andere naam (bijvoorbeeld iets "Power BI training Wortell Smart" en je eigen naam erin).
 * Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt  
 ![Publiceer naar de werkruimte](img/04b-publish-to-workspace.png)
 * Probeer of je enkele collega's kunt toevoegen aan je werkruimte, en kijk of jij in een werkruimte van een collega kunt meekijken.
@@ -149,7 +149,7 @@ De volgende module is [Module 9: Calculated Columns met DAX](../09-dax/11-calc-c
 Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md) (huidige module)
+2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
@@ -159,5 +159,5 @@ Hieronder vind je een overzicht van alle modules:
    * [Relaties](../06-data-modeling-101/07-relaties.md)
    * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
 7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md) (huidige module)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md) (huidige module)
+9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
