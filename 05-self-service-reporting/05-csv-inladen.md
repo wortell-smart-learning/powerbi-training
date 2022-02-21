@@ -14,9 +14,9 @@ Start Power BI Desktop met een nieuw, leeg rapport.
 
 ![Get data](img/importeer-csv.png)
 
-2. Selecteer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "csv".
+2. Selecteer het bestand ["2014-01.csv"](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/csv/2014-01.csv) uit de map "csv".
 
-Power BI maakt nu een inschatting van de structuur van het CSV-bestand. CSV is echter niet het meest duidelijke datatype. 
+Power BI maakt nu een inschatting van de structuur van het CSV-bestand. CSV is echter niet het meest duidelijke datatype.
 Wanneer we bijvoorbeeld in het CSV-bestand kijken, zien we daar op regel 1 het getal 26324.3267
 
 ![26324.3267 - wat betekent het?](img/2014-01-csv.png)
@@ -102,7 +102,7 @@ Maak nu drie Power BI visualisaties. Zorg ervoor dat de "per" velden (*per* Terr
 
 ![Slicer-element](img/add-slicer.png)
 
-> Wanneer je het bestand ["2014-01.csv"](csv/2014-01.csv) in een teksteditor bekijkt (bijvoorbeeld in *Kladblok* / *Notepad*), dan zul je zien dat het veld *Day* hier niet voorkomt. Power BI heeft hier gezien dat we een datum-veld in de brondata hadden zitten, en hier voor ons alvast een hiërarchie (Year, Quarter, Month, Day) op aangebracht.
+> Wanneer je het bestand ["2014-01.csv"](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/csv/2014-01.csv) in een teksteditor bekijkt (bijvoorbeeld in *Kladblok* / *Notepad*), dan zul je zien dat het veld *Day* hier niet voorkomt. Power BI heeft hier gezien dat we een datum-veld in de brondata hadden zitten, en hier voor ons alvast een hiërarchie (Year, Quarter, Month, Day) op aangebracht.
 >
 > Handig, want veel van onze analyses zetten we uit over de tijd heen, en zelden hebben we daarbij het datum-niveau direct nodig!
 

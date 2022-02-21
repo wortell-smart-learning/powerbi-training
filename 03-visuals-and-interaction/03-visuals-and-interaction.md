@@ -1,4 +1,4 @@
-# Visuals, Drilldown and interaction
+# Visuals en interactie
 
 Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rapporten aan te passen. In deze module willen we hier iets verder naar kijken aan de hand van de volgende punten:
 
