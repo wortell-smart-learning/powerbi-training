@@ -1,6 +1,6 @@
 # Power Query via de GUI
 
-In [module 6](../05-self-service-reporting/06-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
+In [module 6](../05-self-service-reporting/05-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
 
 In de meeste Power BI modellen zul je echter deze code niet hoeven te gebruiken: het grootste gedeelte van het werk is eenvoudig uit te voeren in de GUI. In deze module laden we een "lastig" bestand in via Power Query.
 
@@ -64,7 +64,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Volgende module
 
-De volgende module is [Module 8: Publiceren en samenwerken in Workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md).
+De volgende module is [Module 8: Publiceren en samenwerken in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md).
 
 Hieronder vind je een overzicht van alle modules:
 
@@ -73,11 +73,11 @@ Hieronder vind je een overzicht van alle modules:
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
+   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
+   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md) (huidige module)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/10-calc-columns.md)
+   * [Relaties](../06-data-modeling-101/07-relaties.md)
+   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
+7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md) (huidige module)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
