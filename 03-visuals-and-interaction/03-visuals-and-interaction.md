@@ -22,7 +22,7 @@ Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eige
 
 ## Interactions
 
-Zoals je in [de vorige module](../02-Reporting-on-Cube-Data/02-reporting-on-cube-data.md) gezien hebt, is er binnen Power BI automatisch *interactie* tussen de grafieken. Wanneer je op één grafiek klikt, heeft dit effect op een andere grafiek:
+Zoals je in [de vorige module](../02-reporting-on-dataset/02-reporting-on-dataset.md) gezien hebt, is er binnen Power BI automatisch *interactie* tussen de grafieken. Wanneer je op één grafiek klikt, heeft dit effect op een andere grafiek:
 
 ![Interactie tussen grafieken](img/01-interactie-tussen-grafieken.png)
 
@@ -69,7 +69,7 @@ Veel van de data die we analyseren heeft een hiërarchie in zich:
 * We starten met een analyse van de performance van accountmanagers, kijken daarna specifieker naar de onderliggende klanten
 * We analyseren onze productverkopen per categorie, zien dat de meeste verkopen in fietsen zitten, dus splitsen we die uit in de subcategorieën.
 
-In de datamodellen die we vanuit een kubus of Power BI-model afnemen, wordt data vaak al in een hiërarchie aangeboden. Bijvoorbeeld de Category-hiërarchie in de tabel *Product*:
+In de datamodellen die we vanuit een dataset of Power BI-model afnemen, wordt data vaak al in een hiërarchie aangeboden. Bijvoorbeeld de Category-hiërarchie in de tabel *Product*:
 
 * Maak een nieuw tabblad
 * Selecteer de *measure* **Internet Total Sales**
@@ -96,7 +96,7 @@ Rechtsboven in de grafiek bevindt zich een verzameling met pijltjes. Deze zijn b
 
 ### Meer hiërarchie en drilldown
 
-Een andere hiërarchie die in deze kubus aanwezig is, is de *Calendar* hiërarchie (binnen de tabel **Date**). 
+Een andere hiërarchie die in deze dataset aanwezig is, is de *Calendar* hiërarchie (binnen de tabel **Date**). 
 
 * Maak een grafiek waarin de **Internet Total Sales** wordt uitgesplitst over **Calendar**.
 * *Drilldown* naar het jaar 2020.
@@ -146,20 +146,20 @@ De volgende module is [Module 4: Drillthrough](../04-drillthrough/04-drillthroug
 ### Week 1
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md)
+2. [Rapporteren op dataset-data en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md) (huidige module)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 
 ### Week 2
 
 5. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
+   * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
+   * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../07-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+   * [Relaties](../06-data-modeling-101/08-relaties.md)
+   * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
+7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
 
 ### Week 3
 
-8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)

@@ -1,18 +1,18 @@
-# Rapporteren op de kubus: Power BI als rapportageschil
+# Rapporteren op de dataset: Power BI als rapportageschil
 
-Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikken op bestaande "kubussen".
+Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikken op bestaande "datasetsen".
 
-> ### Wat is een kubus
+> ### Wat is een dataset
 >
-> Een kubus is een analytische database (ook wel een *OLAP*-database genoemd), waarin een datamodel klaar staat voor analyse. Allerlei logica kan vooraf ingebouwd worden, zodat je door een paar klikken nieuwe vragen kunt stellen. Een paar termen die hier veel bij voorkomen:
+> Een dataset is een analytische database (ook wel een *OLAP*-database genoemd), waarin een datamodel klaar staat voor analyse. Allerlei logica kan vooraf ingebouwd worden, zodat je door een paar klikken nieuwe vragen kunt stellen. Een paar termen die hier veel bij voorkomen:
 >
 > * **Measures** (ook wel metingen of meetwaarden) zijn de cijfers die je wilt analyseren.
 >   * Vaak zijn dit eenvoudige, logisch optelbare waarden (zoals "aantal verkochte schroefjes")
->   * Een kubus maakt het echter ook mogelijk om meer geavanceerde measures vorm te geven, bijvoorbeeld:
+>   * Een dataset maakt het echter ook mogelijk om meer geavanceerde measures vorm te geven, bijvoorbeeld:
 >     * Percentage van budget
 >     * Aantal schroefjes in magazijn
 >     * Aantal verkochte schroefjes in het jaar, opgeteld tot aan de weergegeven datum
->   * Door een kubus goed te definiëren, kun je ervoor zorgen dat ook ingewikkelde measures correct te berekenen langs allerlei *dimensies*.
+>   * Door een dataset goed te definiëren, kun je ervoor zorgen dat ook ingewikkelde measures correct te berekenen langs allerlei *dimensies*.
 > * **Dimensies** zijn de "assen" waarlangs je de metingen uitsplitst
 >   * In de vraagstelling hoor je vaak *per*:
 >     * Aantal verkopen *per jaar*
@@ -24,15 +24,15 @@ Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikk
 >     * Productcategorie
 >     * etc.
 >
-> Vaak zijn kubussen alleen voorgedefinieerd voor veelgebruikte rapportages en analyses. Je kunt echter ook Power BI zélf zo'n analytisch datamodel vormgeven. Het heet dan officieel geen kubus, maar kan wel dezelfde functionaliteiten bevatten
+> Vaak zijn datasetsen alleen voorgedefinieerd voor veelgebruikte rapportages en analyses. Je kunt echter ook Power BI zélf zo'n analytisch datamodel vormgeven. Het heet dan officieel geen dataset, maar kan wel dezelfde functionaliteiten bevatten
 
-In deze module gebruiken we een Power BI dataset: dit werkt hetzelfde als de eerder benoemde "kubus", en bevat alle logica om slim mee te kkunnen rapporteren.
+In deze module gebruiken we een Power BI dataset: dit werkt hetzelfde als de eerder benoemde "dataset", en bevat alle logica om slim mee te kkunnen rapporteren.
 
 ## Voorbereiding
 
 Voordat we met deze dataset van start kunnen, moet je de dataset op jouw eigen Power BI-omgeving klaarzetten. Neem daarvoor de volgende stappen:
 
-1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/leertraject-powerbi/02-reporting-on-cube-data/AdventureWorks.pbix)
+1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/leertraject-powerbi/02-reporting-on-dataset/AdventureWorks.pbix)
 1. Klik op de knop **Publish**  
    ![Klik op de Publish-knop](img/00-prep-publishdataset.png)  
    Het venster **Publish to Power BI** opent zich nu, en vraagt je om een *workspace* te selecteren om je publicatie in te doen.
@@ -80,7 +80,7 @@ Deze is redelijk eenvoudig:
    ![Search box for fields in Power BI](img/internet-total-sales-searchbox.png)
 9. Zoek nu naar "Country", en vink **Country Region Name** aan.
 
-Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de kubus erg groot kan zijn, kun je eenvoudig zoeken in de lijst met velden.
+Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de dataset erg groot kan zijn, kun je eenvoudig zoeken in de lijst met velden.
 
 ### Internet Total Tax per Total Children
 
@@ -88,7 +88,7 @@ Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de kubus 
 
 ![Total Children verkeerd weergegeven](img/01-total-children-wrong.png)
 
-Omdat *Total Children* een numerieke waarde is, maakt Power BI hier automatisch een zogenaamde *measure* van: een meetwaarde die optelbaar is. Je ziet dus de som van alle kinderen van alle klanten nu weergegeven naast de betaalde belasting. Wanneer je het sigma-teken &Sigma; ziet staan voor een veld, is dit een indicatie dat Power BI het als *measure* kan gebruiken (hoewel de kubus het niet expliciet als *measure* heeft aangeboden!)
+Omdat *Total Children* een numerieke waarde is, maakt Power BI hier automatisch een zogenaamde *measure* van: een meetwaarde die optelbaar is. Je ziet dus de som van alle kinderen van alle klanten nu weergegeven naast de betaalde belasting. Wanneer je het sigma-teken &Sigma; ziet staan voor een veld, is dit een indicatie dat Power BI het als *measure* kan gebruiken (hoewel de dataset het niet expliciet als *measure* heeft aangeboden!)
 
 ![Het sigma-teken duidt een *measure* aan](img/01b-measure-sign.png)
 
@@ -169,20 +169,20 @@ De volgende module is [Module 3: Visuals en interactie](../03-visuals-and-intera
 ### Week 1
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op kubus-data en eerste visualisatie](../02-reporting-on-cube-data/02-reporting-on-cube-data.md) (huidige module)
+2. [Rapporteren op dataset-data en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md) (huidige module)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 
 ### Week 2
 
 5. Self-service reporting
-   * [CSV-bestanden inladen](../06-self-service-reporting/06-csv-inladen.md)
-   * [SQL data inladen](../06-self-service-reporting/07-sql-inladen.md)
+   * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
+   * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../07-data-modeling-101/08-relaties.md)
-   * [Opschonen van je datamodel](../07-data-modeling-101/09-opschonen.md)
-7. [Introductie Power Query (GUI)](../08-power-query-gui/11-power-query.md)
+   * [Relaties](../06-data-modeling-101/08-relaties.md)
+   * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
+7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
 
 ### Week 3
 
-8. [Publiceren en samenwerken in workspaces](../09-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
