@@ -32,7 +32,7 @@ In deze module gebruiken we een Power BI dataset: dit werkt hetzelfde als de eer
 
 Voordat we met deze dataset van start kunnen, moet je de dataset op jouw eigen Power BI-omgeving klaarzetten. Neem daarvoor de volgende stappen:
 
-1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/leertraject-powerbi/02-reporting-on-dataset/AdventureWorks.pbix)
+1. Open het bestand [AdventureWorks.pbix](https://github.com/vstrien/powerbi-training/raw/master/02-reporting-on-cube-data/AdventureWorks.pbix)
 1. Klik op de knop **Publish**  
    ![Klik op de Publish-knop](img/00-prep-publishdataset.png)  
    Het venster **Publish to Power BI** opent zich nu, en vraagt je om een *workspace* te selecteren om je publicatie in te doen.
