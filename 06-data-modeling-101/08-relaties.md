@@ -33,17 +33,14 @@ Keer nu terug naar de "report" weergave en verifieer dat de weergave van vrachtk
 
 ## Volgende modules
 
-Binnen deze module over Data Modeling is de volgende les [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md). Hieronder vind je een overzicht van alle modules:
+Binnen deze module over Data Modeling is de volgende les [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md).
 
-### Week 1
+Hieronder vind je een overzicht van alle modules:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op dataset-data en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
-
-### Week 2
-
 5. Self-service reporting
    * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
@@ -51,7 +48,5 @@ Binnen deze module over Data Modeling is de volgende les [Opschonen van je datam
    * [Relaties](../06-data-modeling-101/08-relaties.md) (huidige module)
    * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
 7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
-
-### Week 3
-
 8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns met DAX](../09-dax/10-calc-columns.md)

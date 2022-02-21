@@ -47,20 +47,22 @@ Na de aanpassing van deze definities en codes, is het tijd om wat zaken aan te g
 
 ![Doelopmaak rapport](img/screenshot-pbi-doel.png)
 
-## Volgende modules
+## Laatste module
 
-De volgende module is [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md). Hieronder vind je een overzicht van alle modules:
+Dit was de laatste module in deze cursus. Benieuwd naar meer? [Wortell Smart Learning](https://www.wortell.nl/nl/smart-learning) biedt ook diverse verdiepende trainingen op het gebied van Power BI. Kijk voor meer info op [https://www.wortell.nl/nl/smart-learning](https://www.wortell.nl/nl/smart-learning).
+
+Hieronder vind je opnieuw de inhoudsopgave met alle modules in de training:
 
 1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op dataset-data en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
 3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Publiceren en samenwerken in workspaces](../04-publishing-and-collaboration-in-workspaces/04-publishing-and-collaboration-in-workspaces.md)
-5. [Drillthrough](../05-drillthrough/05-drillthrough.md)
-6. Self-service reporting
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
+5. Self-service reporting
    * [CSV-bestanden inladen](../05-self-service-reporting/06-csv-inladen.md)
    * [SQL data inladen](../05-self-service-reporting/07-sql-inladen.md)
-7. Data Modeling 101
+6. Data Modeling 101
    * [Relaties](../06-data-modeling-101/08-relaties.md)
    * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
-   * [Verrijken met Calculated Columns](../06-data-modeling-101/10-calc-columns.md) (huidige module)
-8. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
+7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
+8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns met DAX](../09-dax/10-calc-columns.md) (huidige module)

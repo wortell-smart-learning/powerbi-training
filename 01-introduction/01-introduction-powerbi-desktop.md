@@ -67,3 +67,4 @@ De volgende module is [Module 2: Rapporteren op de dataset: Power BI als rapport
    * [Opschonen van je datamodel](../06-data-modeling-101/09-opschonen.md)
 7. [Introductie Power Query (GUI)](../07-power-query-gui/11-power-query.md)
 8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/05-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns met DAX](../09-dax/10-calc-columns.md)
