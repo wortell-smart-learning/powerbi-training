@@ -4,7 +4,7 @@
 
 Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het Power BI template-rapport **startpunt-module-8.pbit**
+* Open het Power BI template-rapport [**startpunt-module-8.pbit**](./startpunt-module-8.pbit)
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
