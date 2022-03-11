@@ -1,4 +1,4 @@
-# SQL-bronnen inladen
+# 05-02 SQL-bronnen inladen
 
 De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Het blijkt echter dat ook deze context niet in het Data Warehouse ontsloten is. En aangezien we wel graag snel enkele inzichten hierover willen, moeten we verder zoeken. We komen uit bij twee operationele bronsystemen, waar de data voor ons beschikbaar is.
 
@@ -8,7 +8,7 @@ We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
 
 Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
-**Open** het bestand [06-solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/06-solution.pbix)
+**Open** het bestand [05-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-01-Solution.pbix)
 
 
 ## Inladen van SQL-data
@@ -71,9 +71,7 @@ Het geeft aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Fre
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[07-solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/07-solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [05-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-02-Solution.pbix)
 
 ## Video
 

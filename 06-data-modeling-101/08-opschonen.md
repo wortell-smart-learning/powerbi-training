@@ -1,14 +1,14 @@
-# Opschonen en introductie calculated columns
+# 06-02 Opschonen en introductie calculated columns
 
 Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
 
 ## Voorbereiding
 
-We gaan verder met het rapport uit de vorige module.
+We gaan verder met het rapport uit het vorig onderdeel van deze module.
 
 Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
-**Open** het bestand [6.1 solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/6.1%20solution.pbix)
+**Open** het bestand [06-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-01-Solution.pbix)
 
 
 ## Opschonen van je model en calculated columns
@@ -69,9 +69,7 @@ Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toe
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[6.2 solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/6.2%20solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [06-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-02-Solution.pbix)
 
 ## Video
 

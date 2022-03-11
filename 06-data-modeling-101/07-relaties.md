@@ -1,4 +1,4 @@
-# Relaties leggen
+# 06-01 Relaties leggen
 
 In de vorige module zagen we dat er een relatie ontbrak tussen de tabel *Store* (waarin de winkels staan) en de tabel *2014-01* (waar de verkopen uit 2014 in aangeleverd zijn).
 
@@ -6,9 +6,9 @@ In de vorige module zagen we dat er een relatie ontbrak tussen de tabel *Store* 
 
 We gaan verder met het rapport dat we op een CSV-bestand en SQL bron hebben gebouwd in de vorige module.
 
-Alternatief als je de vorige opdracht niet correct hebt afgerond:
+Alternatief als je het vorig onderdeel niet correct hebt afgerond:
 
-**Open** het bestand [07-solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/07-solution.pbix)
+**Open** het bestand [05-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-02-Solution.pbix)
 
 ## Aanmaken van relaties
 
@@ -41,9 +41,7 @@ Keer nu terug naar de "report" weergave en verifieer dat de weergave van vrachtk
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[6.1 solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/6.1%20solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [06-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-01-Solution.pbix)
 
 ## Video
 
