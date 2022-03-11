@@ -112,6 +112,16 @@ Hieronder zie je een mogelijke uitkomst.
 
 **Sla het bestand op - we gaan hier in het volgende onderdeel mee verder**.
 
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht:
+
+[06-solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/06-solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
+
 ## Volgende modules
 
 Binnen deze module over Self-service reporting is de volgende les [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md).

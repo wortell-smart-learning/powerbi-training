@@ -162,6 +162,14 @@ Het eindresultaat kan er bijvoorbeeld als volgt uit zien:
 
 ![Eindresultaat eerste rapport](img/09-eindresultaat-eerste-rapport.png)
 
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [Solution](https://github.com/vstrien/powerbi-training/raw/master/02-reporting-on-dataset/Solution.pbit)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747639/0f39be6d96)
+
 ## Volgende modules
 
 De volgende module is [Module 3: Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md).

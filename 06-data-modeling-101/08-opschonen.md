@@ -2,6 +2,15 @@
 
 Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
 
+## Voorbereiding
+
+We gaan verder met het rapport uit de vorige module.
+
+Alternatief als je de vorige opdracht niet correct hebt afgerond:
+
+**Open** het bestand [6.1 solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/6.1%20solution.pbix)
+
+
 ## Opschonen van je model en calculated columns
 
 Om het huidige model - dat direct uit een 3NF-bronsysteem afkomstig is - beter leesbaar te maken, kunnen we enkele zaken eenvoudig oppakken:
@@ -57,6 +66,16 @@ Wanneer je nu naar de Report-weergave gaat, zul je zien dat er een tabel minder 
 * Voeg op dezelfde wijze de naam uit *Country-Region* toe aan *Sales Territory*, en verberg de tabel *Country-Region*
 
 Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toegankelijk maken voor gebruikers van Power BI.
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht:
+
+[6.2 solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/6.2%20solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747355/e3b8b0302a)
 
 ## Volgende modules
 
