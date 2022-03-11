@@ -56,8 +56,14 @@ In de "Data"-weergave van Power BI kun je eenvoudig bekijken welke data er momen
 We kunnen hier kolommen toevoegen die gevuld worden op basis van een DAX-expressie. Dit noemen we "Calculated columns".
 
 * Voeg een nieuwe kolom toe aan de tabel "ProductSubcategory"
+
+![Calculated Column](img/addcalc.png)
+
   * Typ de onderstaande expressie handmatig in:
   * Expressie: `Product Category = RELATED('Product Category'[Product Category Name])`
+
+![Calculated Column](img/calculatedcolumn.png)
+
 * Verberg nu de gehele tabel ProductCategory
 
 Wanneer je nu naar de Report-weergave gaat, zul je zien dat er een tabel minder staat, en de naam van een productcategorie wordt weergegeven onder de tabel Product Subcategory. Er staat een klein "F(x)" teken bij om aan te geven dat het een calculated column is.
