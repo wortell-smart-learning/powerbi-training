@@ -1,4 +1,4 @@
-# Drillthrough
+# 04 Drillthrough
 
 ## Voorbereiding
 
@@ -6,7 +6,7 @@ Ga verder met het bestand dat je in de vorige module hebt gemaakt.
 
 Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
-**Open** het bestand [startpunt-module-4.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/startpunt-module-4.pbit)
+**Open** het bestand [04-Start.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-Start.pbit)
 
 Tijdens het openen krijg je wellicht de volgende melding. 
 
@@ -115,11 +115,7 @@ Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zor
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[eindpunt-module-4.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/eindpunt-module-4.pbit)
-
-[eindpunt-module-4-drillthrough-report](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/eindpunt-module-4-drillthrough-report.pbit)
+Hier vind je de eindpunten van deze opdracht: [04-01-Solution.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-01-Solution.pbit) en [04-02-Solution.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-02-Solution.pbit)
 
 ## Video
 

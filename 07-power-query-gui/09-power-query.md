@@ -1,4 +1,4 @@
-# Power Query via de GUI
+# 07 Power Query via de GUI
 
 In [module 6](../05-self-service-reporting/05-csv-inladen.md) hebben we al kort gekeken naar Power Query: hoe het venster opgebouwd is, en hoe er achter de schermen code opgebouwd wordt.
 
@@ -68,9 +68,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[Power Query Solution](https://github.com/vstrien/powerbi-training/raw/master/07-power-query-gui/Power%20Query%20Solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [07-Solution](https://github.com/vstrien/powerbi-training/raw/master/07-power-query-gui/07-Solution.pbix)
 
 ## Video
 

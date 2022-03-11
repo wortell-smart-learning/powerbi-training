@@ -9,7 +9,7 @@ Ga verder met het bestand dat je in de vorige module hebt gebruikt.
 
 Alternatief als je de vorige opdracht niet hebt afgerond:
 
-Open het Power BI template-rapport [**startpunt-module-8.pbit**](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/startpunt-module-8.pbit)
+Open het Power BI template-rapport [08-Start](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration/08-Start.pbit)
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
@@ -65,9 +65,7 @@ Na de aanpassing van deze definities en codes, is het tijd om wat zaken aan te g
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht:
-
-[9 solution](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/9%20solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [09-Solution](https://github.com/vstrien/powerbi-training/raw/master/09-dax/09-Solution.pbix)
 
 ## Video
 

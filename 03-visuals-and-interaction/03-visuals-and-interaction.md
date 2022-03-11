@@ -1,4 +1,4 @@
-# Visuals en interactie
+# 03 Visuals en interactie
 
 Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rapporten aan te passen. In deze module willen we hier iets verder naar kijken aan de hand van de volgende punten:
 
@@ -10,7 +10,7 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand [startpunt-module-3.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/startpunt-module-3.pbit)
+**Open** het bestand [03-Start.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/03-Solution.pbit)
 
 Tijdens het openen krijg je wellicht de volgende melding. 
 
@@ -141,7 +141,7 @@ Nu zorgt een *drilldown* niet meer automatisch voor een filtering binnen een and
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht: [eindpunt-module-3.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/eindpunt-module-3.pbit)
+Hier vind je het eindpunt van deze opdracht: [03-Solution](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/03-Solution.pbit)
 
 ## Video
 
