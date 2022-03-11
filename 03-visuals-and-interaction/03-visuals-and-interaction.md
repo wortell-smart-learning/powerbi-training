@@ -10,15 +10,15 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand **startpunt-module-3.pbit**.
+**Open** het bestand [startpunt-module-3.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/startpunt-module-3.pbit)
 
 Tijdens het openen krijg je wellicht de volgende melding. 
 
-![Unable to connect](img/00-01-unable-to-connect.png)
+![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-01-unable-to-connect.png)
 
 Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
 
-![Select a dataset](img/00-02-select-dataset.png)
+![Select a dataset](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-02-select-dataset.png)
 
 ## Interactions
 
@@ -135,9 +135,17 @@ Standaard werkt de filtering van een *drilldown* gelijk aan de filtering van een
 
 * Selecteer de linkergrafiek (*Internet Total Sales by Country Region Name*)
 * Open het menu *Format*
-* Naast de knop *Edit interactions* staat een vinkje bij **Drilling filters other visuals**. Schakel dit uit.
+* Naast de knop *Edit interactions* staat een pulldown menu, wijzig daar *Entire Page* in *Selected visual*.
 
 Nu zorgt een *drilldown* niet meer automatisch voor een filtering binnen een andere grafiek. Selecties werken nog wel.
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [eindpunt-module-3.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/eindpunt-module-3.pbit)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747018/6e578554b1)
 
 ## Volgende modules
 

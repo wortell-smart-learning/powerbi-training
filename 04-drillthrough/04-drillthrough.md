@@ -1,5 +1,23 @@
 # Drillthrough
 
+## Voorbereiding
+
+Ga verder met het bestand dat je in de vorige module hebt gemaakt.
+
+Alternatief als je de vorige opdracht niet correct hebt afgerond:
+
+**Open** het bestand [startpunt-module-4.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/startpunt-module-4.pbit)
+
+Tijdens het openen krijg je wellicht de volgende melding. 
+
+![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-01-unable-to-connect.png)
+
+Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
+
+![Select a dataset](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-02-select-dataset.png)
+
+## Opdracht
+
 Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geografische mogelijkheden van Power BI. Het is echter niet heel handig om alle geografische achtergrondinformatie over een regio in elk rapport te herhalen. Het liefst zou ze bij bijvoorbeeld een uitschieter in verkopen in een bepaald land willen kunnen "doorklikken" naar alle informatie van dat land. Bijvoorbeeld de trend in verkopen de afgelopen jaren, het aantal vestigingen in dat land, etc..
 
 Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land. Hieronder staat een voorbeeld **zoals het aan het einde van de module gaat werken** (zodat je ziet hoe een drillthrough werkt).
@@ -61,7 +79,7 @@ Om Drillthrough tussen meerdere rapporten werkend te krijgen hebben we (minstens
 * Het *bron-rapport*. Dit is het rapport waar je vandaan komt (hier "doe" je een drillthrough)
 * Het *doel-rapport*. Dit is het rapport waar je terecht komt na een drillthrough.
 
-Maak nu een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace.
+Maak nu eerst via *File*, *New* een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace en sla dit op onder de naam *module-4-drillthrough-report*.
 
 Maak in dit nieuwe rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
 
@@ -94,6 +112,19 @@ Publiceer het rapport, en test of de drillthrough over rapporten heen werkt in d
 Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zorg ervoor dat hier een zinnige naam komt te staan, die de lading dekt.
 
 ![Deze beschrijving kan beter...](img/09-onzinnige-naam.png)
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht:
+
+[eindpunt-module-4.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/eindpunt-module-4.pbit)
+
+[eindpunt-module-4-drillthrough-report](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/eindpunt-module-4-drillthrough-report.pbit)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747083/d8e167c13e)
+
 
 ## Volgende modules
 
