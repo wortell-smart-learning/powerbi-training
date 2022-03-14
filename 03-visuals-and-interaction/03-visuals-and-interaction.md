@@ -10,9 +10,9 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand [03-Start.pbit](03-Solution.pbit)
+**Open** het bestand [03-Start.pbit](03-Start.pbit)
 
-Tijdens het openen krijg je wellicht de volgende melding. 
+Tijdens het openen krijg je wellicht de volgende melding.
 
 ![Unable to connect](img/00-01-unable-to-connect.png)
 
