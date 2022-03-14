@@ -21,7 +21,7 @@ De eerste keer dat je Power BI start zie je het volgende scherm:
 
 Klik op "Get Started" om in te loggen en met Power BI te starten.
 
-Waarschijnlijk heb je nog niet automatisch een Power BI account. Je kunt met de knop **Sign up for Power BI** dit eenvoudig regelen. Als je dit proces in de browser volledig doorlopen hebt, kun je direct met je BITrainer.nl-account inloggen bij Power BI Desktop.
+Waarschijnlijk heb je nog niet automatisch een Power BI account. Je kunt met de knop **Sign up for Power BI** dit eenvoudig regelen. Als je dit proces in de browser volledig doorlopen hebt, kun je direct met je eigen Power BI account inloggen bij Power BI Desktop.
 
 Het scherm ziet er nu als volgt uit:
 
