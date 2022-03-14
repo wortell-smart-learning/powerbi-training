@@ -1,19 +1,20 @@
-# Publiceren en samenwerken in workspaces
+# 08 Publiceren en samenwerken in workspaces
 
 ## Publiceren van rapporten
 
 Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het Power BI template-rapport [**startpunt-module-8.pbit**](./startpunt-module-8.pbit)
+* Open het Power BI template-rapport [08-Start](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/08-Start.pbit)
+
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
-![Unable to connect](img/00-unable-to-connect.png)
+![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/00-unable-to-connect.png)
 
 * Klik op **Edit**
 * Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
 
-![Kies AdventureWorks](img/SelectModelFromPBI.png)
+![Kies AdventureWorks](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/SelectModelFromPBI.png)
 
 * Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 8"
 * Onder de **Home** ribbon, klik op **Publish**
@@ -106,7 +107,7 @@ Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te d
 6. Zodra je een nieuwe(re) versie van een rapport wilt publiceren, publiceer je de app opnieuw. De eindgebruiker krijgt nu automatisch de nieuwste versie van het rapport.
 
 * Open nu de werkruimte die je eerder hebt aangemaakt
-* Rechtsklik bovenin op de knop "App maken"
+* Rechtsklik bovenin op de knop Create App
 
 ![Publish app button](img/05-publish-app.png)
 
@@ -141,6 +142,14 @@ Test dit:
 * Kijk bij jezelf en/of bij een collega die de app gebruikt of de wijzigingen inderdaad verborgen blijven
 * Publiceer de app workspace
 * Controleer of de wijzigingen inderdaad doorkomen
+
+## Oplossing
+
+Deze opdracht is volledig in Power BI Service en beschikt daarom niet over een oplossing bestand.
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747443/076f2c2845)
 
 ## Volgende modules
 

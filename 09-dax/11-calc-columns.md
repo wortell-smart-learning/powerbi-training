@@ -1,9 +1,25 @@
-# Meer Calculated Columns
+# 09 Meer Calculated Columns
 
 Met *calculated columns* kun je in een kolom voor elke rij van een tabel een berekening laten uitvoeren. In de vorige module hebben we hier een voorbeeld van gezien, waarbij in elke rij in de producttabel de bijbehorende subcategorie en categorie werd opgezocht via de functie `RELATED`.
 
 In deze module kijken we naar andere mogelijkheden van _calculated columns_.
+## Voorbereiding
 
+Ga verder met het bestand dat je in de vorige module hebt gebruikt.
+
+Alternatief als je de vorige opdracht niet hebt afgerond:
+
+Open het Power BI template-rapport [08-Start](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration/08-Start.pbit)
+
+De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
+
+![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/00-unable-to-connect.png)
+
+* Klik op **Edit**
+* Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
+
+![Kies AdventureWorks](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/SelectModelFromPBI.png)
+ 
 ## Berekeningen
 
 Bij het definiëren van _calculated columns_ kun je gebruikmaken van een heel arsenaal aan DAX-functies. Van heel geavanceerde (die feitelijk voor elke rij in de tabel een nieuwe query uitvoeren) tot basale functies als optellen en aftrekken.
@@ -46,6 +62,14 @@ Na de aanpassing van deze definities en codes, is het tijd om wat zaken aan te g
   * ... maar je hoeft geen extra DAX-expressies, measues of calculated columns toe te voegen
 
 ![Doelopmaak rapport](img/screenshot-pbi-doel.png)
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [09-Solution](https://github.com/vstrien/powerbi-training/raw/master/09-dax/09-Solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/586426505/dffdaeb522)
 
 ## Laatste module
 

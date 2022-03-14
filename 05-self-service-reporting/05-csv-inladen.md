@@ -1,4 +1,4 @@
-# CSV-data inladen, introductie Power Query en eerste visualisatie
+# 05-01 CSV-data inladen, introductie Power Query en eerste visualisatie
 
 Binnen het AdventureWorks Data Warehouse is veel data aanwezig, maar niet alle data. Het blijkt dat voor specifieke historische verkoopcijfers uit 2014 er nog extra data uit een oud systeem zijn, die niet in het Data Warehouse aanwezig zijn. Nu heeft de beheer-afdeling CSV-exports hiervan gemaakt, in de hoop dat jij deze inzichtelijk kunt maken in een rapport.
 
@@ -111,6 +111,14 @@ Hieronder zie je een mogelijke uitkomst.
 ![Mogelijke uitkomst van rapport](img/mogelijke-uitkomst.png)
 
 **Sla het bestand op - we gaan hier in het volgende onderdeel mee verder**.
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [05-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-01-Solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
 
 ## Volgende modules
 
