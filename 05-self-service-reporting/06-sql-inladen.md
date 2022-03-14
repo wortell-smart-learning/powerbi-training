@@ -1,10 +1,15 @@
-# SQL-bronnen inladen
+# 05-02 SQL-bronnen inladen
 
 De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Het blijkt echter dat ook deze context niet in het Data Warehouse ontsloten is. En aangezien we wel graag snel enkele inzichten hierover willen, moeten we verder zoeken. We komen uit bij twee operationele bronsystemen, waar de data voor ons beschikbaar is.
 
 ## Voorbereiding
 
 We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
+
+Alternatief als je de vorige opdracht niet correct hebt afgerond:
+
+**Open** het bestand [05-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-01-Solution.pbix)
+
 
 ## Inladen van SQL-data
 
@@ -54,15 +59,24 @@ In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. De
 * database: AdventureWorksLT
 * tabel: SalesLT.Store
 
-Probeer nu de vrachtkosten per winkel weer te geven. Dit doe je door in het rapport achtereenvolgens de volgende velden toe te voegen:
+Probeer nu de vrachtkosten per winkel weer te geven. Dit doe je door in het rapport een Tabel visualisatie toe te voegen met daarin de volgende twee velden:
 
-1. Store -> Name
+1. SalesLT.Store -> Name
 2. 2014-01 -> Freight
 
 ![Aanvinken van store en 2014-01](img/store-aanvinken.gif)
 
 Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven. Dit is uiteraard niet correct!
 Het geeft aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Freight]`) geen relatie bestaat. In een volgende module kijken we hoe we deze relatie kunnen vormgeven.
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [05-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-02-Solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
+
 
 ## Volgende modules
 

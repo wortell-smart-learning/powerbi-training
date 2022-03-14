@@ -1,6 +1,15 @@
-# Opschonen en introductie calculated columns
+# 06-02 Opschonen en introductie calculated columns
 
 Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
+
+## Voorbereiding
+
+We gaan verder met het rapport uit het vorig onderdeel van deze module.
+
+Alternatief als je de vorige opdracht niet correct hebt afgerond:
+
+**Open** het bestand [06-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-01-Solution.pbix)
+
 
 ## Opschonen van je model en calculated columns
 
@@ -47,8 +56,14 @@ In de "Data"-weergave van Power BI kun je eenvoudig bekijken welke data er momen
 We kunnen hier kolommen toevoegen die gevuld worden op basis van een DAX-expressie. Dit noemen we "Calculated columns".
 
 * Voeg een nieuwe kolom toe aan de tabel "ProductSubcategory"
+
+![Calculated Column](img/addcalc.png)
+
   * Typ de onderstaande expressie handmatig in:
   * Expressie: `Product Category = RELATED('Product Category'[Product Category Name])`
+
+![Calculated Column](img/calculatedcolumn.png)
+
 * Verberg nu de gehele tabel ProductCategory
 
 Wanneer je nu naar de Report-weergave gaat, zul je zien dat er een tabel minder staat, en de naam van een productcategorie wordt weergegeven onder de tabel Product Subcategory. Er staat een klein "F(x)" teken bij om aan te geven dat het een calculated column is.
@@ -57,6 +72,14 @@ Wanneer je nu naar de Report-weergave gaat, zul je zien dat er een tabel minder 
 * Voeg op dezelfde wijze de naam uit *Country-Region* toe aan *Sales Territory*, en verberg de tabel *Country-Region*
 
 Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toegankelijk maken voor gebruikers van Power BI.
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [06-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-02-Solution.pbix)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747355/e3b8b0302a)
 
 ## Volgende modules
 

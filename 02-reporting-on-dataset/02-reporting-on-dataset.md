@@ -1,4 +1,4 @@
-# Rapporteren op de dataset: Power BI als rapportageschil
+# 02 Rapporteren op de dataset: Power BI als rapportageschil
 
 Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikken op bestaande "datasetsen".
 
@@ -161,6 +161,14 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Dit
 Het eindresultaat kan er bijvoorbeeld als volgt uit zien:
 
 ![Eindresultaat eerste rapport](img/09-eindresultaat-eerste-rapport.png)
+
+## Oplossing
+
+Hier vind je het eindpunt van deze opdracht: [02-Solution](https://github.com/vstrien/powerbi-training/raw/master/02-reporting-on-dataset/02-Solution.pbit)
+
+## Video
+
+Hier vind je de [Walkthrough video](https://vimeo.com/584747639/0f39be6d96)
 
 ## Volgende modules
 

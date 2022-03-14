@@ -1,4 +1,4 @@
-# Introductie Power BI
+# 01 Introductie Power BI
 
 ## Power BI Desktop downloaden en de eerste start
 
@@ -6,10 +6,13 @@
 
 Power BI Desktop is gratis te downloaden en op elke Windows-machine installeren. Mocht dat op jouw computer nog niet gedaan zijn, dan kun je Power BI downloaden vanaf de Windows Store, of vanaf [www.powerbi.com](https://powerbi.microsoft.com/nl-nl/). Wanneer het mogelijk is, installeer Power BI Desktop dan vanuit de Windows Store: dit zorgt ervoor dat je automatisch updates e.d. krijgt, en deze niet handmatig hoeft te downloaden.
 
-Wanneer je Power BI wilt installeren vanuit de Windows Store, let dan goed op! Zoals je ziet zijn er namelijk twee edities:
+Wanneer je Power BI wilt installeren vanuit de Windows Store, let dan goed op! Zoals je ziet zijn er namelijk drie edities:
 
-* **Power BI Desktop** is de tool waarmee je rapporten kunt bewerken en vormgeven
 * **Power BI** is een tooltje voor tablets waarmee je rapporten enkel kunt weergeven
+* **Power BI Desktop** is de tool waarmee je rapporten kunt bewerken en vormgeven
+* **Power BI Report Builder** is de tool waarmee je gepagineerde rapporten kunt maken
+
+Kies voor Power BI Desktop.
 
 ![Kies de juiste Power BI Desktop](img/juiste-powerbi-uit-store.png)
 
@@ -47,7 +50,7 @@ Merk de volgende zaken op:
    * **Fields** / **Format**: Hier zie je geen tekst van, maar dit zijn twee icoontjes waarmee je veel eigenschappen van visuals kunt instellen:  
    ![Fields en Format icons](img/fields-format.png)
    * **Drill trough**: Bijzondere drillthrough-filters (meer hierover later)
-4. Uiterst rechts op het scherm (rood omrand) is het **Fields** pane. Ook deze kun je in- en uitklappen. Hier zie je een lijst van alle tabellen, kolommen en measures die in je datamodel aanwezig zijn
+4. Uiterst rechts op het scherm (blauw omrand) is het **Fields** pane. Ook deze kun je in- en uitklappen. Hier zie je een lijst van alle tabellen, kolommen en measures die in je datamodel aanwezig zijn
 5. Binnen de Report-weergave, zie je onderin de verschillende **pagina's** van een rapport
 6. Binnen de Report-weergave is een groot wit vel aanwezig - de **canvas**. Hierop kun je je rapport vormgeven. De zwarte stippellijnen geven de randen aan.
 
