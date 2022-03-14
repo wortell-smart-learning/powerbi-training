@@ -8,7 +8,7 @@ We gaan verder met het rapport uit het vorig onderdeel van deze module.
 
 Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
-**Open** het bestand [06-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-01-Solution.pbix)
+**Open** het bestand [06-01-Solution](06-01-Solution.pbix)
 
 
 ## Opschonen van je model en calculated columns
@@ -75,7 +75,7 @@ Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toe
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht: [06-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-02-Solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [06-02-Solution](06-02-Solution.pbix)
 
 ## Video
 

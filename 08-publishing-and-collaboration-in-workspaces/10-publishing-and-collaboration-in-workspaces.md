@@ -4,17 +4,17 @@
 
 Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het Power BI template-rapport [08-Start](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/08-Start.pbit)
+* Open het Power BI template-rapport [08-Start](08-Start.pbit)
 
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
-![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/00-unable-to-connect.png)
+![Unable to connect](img/00-unable-to-connect.png)
 
 * Klik op **Edit**
 * Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
 
-![Kies AdventureWorks](https://github.com/vstrien/powerbi-training/raw/master/08-publishing-and-collaboration-in-workspaces/img/SelectModelFromPBI.png)
+![Kies AdventureWorks](img/SelectModelFromPBI.png)
 
 * Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 8"
 * Onder de **Home** ribbon, klik op **Publish**

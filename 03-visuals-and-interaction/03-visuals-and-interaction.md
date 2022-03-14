@@ -10,15 +10,15 @@ Binnen Power BI zitten veel mogelijkheden om de weergave en werking van je rappo
 
 ## Voorbereiding
 
-**Open** het bestand [03-Start.pbit](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/03-Solution.pbit)
+**Open** het bestand [03-Start.pbit](03-Solution.pbit)
 
 Tijdens het openen krijg je wellicht de volgende melding. 
 
-![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-01-unable-to-connect.png)
+![Unable to connect](img/00-01-unable-to-connect.png)
 
 Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
 
-![Select a dataset](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-02-select-dataset.png)
+![Select a dataset](img/00-02-select-dataset.png)
 
 ## Interactions
 
@@ -141,7 +141,7 @@ Nu zorgt een *drilldown* niet meer automatisch voor een filtering binnen een and
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht: [03-Solution](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/03-Solution.pbit)
+Hier vind je het eindpunt van deze opdracht: [03-Solution](03-Solution.pbit)
 
 ## Video
 

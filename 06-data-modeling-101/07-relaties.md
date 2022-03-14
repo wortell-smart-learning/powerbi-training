@@ -8,7 +8,7 @@ We gaan verder met het rapport dat we op een CSV-bestand en SQL bron hebben gebo
 
 Alternatief als je het vorig onderdeel niet correct hebt afgerond:
 
-**Open** het bestand [05-02-Solution](https://github.com/vstrien/powerbi-training/raw/master/05-self-service-reporting/05-02-Solution.pbix)
+**Open** het bestand [05-02-Solution](../05-self-service-reporting/05-02-Solution.pbix)
 
 ## Aanmaken van relaties
 
@@ -41,7 +41,7 @@ Keer nu terug naar de "report" weergave en verifieer dat de weergave van vrachtk
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht: [06-01-Solution](https://github.com/vstrien/powerbi-training/raw/master/06-data-modeling-101/06-01-Solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [06-01-Solution](06-01-Solution.pbix)
 
 ## Video
 

@@ -68,7 +68,7 @@ Tip: Je zult hier de "split column" functionaliteit regelmatig nodig hebben
 
 ## Oplossing
 
-Hier vind je het eindpunt van deze opdracht: [07-Solution](https://github.com/vstrien/powerbi-training/raw/master/07-power-query-gui/07-Solution.pbix)
+Hier vind je het eindpunt van deze opdracht: [07-Solution](07-Solution.pbix)
 
 ## Video
 

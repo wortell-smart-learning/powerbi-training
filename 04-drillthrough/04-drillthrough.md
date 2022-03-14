@@ -6,15 +6,15 @@ Ga verder met het bestand dat je in de vorige module hebt gemaakt.
 
 Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
-**Open** het bestand [04-Start.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-Start.pbit)
+**Open** het bestand [04-Start.pbit](04-Start.pbit)
 
 Tijdens het openen krijg je wellicht de volgende melding. 
 
-![Unable to connect](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-01-unable-to-connect.png)
+![Unable to connect](../03-visuals-and-interaction/img/00-01-unable-to-connect.png)
 
 Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
 
-![Select a dataset](https://github.com/vstrien/powerbi-training/raw/master/03-visuals-and-interaction/img/00-02-select-dataset.png)
+![Select a dataset](../03-visuals-and-interaction/img/00-02-select-dataset.png)
 
 ## Opdracht
 
@@ -115,7 +115,7 @@ Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zor
 
 ## Oplossing
 
-Hier vind je de eindpunten van deze opdracht: [04-01-Solution.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-01-Solution.pbit) en [04-02-Solution.pbit](https://github.com/vstrien/powerbi-training/raw/master/04-drillthrough/04-02-Solution.pbit)
+Hier vind je de eindpunten van deze opdracht: [04-01-Solution.pbit](04-01-Solution.pbit) en [04-02-Solution.pbit](04-02-Solution.pbit)
 
 ## Video
 
