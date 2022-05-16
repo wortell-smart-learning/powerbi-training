@@ -1,172 +1,167 @@
-# 08 Publiceren en samenwerken in workspaces
+# 08 Publishing and Collaboration in Workspaces
 
-## Publiceren van rapporten
+## Publishing reports
 
-Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te staan. Deze kun je vinden op [https://app.powerbi.com](https://app.powerbi.com).
+When you *publish* a report, it will appear in the online Power BI portal. This can be found at [https://app.powerbi.com](https://app.powerbi.com).
 
-* Open het Power BI template-rapport [08-Start](08-Start.pbit)
+* Open the Power BI template report [08-Start](08-Start.pbit)
 
-
-De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
+You cannot directly access the dataset that originally belonged to the report. That's why you get the error message **Unable to connect**
 
 ![Unable to connect](img/00-unable-to-connect.png)
 
-* Klik op **Edit**
-* Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
+* Click on **Edit**
+* Select the **AdventureWorks** dataset from your own workspace, and click on **Create**
 
 ![Kies AdventureWorks](img/SelectModelFromPBI.png)
 
-* Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 8"
-* Onder de **Home** ribbon, klik op **Publish**
-* In het venster **Publish to Power BI**, selecteer je **My workspace**. Dit is je eigen privé-omgeving binnen de Power BI-portal, en de plek waar we initieel een rapport gaan plaatsen.
+* Save your report in the folder where you keep the course files. Name it "Module 8"
+* Under the **Home** ribbon, click on **Publish**
+* In the **Publish to Power BI** window, select **My workspace**. This is your own private environment within the Power BI portal, and the place where we will initially post a report.
 
 ![Select My Workspace](img/00-01-select-my-workspace.png)
 
-Nadat het rapport geüploadet is, krijg je van Power BI een directe link naar het rapport. Klik op de link *Open 'Module 8.pbix' in Power BI* om het rapport weer te geven.
+After the report has been uploaded, Power BI will provide you with a direct link to the report. Click the *Open 'Module 8.pbix' link in Power BI* to view the report.
 
-Zoals je ziet, kun je het rapport nu vanuit een webbrowser bekijken en gebruiken.
+As you can see, you can now view and use the report from a web browser.
 
 ## Dashboards
 
-In de online omgeving van Power BI heb je naast rapporten ook *dashboards* tot je beschikking. Dit zijn door jou samengestelde verzamelingen van diverse *visuals* uit de rapporten die je gepubliceerd hebt. Volg de volgende stappen om een dashboard samen te stellen:
+In the online environment of Power BI, in addition to reports, you also have *dashboards* at your disposal. These are collections of various *visuals* compiled by you from the reports you have published. Follow these steps to build a dashboard:
 
-* Met het rapport **Module 8** geopend op de tab **Page 2**, wijs je met de muis naar **Internet Total Sales by Year**
-* Klik op het icoontje van een pin dat onder of boven de grafiek verschijnt (dit is afhankelijk van je browser en schermresolutie):
+* With the **Module 8** report open on the **Page 2** tab, point your mouse at **Internet Total Sales by Year**
+* Click on the icon of a pin that appears below or above the graph (depending on your browser and screen resolution):
 
 ![Pin visual icon](img/01-pin-visual.png)
 
-Power BI vraagt je vervolgens om een dashboard waar hij deze visual kan "vastpinnen". Wanneer je nog geen dashboards hebt, kun je hier enkel *Nieuw dashboard* kiezen.
+Power BI then asks you for a dashboard where it can "pin" this visual. If you don't have any dashboards yet, you can only choose *New dashboard* here.
 
-* Kies **New dashboard**, geef deze de naam **Mijn Dashboard**
-* Klik op **Pin**
-
+* Choose **New dashboard**, give it the name **My Dashboard**
+* Click on **Pin**
 
 ![Pin visual to new dashboard](img/02-pin-to-new-dashboard.png)
 
-* Schakel nu naar het tabblad **Product Sales**. Selecteer hier op de kaart de regio Australië.
-* **Pin** nu de grafiek **Internet Total Sales per Product Subcategory Name** aan het zojuist aangemaakte dashboard.
+* Now switch to the **Product Sales** tab. Select the region Australia on the map here.
+* **Pin** now the graph **Internet Total Sales per Product Subcategory Name** to the newly created dashboard.
 
 ![Pin visual to existing dashboard](img/02-pin-to-existing-dashboard.png)
 
-* Open nu **My Workspace** (*Mijn werkruimte*)
-* In je lijst met inhoud staat **Mijn Dashboard**. Klik hierop.
+* Now open **My Workspace**
+* Your content list will contain **My Dashboard**. Click on this.
 
-Zoals je ziet, worden de visuals weergegeven op de manier waarop je ze in het rapport zag op het moment dat je ze vastpinde. De **Internet Total Sales per product subcategory name** heeft dus een gefilterde weergave. De inhoud wordt echter wel bijgewerkt wanneer de achterliggende data wijzigt.
+As you can see, the visuals will appear the way you saw them in the report when you pinned them. The **Internet Total Sales per product subcategory name** therefore has a filtered view. However, the content is updated when the underlying data changes.
 
-Het dashboard bestaat uit zogenaamde "tiles" of "tegels". Dit zijn niet alleen de visuals, maar ook andere tegels die je kunt toevoegen. Bijvoorbeeld via de knop "Tegel toevoegen"in het menu "Bewerken":
+The dashboard consists of so-called "tiles". There are not only visuals, but also other tiles that you can add. For example via the "Add tile" button in the "Edit" menu:
 
 ![Tiles](img/03-tiles.png)
 
-* Probeer nu het dashboard af te maken zodat het er als volgt uitziet.
-* De URL van het plaatje dat hier gebruikt is, is [http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif](http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif).
+* Now try to finish the dashboard so that it looks like this.
+* The URL of the image used here is [http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif](http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif).
 
 ![Dashboard finish](img/04-dashboard-finish.gif)
 
-## Aanmaken van workspaces
+## Creating workspaces
 
-Om samen aan rapporten te kunnen werken, kun je in de Power BI portal zogenaamde "workspaces" of "werkruimten" maken.
+To be able to collaborate on reports, you can create so-called "workspaces" or "workspaces" in the Power BI portal.
 
-* Klik op "Workspaces"
-* Klik "Create a workspace"
+* Click on "Workspaces"
+* Click "Create a workspace"
 
-> Wanneer je gebruik maakt van de gratis versie van Power BI, krijg je hier waarschijnlijk een venster **Upgrade to Power BI Pro**. Kies hier voor **Try Pro for free** - je kunt dan 60 dagen lang gebruik maken van de features van Power BI Pro.
+> If you are using the free version of Power BI, you will probably get an **Upgrade to Power BI Pro** window here. Choose here for **Try Pro for free** - you can then use the features of Power BI Pro for 60 days.
 
-* Geef de werkruimte een creatieve naam
+* Give the workspace a creative name
 
-In de werkruimte kun je ook collega's toevoegen om je werk te delen. Dit is enigszins vergelijkbaar met hoe Office 365-groepen werken. In het verleden was elke Power BI-groep ook automatisch een Office 365-groep - sinds april 2019 is dit echter verleden tijd en worden Power BI groepen apart beheerd binnen de Power BI portal.
+In the workspace, you can also add colleagues to share your work. This is somewhat similar to how Office 365 groups work. In the past, each Power BI group was also automatically an Office 365 group - however, since April 2019, this is a thing of the past and Power BI groups are managed separately within the Power BI portal.
 
-## Uploaden en downloaden binnen een workspace
+## Upload and download within a workspace
 
-We gaan nu Power BI-rapporten uploaden en delen. Wanneer je geen collega's hebt die Power BI gebruiken of deze Power BI training volgen, kun je ook zelf collega "spelen". Om het doeleinde (en de herkomst) van deze rapporten overduidelijk te maken, geven we ze eerst een andere naam. Dit hoef je in je dagelijks werk uiteraard niet te doen, maar is voor de training wel zo handig:
+Let's now upload and share Power BI reports. If you don't have colleagues who use Power BI or follow this Power BI training, you can also "play" colleagues yourself. To make the purpose (and origin) of these reports abundantly clear, we first rename them. Of course you don't have to do this in your daily work, but it is handy for training:
 
 * Open Power BI Desktop
-* Sla het bestand 'Module 8' op onder een andere naam (bijvoorbeeld iets "Power BI training Wortell Smart" en je eigen naam erin).
-* Publiceer het bestand naar de werkruimte die je zojuist hebt aangemaakt  
-![Publiceer naar de werkruimte](img/04b-publish-to-workspace.png)
-* Probeer of je enkele collega's kunt toevoegen aan je werkruimte, en kijk of jij in een werkruimte van een collega kunt meekijken.
-  * Het zou kunnen dat je Power BI opnieuw moet opstarten, voordat Power BI je (zojuist aangemaakte) Pro-trial herkent. Deze licentie heb je nodig om te mogen publiceren naar een *workspace*.
-* Vraag een collega om een rapport van jou te downloaden, wat mooie aanpassingen te doen, en het opnieuw te publiceren naar jouw werkruimte. Kijk zelf mee wat er gebeurt.
+* Save the file 'Module 8' under a different name (eg something like "Power BI training Wortell Smart" and your own name in it).
+* Publish the file to the workspace you just created
+![Publish to workspace](img/04b-publish-to-workspace.png)
+* Try to add some colleagues to your workspace, and see if you can watch a colleague's workspace.
+  * You may need to restart Power BI before Power BI recognizes your (just created) Pro trial. You need this license to be allowed to publish to a *workspace*.
+* Ask a colleague to download a report of yours, make some nice tweaks, and republish it to your workspace. See for yourself what is happening.
 
-> Wat je zojuist gedaan hebt, is het **samenwerken** - dit is voor de "achterkant" van Power BI: de mensen die je rechten wilt geven om jouw rapporten te bewerken, voeg je hier toe. Samen met hen ben je dan verantwoordelijk voor het *bouwen* van rapporten.
+> What you just did is **collaborate** - this is for the "back end" of Power BI: the people you want to give permissions to edit your reports, add here. Together with them you are then responsible for *building* reports.
 
-## Publiceren van een "App"
+## Publishing an "App"
 
-De samenwerkingsmogelijkheden in workspaces zijn gericht op rapport-ontwikkelaars. Het is echter niet handig om deze direct met alle eindgebruikers te delen:
+The collaboration capabilities in workspaces are aimed at report developers. However, it is not useful to share these directly with all end users:
 
-* Workspaces zijn niet al te (eind)gebruiksvriendelijk: je moet eerst naar een "workspace", om daar het juiste rapport aan te klikken.
-* Workspaces zijn ook niet heel handig wanneer je (als eindgebruiker) veel rapporten afneemt van diverse teams: dan zou je alle workspaces van die teams door moeten op zoek naar de rapporten die je nodig hebt
-* Delen met een eindgebruiker via een workspace beperkt je als rapport-eigenaar / -ontwikkelaar in je mogelijkheden: als je een nieuwe pagina aan het ontwikkelen bent (waarvan de data wellicht nog niet 100% correct is), ziet de eindgebruiker direct alle wijzigingen.
+* Workspaces are not very (end) user-friendly: you first have to go to a "workspace", to click on the correct report.
+* Workspaces are also not very useful when you (as an end user) use reports from various teams: you would have to go through all the workspaces of those teams in search of the reports you need
+* Sharing with an end user via a workspace limits your options as a report owner / developer: if you are developing a new page (of which the data may not yet be 100% correct), the end user will immediately see all changes.
 
-Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te delen heeft Microsoft de zogenaamde "Power BI Apps" gemaakt. Dit houdt in dat je als rapport-eigenaar een rapport kunt *publiceren* als ware het een "app", waarna de eindgebruiker *binnen de Power BI portal* deze weer kan "ophalen". Globaal ziet dat er als volgt uit:
+To share reports with end users in a neat, simple and stable way, Microsoft has created the so-called "Power BI Apps". This means that as a report owner you can *publish* a report as if it were an "app", after which the report consumer *within the Power BI portal* can "retrieve" it again. Globally it looks like this:
 
-1. Je werkt met collega's aan een rapport in een werkruimte
-2. Je bereikt een "stabiele versie" die je wilt gaan delen met je eindgebruikers
-3. *Je publiceert nu de werkruimte als een "app"*
-4. Je kunt nu doorgaan met ontwikkelen in de werkruimte: dit heeft geen invloed op de "gepubliceerde" app.
-5. De eindgebruiker haalt de app op, en doet analyses
-6. Zodra je een nieuwe(re) versie van een rapport wilt publiceren, publiceer je de app opnieuw. De eindgebruiker krijgt nu automatisch de nieuwste versie van het rapport.
+1. You work with colleagues on a report in a workspace
+2. You reach a "stable version" that you want to share with your end users
+3. *You publish the workspace as an "app"*
+4. You continue developing in the workspace: this will not affect the "published" app.
+5. The end user "installs" the app and performs analyses
+6. As soon as you want to publish a new(er) version of a report, republish the app. The end user will now automatically receive the latest version of the report.
 
-* Open nu de werkruimte die je eerder hebt aangemaakt
-* Rechtsklik bovenin op de knop Create App
-
+* Now open the workspace you created earlier
+* Right click on the Create App button at the top
 ![Publish app button](img/05-publish-app.png)
 
-* Voer een beschrijving in van de app
-* Schakel naar het tabblad **Navigation**
-  * Zoals je ziet, staat er momenteel slechts één rapport in deze workspace. Wanneer dit er meer waren zijn, kun je hier een eenvoudige navigatie toevoegen.
-* Schakel naar het tabblad **Permissions**
-* Wijs één of meer collega's binnen de cursus aan die jouw "app" mogen gaan gebruiken.
-* Publiceer de app
+* Enter a description of the app
+* Switch to the **Navigation** tab
+   * As you can see, there is currently only one report in this workspace. If there were more, you can add a simple navigation here.
+* Switch to the **Permissions** tab
+* Designate one or more colleagues within the course who may use your "app".
+* Publish the app
 
-### Gebruikmaken van een gepubliceerde app
+### Using a published app
 
-* Schakel nu naar het onderdeel **Apps** in het menu aan de linkerzijde van de Power BI Portal
+* Now switch to the **Apps** section in the menu on the left side of the Power BI Portal
 
-Dit is de weergave voor de gebruikers van Power BI apps. Als je een app publiceert, ben je zelf automatisch ook gebruiker, zodat je goed kunt zien hoe de app er voor je eindgebruikers uit zou zien.
+This is the view for the users of Power BI apps. When you publish an app, you are automatically a user yourself, so that you can clearly see what the app would look like for your end users.
 
-* Selecteer de gele knop "Get apps" (in het Nederlands is deze knop een beetje gek vertaald met "Apps downloaden")
+* Select the yellow button "Get apps"
 
 ![Get apps NL](img/06-get-apps.png)
 
-* Selecteer in het venster de app die je zojuist hebt toegevoegd door op de blauwe tekst "Get it now" / "Nu downloaden" te klikken.
-* Je app is nu toegevoegd aan het menu met Apps.
-* Klik op een app om het achterliggende rapport automatisch te openen
-* Probeer ook enkele apps van collega's te openen
+* In the window, select the app you just added by clicking the blue text "Get it now".
+* Your app has now been added to the Apps menu.
+* Click on an app to automatically open the underlying report
+* Also try to open some apps of colleagues
 
-Zoals hierboven verteld, zijn de wijzigingen die je in de workspace maakt niet zichtbaar voor eindgebruikers zolang je de app niet publiceert.
+As mentioned above, the changes you make to the workspace are not visible to end users until you publish the app.
 
-Test dit:
+Test this:
 
-* Maak wat wijzigingen in je rapport
-* Publiceer het opnieuw naar je eigen workspace
-* Kijk bij jezelf en/of bij een collega die de app gebruikt of de wijzigingen inderdaad verborgen blijven
-* Publiceer de app workspace
-* Controleer of de wijzigingen inderdaad doorkomen
+* Make some changes to your report
+* Republish it to your own workspace
+* Check with yourself and/or with a colleague who uses the app whether the changes are indeed hidden
+* Publish the app workspace
+* Check if the changes are indeed coming through
 
-## Oplossing
+## Solution
 
-Deze opdracht is volledig in Power BI Service en beschikt daarom niet over een oplossing bestand.
+As this exercise was entirely within the Power BI Portal there is no solution file (we didn't author any report)
 
 ## Video
 
-Hier vind je de [Walkthrough video](https://vimeo.com/584747443/076f2c2845)
+Here is the [Walkthrough video](https://vimeo.com/584747443/076f2c2845)
 
-## Volgende modules
+## Next module
 
-De volgende module is [Module 9: Calculated Columns met DAX](../09-dax/11-calc-columns.md).
+The next (final) module is [Module 9: Calculated Columns in DAX](../09-dax/11-calc-columns.md). Below is a complete overview of all available modules:
 
-Hieronder vind je een overzicht van alle modules:
-
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
-3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
+1. [Introduction Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+2. [Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+3. [Visuals and interaction](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
+   * [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md)
+   * [Loading data from SQL Databases](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/07-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md) (huidige module)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
+   * [Relations](../06-data-modeling-101/07-relaties.md)
+   * [Cleaning up your Data Model](../06-data-modeling-101/08-opschonen.md)
+7. [Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publishing and Collaboration in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md) (current module)
+9. [Calculated Columns in DAX](../09-dax/11-calc-columns.md)
