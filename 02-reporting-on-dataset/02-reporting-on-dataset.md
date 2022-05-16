@@ -166,7 +166,7 @@ For example, the end result might look like this:
 
 ## Solution
 
-Here's the endpoint of this command: [02-Solution](02-Solution.pbit)
+Here's the endpoint of this lab: [02-Solution](02-Solution.pbit)
 
 ## Video
 
