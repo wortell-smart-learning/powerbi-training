@@ -15,7 +15,7 @@ Alternatively if you didn't complete the previous assignment correctly:
 Now to make the data more useful, let's add data from other tables.
 
 1. To do this, connect to the **SQL Database** that is on Azure:
-    * Address: sigmadatalearning.database.windows.net
+    * Address: wortellsmartlearning.databas.windows.net
     * Database: AdventureWorks2019
 1. Leave the Data Connectivity mode on "Import":
    ![Connect to SQL Server](img/sqlserver-connect.png)
@@ -55,7 +55,7 @@ You can use the search function for this:
 
 In another source system, we also collected some information about stores. We are now going to load this data.
 
-* server: sigmadatalearning.database.windows.net
+* server: wortellsmartlearning.databas.windows.net
 * database: AdventureWorksLT
 * table: SalesLT.Store
 
