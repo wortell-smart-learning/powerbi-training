@@ -2,7 +2,7 @@
 
 With all relations in place, we can perform all kinds of analyzes on this data model. Before we continue, however, let's make a short stop: could we perhaps make this model a bit more user-friendly?
 
-##  Preparation
+## Preparation
 
 Let's continue with the report we built on a CSV file.
 
@@ -71,6 +71,7 @@ Now when you go to the Report view, you will see that there is one less table, a
 * Similarly, add the name from *Country-Region* to *Sales Territory*, and hide the *Country-Region* table
 
 As you can see, this makes it relatively easy to "flatten" your model and make it more accessible to Power BI users.
+
 ## Solution
 
 Here's the endpoint of this lab: [06-02-Solution](06-02-Solution.pbix)

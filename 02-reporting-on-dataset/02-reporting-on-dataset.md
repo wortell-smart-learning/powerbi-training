@@ -1,7 +1,8 @@
 # 02 Reporting on a Dataset
 
 Power BI can be used as "self-service" analytics tooling, where you ingest, transform and analyze data. However, it can also work with Datasets that are already developed by others.
-> ### What is a Dataset?
+
+> ## What is a Dataset?
 >
 > A Power BI Dataset is a Data Model (a collection of tables and relations between tables) ready for analysis. You can embed all kinds of logic into a Dataset, so new questions can be answered easily with a few clicks. A few terms are used extensively, and thus worth explaining:
 >
@@ -79,7 +80,7 @@ This one is fairly simple:
 
 8. In the **Fields** pane, using the search box, find the *measure* **Internet Total Sales**. Select the measure by clicking the empty box immediately left to the title.  
    ![Search box for fields in Power BI](img/internet-total-sales-searchbox.png)
-9. Now search for "Country", and select **Country Region Name**.
+8. Now search for "Country", and select **Country Region Name**.
 
 As you can see, this chart actually goes well automatically. And although the amount of tables and columns can be very large, you can easily search in the list of fields.
 
@@ -94,7 +95,7 @@ Because *Total Children* is a numeric value, Power BI automatically creates a me
 ![Het sigma-teken duidt een *measure* aan](img/01b-measure-sign.png)
 
 11. Make sure the chart you just created is selected.
-12. Move the **Total Children** field from the **Value** heading to **Axis** in the **Properties** of the chart (below the **visualizations** pane)..
+11. Move the **Total Children** field from the **Value** heading to **Axis** in the **Properties** of the chart (below the **visualizations** pane)..
 
 ![Total Children veld naar juiste plek brengen](img/02-total-children-to-axis.png)
 
@@ -109,7 +110,7 @@ Suppose we now want to make an extra breakdown according to the number of childr
 However, we can also explicitly specify how Power BI adds this field to a chart:
 
 13. Now make sure that the chart you just created is selected.
-14. Drag the **Number of Children at Home** field from the **Fields** list to the **Legend** heading
+13. Drag the **Number of Children at Home** field from the **Fields** list to the **Legend** heading
 
 ![Sleep Number of Children at Home direct naar Legend](img/05-sleep-children-at-home.png)
 

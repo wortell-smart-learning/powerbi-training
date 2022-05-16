@@ -44,7 +44,7 @@ Take note of these five areas:
    * **View**: Visual assistance (think grid lines), as well as the possibility to switch between the mobile view and desktop view modes.
    * **Help**: This is a rather complex feature, which we will not explain right here ;-)
    * **External Tools** Not always displayed (although it is on the screenshot), makes it possible to use other applications to work on your Power BI Reports or Datasets.
-3. On the right you will see two _panes_: **Visualizations** and **Filters**. You can collapse and expand panes by clicking on the title. Four main areas are visible:
+3. On the right you will see two *panes*: **Visualizations** and **Filters**. You can collapse and expand panes by clicking on the title. Four main areas are visible:
    * **Filters**: Filters active on the current report, page, or visual
    * **Visualizations**: Available visualizations for use in this report.
    * **Add data** / **Format**: These are located within the **Visualizations** pane, as "tabs" signified by these two icons:

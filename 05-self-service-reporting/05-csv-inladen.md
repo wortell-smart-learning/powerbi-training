@@ -37,16 +37,16 @@ The Power Query window will now open.
 On the right-hand side, under **Applied steps**, you can see the steps Power BI has taken to process your CSV file.
 
 4. Under the **applied steps**, click on the different steps, from top to bottom.
-    * View what changes happened when loading the CSV.
-    * What's going wrong?
-5. Remove the **Changed Type** step by clicking the cross next to it.
+   * View what changes happened when loading the CSV.
+   * What's going wrong?
+4. Remove the **Changed Type** step by clicking the cross next to it.
 
 By removing the **Changed Type** step we have discarded the information about *datatypes*. Power BI no longer knows what a number or a date is and classifies everything as text. You can also see this by the **ABC** icon above your columns:
 
 ![ABC icoontje zegt "dit is tekst"](img/alles-is-tekst.png)
 
 6. Now select the first four columns: **TotalDue**, **SubTotal**, **TaxAmt** and **Freight**
-    * You can select multiple columns by holding down the **Ctrl** key on your keyboard
+   * You can select multiple columns by holding down the **Ctrl** key on your keyboard
 
 As you saw earlier, Power BI interpreted the numbers (incorrectly) by using the country and region settings from Windows. In English, these settings are called *Locale*. We are therefore going to tell Power BI again how to interpret this data, but now with the correct region settings / *Locale*.
 

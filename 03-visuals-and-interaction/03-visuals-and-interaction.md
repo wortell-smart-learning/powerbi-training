@@ -86,11 +86,12 @@ In the data models that we purchase from a data set or Power BI model, data is o
 At the top right of the graph is a collection of arrows. These are for navigating through the hierarchy.
 
 ![Drilldown arrows](img/07-hierarchy-arrows.png)
+
 * Click on the down arrow (![Drilldown arrow](img/08-drilldown-arrow.png)).
-   * This arrow stands for *drilldown* (the BI term for "zooming in" to a lower level)
+  * This arrow stands for *drilldown* (the BI term for "zooming in" to a lower level)
 * Click on the "Bikes" category. You see that:
-   1. Chart title changes to *Internet Total Sales by Category and Subcategory*
-   2. The subcategories at the Subcategory level are displayed *which are within Bikes*
+  1. Chart title changes to *Internet Total Sales by Category and Subcategory*
+  2. The subcategories at the Subcategory level are displayed *which are within Bikes*
 * When you want to zoom out again (*drill up*), click on the arrow up.
 
 ### More hierarchy and drilldown
@@ -99,7 +100,7 @@ Another hierarchy present in this dataset is the *Calendar* hierarchy (within th
 
 * Create a chart that breaks down **Internet Total Sales** over **Calendar**.
 * *Drill down* to the year 2020.
-   * The graph **Internet Total Sales by Category** now filters along.
+  * The graph **Internet Total Sales by Category** now filters along.
 
 Now when we do a *drill down* on a year, we first come to a semester, and then to a quarter. But we don't need these levels in our report. So we remove these fields (for this particular chart) from the hierarchy.
 
@@ -136,6 +137,7 @@ By default, the filtering of a *drilldown* works the same as the filtering of a 
 * Next to the button *Edit interactions* is a pulldown menu, change *Entire Page* to *Selected visual*.
 
 Now a *drilldown* no longer automatically filters within another chart. Selections still work.
+
 ## Solution
 
 Here's the endpoint of this lab: [03-Solution](03-Solution.pbit)

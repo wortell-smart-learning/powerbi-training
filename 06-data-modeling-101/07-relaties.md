@@ -26,10 +26,10 @@ As you can see, there are several relationships, represented by lines between th
 
 In the picture above:
 
-* The relationship is between _Production ProductSubcategory_ and _Production Product_
-* The relationship is on both sides on the _ProductSubcategoryID_ column
-* The _ProductSubcategoryID_ column is unique within the _Production Product_ table (indicated by the "1" in the relationship)
-* When you filter the _Production ProductSubcategory_ table (for example, by clicking on a subcategory in a report), this filter continues to work in the list of displayed products.
+* The relationship is between *Production ProductSubcategory* and *Production Product*
+* The relationship is on both sides on the *ProductSubcategoryID* column
+* The *ProductSubcategoryID* column is unique within the *Production Product* table (indicated by the "1" in the relationship)
+* When you filter the *Production ProductSubcategory* table (for example, by clicking on a subcategory in a report), this filter continues to work in the list of displayed products.
 
 Try the filtering in the Report view of Power BI. Does it work as expected?
 
@@ -46,7 +46,6 @@ Here's the endpoint of this lab: [06-01-Solution](06-01-Solution.pbix)
 ## Video
 
 Here is the [Walkthrough video](https://vimeo.com/584747355/e3b8b0302a)
-
 
 ## Next modules
 

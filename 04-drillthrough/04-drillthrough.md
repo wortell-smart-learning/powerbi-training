@@ -88,6 +88,7 @@ Then set up the drillthrough reporting:
 ![Enable cross report drillthrough in target report](img/07-enable-cross-report-drillthrough-target.png)
 
 Publish the report, and test whether the drillthrough works across reports in the Power BI Portal.
+
 ## Bonus Exercises
 
 ### Change the name of the drillthrough action

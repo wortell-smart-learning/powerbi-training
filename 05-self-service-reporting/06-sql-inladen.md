@@ -10,7 +10,6 @@ Alternatively if you didn't complete the previous assignment correctly:
 
 **Open** the file [05-01-Solution](../05-self-service-reporting/05-01-Solution.pbix)
 
-
 ## Loading SQL data
 
 Now to make the data more useful, let's add data from other tables.
