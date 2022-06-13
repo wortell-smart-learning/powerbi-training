@@ -9,7 +9,7 @@ Ga verder met het bestand dat je in de vorige module hebt gebruikt.
 
 Alternatief als je de vorige opdracht niet hebt afgerond:
 
-Open het Power BI template-rapport [06-02-solution](../06-data-modeling-101/06-02-solution.pbix)
+Open het Power BI template-rapport [06-02-solution](../06-data-modeling-101/06-02-Solution.pbix)
 
 ## Berekeningen
 
