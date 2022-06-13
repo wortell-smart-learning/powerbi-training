@@ -9,17 +9,8 @@ Ga verder met het bestand dat je in de vorige module hebt gebruikt.
 
 Alternatief als je de vorige opdracht niet hebt afgerond:
 
-Open het Power BI template-rapport [08-Start](../08-publishing-and-collaboration-in-workspaces/08-Start.pbit)
+Open het Power BI template-rapport [06-02-solution](../06-data-modeling-101/06-02-solution.pbix)
 
-De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
-
-![Unable to connect](../08-publishing-and-collaboration-in-workspaces/img/00-unable-to-connect.png)
-
-* Klik op **Edit**
-* Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
-
-![Kies AdventureWorks](../08-publishing-and-collaboration-in-workspaces/img/SelectModelFromPBI.png)
- 
 ## Berekeningen
 
 Bij het definiëren van _calculated columns_ kun je gebruikmaken van een heel arsenaal aan DAX-functies. Van heel geavanceerde (die feitelijk voor elke rij in de tabel een nieuwe query uitvoeren) tot basale functies als optellen en aftrekken.
