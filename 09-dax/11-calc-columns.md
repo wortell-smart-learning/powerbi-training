@@ -10,17 +10,8 @@ Let's continue with the report we built on a CSV file.
 
 Alternatively if you didn't complete the previous assignment correctly:
 
-**Open** [08-Start](../08-publishing-and-collaboration-in-workspaces/08-Start.pbit)
+**Open** [08-Start](../06-data-modeling-101/06-02-solution.pbix)
 
-You cannot directly access the dataset that originally belonged to the report. That's why you get the error message **Unable to connect**
-
-![Unable to connect](../08-publishing-and-collaboration-in-workspaces/img/00-unable-to-connect.png)
-
-* Click on **Edit**
-* Select the **AdventureWorks** dataset from your own workspace, and click on **Create**
-
-![Kies AdventureWorks](../08-publishing-and-collaboration-in-workspaces/img/SelectModelFromPBI.png)
- 
 ## Calculations
 
 When defining _calculated columns_ you can use a whole arsenal of DAX functions. From very advanced (which actually run a new query for every row in the table) to basic functions such as addition and subtraction.
