@@ -1,73 +1,73 @@
-# 01 Introductie Power BI
+# 01 Introduction to Power BI
 
-## Power BI Desktop downloaden en de eerste start
+## Download and install Power BI Desktop
 
-### Downloaden van Power BI
+### Download Power BI Desktop
 
-Power BI Desktop is gratis te downloaden en op elke Windows-machine installeren. Mocht dat op jouw computer nog niet gedaan zijn, dan kun je Power BI downloaden vanaf de Windows Store, of vanaf [www.powerbi.com](https://powerbi.microsoft.com/nl-nl/). Wanneer het mogelijk is, installeer Power BI Desktop dan vanuit de Windows Store: dit zorgt ervoor dat je automatisch updates e.d. krijgt, en deze niet handmatig hoeft te downloaden.
+You can download and install Power BI Desktop for free on every Windows-machine. If you haven't yet installed Power BI on your computer, you can either download Power BI from Microsoft Store, or directly from [www.powerbi.com](https://powerbi.microsoft.com/en-us/). Whenever possible, install Power BI Desktop from Microsoft Store: this will keep Power BI Desktop up-to-date automatically.
 
-Wanneer je Power BI wilt installeren vanuit de Windows Store, let dan goed op! Zoals je ziet zijn er namelijk drie edities:
+If you install Power BI from Microsoft Store, be sure to select the right version! You will see (at least) three different options displayed:
 
-* **Power BI** is een tooltje voor tablets waarmee je rapporten enkel kunt weergeven
-* **Power BI Desktop** is de tool waarmee je rapporten kunt bewerken en vormgeven
-* **Power BI Report Builder** is de tool waarmee je gepagineerde rapporten kunt maken
+* **Power BI** is a tablet application used to display (not author) reports
+* **Power BI Desktop** is the right app for authoring reports
+* **Power BI Report Builder** is an application to create "Paginated Reports", which you can ignore for now.
 
-Kies voor Power BI Desktop.
+Download Power BI Desktop.
 
 ![Kies de juiste Power BI Desktop](img/juiste-powerbi-uit-store.png)
 
-### De eerste start
+### First Steps
 
-De eerste keer dat je Power BI start zie je het volgende scherm:
+At the first start, Power BI Desktop opens with a popup window:
 
 ![Registration form](img/sign-in-powerbi.png)
 
-Klik op "Get Started" om in te loggen en met Power BI te starten.
+Click on "Get Started" to log in and start working with Power BI.
 
-Waarschijnlijk heb je nog niet automatisch een Power BI account. Je kunt met de knop **Sign up for Power BI** dit eenvoudig regelen. Als je dit proces in de browser volledig doorlopen hebt, kun je direct met je eigen Power BI account inloggen bij Power BI Desktop.
+If you do not have a Power BI account yet, you can easily create one by pressint **Sign up for Power BI**. Immediately after completing this process inside your browser you can sign in with your brand new account in Power BI Desktop.
 
-Het scherm ziet er nu als volgt uit:
+Your screen will now look like this:
 
 ![Power BI screenshot](img/powerbi-screenshot.png)
 
-Merk de volgende zaken op:
+Take note of these five areas:
 
-1. Linksboven zie je drie knoppen, waarmee je tussen *drie weergaven* van je Power BI model kunt schakelen:
+1. Three buttons to switch to the three different *views* of your Power BI model:
    * **Report**
    * **Data**
    * **Model**
-2. Bovenin zie je een **ribbon** (of "lint"), die net werkt als in Office kent. De lint heeft zeven onderdelen:
-   * **File** (menu): Vergelijkbaar met het gelijknamige menu uit Office: opslaan, exporteren, printen en instellingen
-   * **Home**: Hier staan de meeste "basis" zaken die je nodig hebt voor het maken van Power BI-rapportages
-   * **Insert**: Diverse zaken die je toe kunt voegen aan je rapportage
-   * **Modeling**: Hier staan specifieke zaken voor het inrichten van je datamodel
-   * **View**: Hier kun je visuele hulpmiddelen aan- en uitzetten, en schakelen tussen de mobiele weergave en de desktop-weergave
-   * **Help**: Dit is een bijzonder ingewikkeld concept, dat voor nu te ver reikt om uit te leggen ;-)
-   * **External Tools** wordt niet altijd weergegeven (hier op de screenshot wel), maar dit geeft de mogelijkheid om met andere software verder te bouwen aan Power BI-rapporten of -datamodellen
-3. Aan de rechterzijde (paars omlijnd hierboven) zie je twee _panes_: **Visualizations** en **Filters**. Deze kun je in- en uitklappen door op de titel te klikken (try!). Er zijn drie grote onderdelen benoemd:
-   * **Filters**: filters die van toepassing zijn op het huidige rapport, de huidige pagina, of de huidige visual
-   * **Visualizations**: De verschillende visualisaties die je in een rapport kunt gebruiken.
-   * **Fields** / **Format**: Hier zie je geen tekst van, maar dit zijn twee icoontjes waarmee je veel eigenschappen van visuals kunt instellen:  
-   ![Fields en Format icons](img/fields-format.png)
-   * **Drill trough**: Bijzondere drillthrough-filters (meer hierover later)
-4. Uiterst rechts op het scherm (blauw omrand) is het **Fields** pane. Ook deze kun je in- en uitklappen. Hier zie je een lijst van alle tabellen, kolommen en measures die in je datamodel aanwezig zijn
-5. Binnen de Report-weergave, zie je onderin de verschillende **pagina's** van een rapport
-6. Binnen de Report-weergave is een groot wit vel aanwezig - de **canvas**. Hierop kun je je rapport vormgeven. De zwarte stippellijnen geven de randen aan.
+2. The **ribbon** with seven components:
+   * **File**: This is the menu, just like the identically named menu in Office: save, export, print and application settings
+   * **Home**: Most essential functions for creating Power BI reports are located here
+   * **Insert**: Objects to insert into your reports
+   * **Modeling**: Specific options for setting up your Dataset
+   * **View**: Visual assistance (think grid lines), as well as the possibility to switch between the mobile view and desktop view modes.
+   * **Help**: This is a rather complex feature, which we will not explain right here ;-)
+   * **External Tools** Not always displayed (although it is on the screenshot), makes it possible to use other applications to work on your Power BI Reports or Datasets.
+3. On the right you will see two *panes*: **Visualizations** and **Filters**. You can collapse and expand panes by clicking on the title. Four main areas are visible:
+   * **Filters**: Filters active on the current report, page, or visual
+   * **Visualizations**: Available visualizations for use in this report.
+   * **Add data** / **Format**: These are located within the **Visualizations** pane, as "tabs" signified by these two icons:
+   ![Add Data, Format icons](img/fields-format.png)
+   * **Drill trough**: Filters for use with Drill Through (we will dive into this later on)
+4. On the far right is the **Fields** pane. When the pane is expanded (and you have some data within Power BI), you will see a list of all tables, fields en measures in the Dataset
+5. Within the Report view you will see the different **pages** of a report located on the bottom.
+6. Within the Report view a white **canvas** is located in the middle. Here you will view your report. The black dotted line marks the edges of the report.
 
-## Volgende modules
+## Next modules
 
-De volgende module is [Module 2: Rapporteren op de dataset: Power BI als rapportageschil](../02-reporting-on-dataset/02-reporting-on-dataset.md). Hieronder vind je een overzicht van alle modules:
+The next module is [Module 2: Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md). Below is a complete overview of all available modules:
 
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) (huidige module)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
-3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
+1. [Introduction Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md) (current module)
+2. [Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+3. [Visuals and interaction](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
+   * [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md)
+   * [Loading data from SQL Databases](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/07-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
+   * [Relations](../06-data-modeling-101/07-relaties.md)
+   * [Cleaning up your Data Model](../06-data-modeling-101/08-opschonen.md)
+7. [Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publishing and Collaboration in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns in DAX](../09-dax/11-calc-columns.md)

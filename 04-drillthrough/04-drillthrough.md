@@ -1,26 +1,10 @@
 # 04 Drillthrough
 
-## Voorbereiding
+Within **Adventure Works**, your manager is particularly pleased with the geographic possibilities of Power BI. However, it is not very useful to repeat all the geographic background information about a region in every report. Ideally, she would like to be able to "click through" to all information about that country in the case of an outlier in sales in a certain country, for example. For example, the trend in sales in recent years, the number of branches in that country, etc.
 
-Ga verder met het bestand dat je in de vorige module hebt gemaakt.
+This "clicking through" is called **drillthrough** in a BI tool. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) we already looked at the *drilldown*. The *drillthrough* basically means that you take a closer look at a number on another page or in another report. This way you can easily see the context - for example of the sales within a certain country. Below is an example **as it will work at the end of the module** (so you can see how a drillthrough works).
 
-Alternatief als je de vorige opdracht niet correct hebt afgerond:
-
-**Open** het bestand [04-Start.pbit](04-Start.pbit)
-
-Tijdens het openen krijg je wellicht de volgende melding. 
-
-![Unable to connect](../03-visuals-and-interaction/img/00-01-unable-to-connect.png)
-
-Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eigen Workspace uit:
-
-![Select a dataset](../03-visuals-and-interaction/img/00-02-select-dataset.png)
-
-## Opdracht
-
-Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geografische mogelijkheden van Power BI. Het is echter niet heel handig om alle geografische achtergrondinformatie over een regio in elk rapport te herhalen. Het liefst zou ze bij bijvoorbeeld een uitschieter in verkopen in een bepaald land willen kunnen "doorklikken" naar alle informatie van dat land. Bijvoorbeeld de trend in verkopen de afgelopen jaren, het aantal vestigingen in dat land, etc..
-
-Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land. Hieronder staat een voorbeeld **zoals het aan het einde van de module gaat werken** (zodat je ziet hoe een drillthrough werkt).
+**Notice that you will not yet see this result if you start this lab, this is a preview of what you will achieve at the end**
 
 ![Bewegend voorbeeld van drillthrough](img/01-drillthrough-sample.gif)
 
@@ -28,116 +12,113 @@ Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](.
 ![Voorbeeld van een drillthrough - gebruiker kiest in context menu voor de optie "Drill through", daarna "Country Details"](img/01a-drillthrough-sample-step2.png)
 ![Voorbeeld van een drillthrough - Het tabblad "Country Details" opent, nu gefilterd op basis van Germany](img/01a-drillthrough-sample-step3.png)
 
-## Drillthrough binnen een rapport
+## Drillthrough within a report
 
-Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de volgende zaken regelen:
+If you want to enable a drillthrough within a report, you must arrange the following:
 
-1. Er moet een pagina zijn wat het *doel* van je drillthrough is.
-   * In het voorbeeld hierboven: de pagina "Country Details"
-2. Op deze *doel*pagina moet je een "drillthrough filter" instellen. In het voorbeeld hierboven is dit de naam van het land: wanneer je die ergens in het rapport tegenkomt, kun je in twee klikken naar de drillthrough-pagina navigeren, wat dan automatisch gefilterd is op de betreffende categorie.
-   * In het voorbeeld hierboven is het *drillthrough* filter `Country Region Name`.
+1. There should be a page stating the *goal* of your drillthrough.
+    * In the example above: the "Country Details" page
+2. On this *target* page you need to set a "drillthrough filter". In the example above, this is the name of the country: when you come across it somewhere in the report, you can navigate to the drillthrough page in two clicks, which is then automatically filtered by the relevant category.
+    * In the example above, the *drillthrough* filter is `Country Region Name`.
 
-### Drillthrough instellen in je rapport
+### Set up drillthrough in your report
 
-* Open het rapport 'startpunt-module-4.pbit'
-  * Selecteer zo nodig opnieuw je eigen *AdventureWorks* dataset (dit heb je in module 3 ook gedaan)
-* Voeg een pagina toe met de naam "Country Details"
-* Voeg hierop een *map visual* toe (![Icon of map visual](img/02-map-visual.png)). Configureer deze als volgt:
-  * **Location**: **State Province Name** (tabel *Geography*)
-  * **Size**: **Internet Total Sales** (tabel *Internet Sales*)
-* Voeg nu ook een zgn. "Treemap" toe voor *Internet Total Sales by Product Category Name*:
-  * Gebruik hier het veld **Product Category Name** uit de tabel **Product Category**
-![Voorbeeld treemap](img/03-treemap.png)
-* Klik ergens op het canvas zodat er geen *visual* meer geselecteerd is.
-* Onder het kopje **Drillthrough** vind je nu een vakje "Add drillthrough filters here". Sleep hier het veld **Country Region Name** heen (tabel *Geography*)
-* Ga terug naar de pagina *Page 2*, en rechtsklik op één van de landen in de grafiek. Als het goed is heb je nu een submenu *Drillthrough* naar de *Country Details*-pagina
+* Open the report 'startpoint-module-4.pbit'
+  * If necessary, reselect your own *AdventureWorks* dataset (you also did this in module 3)
+* Add a page called "Country Details"
+* Add a *map visual* to this (![Icon of map visual](img/02-map-visual.png)). Configure it as follows:
+  * **Location**: **State Province Name** (table *Geography*)
+  * **Size**: **Internet Total Sales** (table *Internet Sales*)
+* Now also add a so-called "Treemap" for *Internet Total Sales by Product Category Name*:
+  * Use the **Product Category Name** field from the **Product Category** table here
+![Treemap example](img/03-treemap.png)
+* Click anywhere on the canvas so that no more *visual* is selected.
+* Under the heading **Drillthrough** you will now find a box "Add drillthrough filters here". Drag the **Country Region Name** field here (table *Geography*)
+* Go back to the page *Page 2*, and right click on one of the countries in the chart. You should now have a *Drillthrough* submenu to the *Country Details* page
 
-Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer de pagina naar een workspace, publiceer deze als app, en bekijk het resultaten in de app.
+To top it off, you can now hide the **Country Details** page (right click on the tab, choose **Hide Page**). People viewing your report won't be able to see this page directly.
 
-Probeer nu zelf een tweede drillthrough-pagina "Product Category Details" aan te maken waarbij je alle gegevens binnen een productcategorie op een rij zet. Filter op basis van het veld **Product Subcategory Name** (tabel *Product Subcategory*). Geef de volgende zaken weer:
+Now try to create a second drillthrough page "Product Category Details" where you list all data within a product category. Filter based on the **Product Subcategory Name** field (table *Product Subcategory*). Display the following:
 
-*Bij elk punt staat wat extra uitdaging - deze hoef je niet uit te voeren. Mocht alles je echter gemakkelijk afgaan en je wilt wat meer de grenzen van Power BI opzoeken, dan kun je je hier even in vastbijten*
+*Each point has an extra challenge - you don't have to complete it. However, if everything comes easily to you and you want to push the boundaries of Power BI a little more, give it a shot!*
 
-1. Verkopen per man / vrouw / getrouwd / ongetrouwd
-   * Extra uitdaging: voeg bijbehorende titels toe binnen de visual ("Married men", "Single men", etc.)
-2. Verkopen per productkleur
-   * Eerste extra uitdaging: geef alleen de 5 bestverkopende kleuren weer
-   * Tweede extra uitdaging: laat de kleur bepaald worden door de productkleur
-3. Internet Total Sales per jaar
-4. Internet Total Units per jaar
+1. Sell per man / woman / married / unmarried
+   * Extra challenge: add corresponding titles within the visual ("Married men", "Single men", etc.)
+2. Sell by product color
+   * First additional challenge: display only the 5 best selling colors
+   * Second extra challenge: let the color be determined by the product color
+3. Internet Total Sales per year
+4. Internet Total Units per year
 
 ![Voorbeeld resultaat opdracht](img/05-drillthrough-within-report-final.png)
 
-Wanneer je drillthrough pagina correct werkt, zou je vanaf pagina "Product Sales" nu een drillthrough moeten kunnen maken naar "Product Category Details"
+If your drillthrough page is working correctly, you should now be able to drillthrough to "Product Category Details" from page "Product Sales"
 
-## Drillthrough tussen meerdere rapporten
+## Drillthrough between multiple reports
 
-*Drillthrough* is ook mogelijk tussen meerdere rapporten: je kunt dan de data vanuit een andere invalshoek meer verdieping geven in een ander rapport.
+*Drillthrough* is also possible between multiple reports: you can then give the data more depth from a different angle in another report.
 
-Om Drillthrough tussen meerdere rapporten werkend te krijgen hebben we (minstens) twee rapporten nodig:
+To get Drillthrough between multiple reports working we need (at least) two reports:
 
-* Het *bron-rapport*. Dit is het rapport waar je vandaan komt (hier "doe" je een drillthrough)
-* Het *doel-rapport*. Dit is het rapport waar je terecht komt na een drillthrough.
+* The *source report*. This is the report you came from (here you "do" a drillthrough)
+* The *target report*. This is the report you end up with after a drillthrough.
 
-Maak nu eerst via *File*, *New* een nieuw rapport dat verbinding maakt met de dataset AdventureWorks in je eigen workspace en sla dit op onder de naam *module-4-drillthrough-report*.
+Now first create a new report via *File*, *New* that connects to the AdventureWorks dataset in your own workspace and save it under the name *module-4-drillthrough-report*.
 
-Maak in dit nieuwe rapport een drillthrough filter per **Year** (tabel *Date*, in de hierarchy *Calendar*). Let erop dat je hier instelt dat je **Year** gebruiken moet als *categorie*:
+In this new report, create a drillthrough filter per **Year** (table *Date*, in the hierarchy *Calendar*). Note that you set here that you should use **Year** as *category*:
 
 ![Use calendar year as drillthrough per category](img/04-calendar-year-drillthrough-as-category.png)
 
-Je kunt vervolgens in het lijstje onder deze instelling een jaar kiezen dat je *nu* wilt weergeven (feitelijk filter je de data op "alleen de data van jaar X"). Zodra je via een *drillthrough* op dit rapport belandt, wordt dit filter vervangen door het jaartal waarmee je de drillthrough uitvoert. Het toevoegen van dit filter geeft je echter een beter gevoel over hoe de cijfers eruit zou zien bij een drillthrough van (bijvoorbeeld) 2012.
+You can then choose a year in the list under this setting that you want to display *now* (in fact you filter the data on "only the dates of year X"). As soon as you land on this report via a *drillthrough*, this filter is replaced by the year with which you perform the drillthrough. However, adding this filter will give you a better sense of what the numbers would look like on a drillthrough of (say) 2012.
 
-Vul vervolgens het rapport met inzichten over een jaar:
+Then fill the report with insights over a year:
 
-1. Het verloop van verkopen door het jaar heen (let op dat deze correct gesorteerd is)
-2. De verhouding tussen de verkopen t.o.v. een kwartaal geleden
+1. The course of sales throughout the year (make sure it is sorted correctly)
+2. The ratio of sales to a quarter ago
 
-Stel vervolgens de drillthrough reporting in:
+Then set up the drillthrough reporting:
 
-* In het **bron-rapport** (waar de drillthrough vandaan komt)
+* In the **source report** (where you start the drillthrough action)
   * **File** -> **Options and settings** -> **Options**
-  * Onder **Current file**, open **Report settings**
-  * Zet het vinkje bij **Allow visuals in this report to use drillthrough targets from other reports**  
+  * Under **Current file**, open **Report settings**
+  * Check the checkbox at **Allow visuals in this report to use drillthrough targets from other reports**  
 ![Enable cross report drillthrough in source report](img/06-enable-cross-report-drillthrough-source.png)
-* In het **doel-rapport** (waar de drillthrough naartoe gaat):
-  * Zet het vinkje **Cross-report** bij je **Drillthrough filter**  
+* In the **doel-rapport** (where the drillthrough action will take you):
+  * Check the box **Cross-report** under **Drillthrough filter**  
 ![Enable cross report drillthrough in target report](img/07-enable-cross-report-drillthrough-target.png)
 
-Publiceer het rapport, en test of de drillthrough over rapporten heen werkt in de Power BI Portal.
+Publish the report, and test whether the drillthrough works across reports in the Power BI Portal.
 
-## Bonus-opgaven
+## Bonus Exercises
 
-### Aanpassen drillthrough-naam
+### Change the name of the drillthrough action
 
-Standaard heeft de drillthrough de naam `Page1 [naam-van-oorspong-rapport]`. Zorg ervoor dat hier een zinnige naam komt te staan, die de lading dekt.
+By default, the drillthrough is titled `Page1 [name-of-source-report]`. Make sure this is replaced by a meaningful name.
 
 ![Deze beschrijving kan beter...](img/09-onzinnige-naam.png)
 
-## Oplossing
+## Solution
 
-Hier vind je de eindpunten van deze opdracht: [04-01-Solution.pbit](04-01-Solution.pbit) en [04-02-Solution.pbit](04-02-Solution.pbit)
+Here's the endpoint of this lab: [04-01-Solution.pbit](04-01-Solution.pbit) en [04-02-Solution.pbit](04-02-Solution.pbit)
 
 ## Video
 
-Hier vind je de [Walkthrough video](https://vimeo.com/584747083/d8e167c13e)
+Here is a [Walkthrough video](https://vimeo.com/584747083/d8e167c13e)
 
+## Next modules
 
-## Volgende modules
+The next module is Module 5: Self-service reporting. We start with [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md). Below is a complete overview of all available modules:
 
-De volgende module is Module 5: Self-service reporting. We beginnen hier met [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md).
-
-Hieronder vind je een overzicht van alle modules:
-
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
-3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
-4. [Drillthrough](../04-drillthrough/04-drillthrough.md) (huidige module)
+1. [Introduction Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+2. [Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+3. [Visuals and interaction](../03-visuals-and-interaction/03-visuals-and-interaction.md)
+4. [Drillthrough](../04-drillthrough/04-drillthrough.md) (current module)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
+   * [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md)
+   * [Loading data from SQL Databases](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/07-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
+   * [Relations](../06-data-modeling-101/07-relaties.md)
+   * [Cleaning up your Data Model](../06-data-modeling-101/08-opschonen.md)
+7. [Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publishing and Collaboration in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns in DAX](../09-dax/11-calc-columns.md)

@@ -1,99 +1,96 @@
-# 05-02 SQL-bronnen inladen
+# 05-02 Load data from SQL sources
 
-De CSV-data uit de vorige opdracht was niet heel nuttig: er zat veel technische data in, en miste wat context. Het blijkt echter dat ook deze context niet in het Data Warehouse ontsloten is. En aangezien we wel graag snel enkele inzichten hierover willen, moeten we verder zoeken. We komen uit bij twee operationele bronsystemen, waar de data voor ons beschikbaar is.
+The CSV data from the previous assignment was not very useful: it contained a lot of technical data and lacked some context. However, it appears that this context is not accessible in the Data Warehouse either. And since we would like some quick insights about this, we have to look further. We arrive at two operational source systems, where the data is available to us.
 
-## Voorbereiding
+## Preparation
 
-We gaan verder met het rapport dat we op een CSV-bestand hebben gebouwd.
+Let's continue with the report we built on a CSV file.
 
-Alternatief als je de vorige opdracht niet correct hebt afgerond:
+Alternatively if you didn't complete the previous assignment correctly:
 
-**Open** het bestand [05-01-Solution](../05-self-service-reporting/05-01-Solution.pbix)
+**Open** the file [05-01-Solution](../05-self-service-reporting/05-01-Solution.pbix)
 
+## Loading SQL data
 
-## Inladen van SQL-data
+Now to make the data more useful, let's add data from other tables.
 
-Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. 
-
-1. Maak hiervoor verbinding met de **SQL Database** die op Azure staat:
-   * Adres: sigmadatalearning.database.windows.net
-   * Database: AdventureWorks2019
-1. Laat de Data Connectivity mode op "Import" staan:
+1. To do this, connect to the **SQL Database** that is on Azure:
+    * Address: wortellsmartlearning.databas.windows.net
+    * Database: AdventureWorks2019
+1. Leave the Data Connectivity mode on "Import":
    ![Connect to SQL Server](img/sqlserver-connect.png)
 
-In het volgende venster word je gevraagd hoe je verbinding met deze database wilt maken.
+In the next window you will be asked how you want to connect to this database.
 
-3. Kies voor een **Database** login en vul de volgende login-gegevens in:
+3. Choose a **Database** login and fill in the following login details:
    * User: PowerBIUser
    * Password: PowerBI2
    ![Connection credentials](img/sqlserver-connect-credentials.png)
 
-Het venster "Navigator" opent. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! 
+The "Navigator" window opens. You will now first see a list of _views_, below that the _tables_ and finally _table-valued functions_. Note that there are different icons for this!
 
-4. Selecteer de volgende _tabellen_:
+4. Select the following _tables_:
    * Person.CountryRegion
    * Sales.SalesTerritory
    * Production.Product
    * Production.ProductSubcategory
    * Production.ProductCategory
 
-Je kunt hier de zoekfunctie voor gebruiken:
+You can use the search function for this:
 
 ![Power BI Navigator zoekfunctie](img/powerbi-navigator-zoekfunctie.png)
 
-5. Klik op **Load** om de data in te laden.
-
-Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritory. Vervang ProductID door de kolom "Name" uit ProductCategory. Zet de weergave van de X-as weer aan voor deze grafiek.
+5. Click on **Load** to load the data.
+5. Replace the TerritoryID in the report with the column "Name" from SalesTerritory.
+5. replace ProductID with the column "Name" from ProductCategory. 
+5. Turn the X-axis display back on for this graph.
 
 ![TotalDue by Territory, TaxAmt by Category](img/pbi-secondviz.png)
 
-> ### Automagie
+> ### Automagic
 >
-> Power BI heeft hier enkele relaties voor je aangelegd, zodat de data die je zojuist hebt ingeladen gekoppeld kon worden aan de data die uit een CSV-bestand kwam. Dit doet Power BI op basis van de kolomnamen, en op basis van de inhoud daarvan (alle waarden uit kolom A in tabel 1 moeten exact één keer voorkomen in kolom A in tabel 2).
+> Power BI has created a few relationships for you here, so that the data you just loaded could be linked to the data that came from a CSV file. Power BI does this based on the column names, and based on their contents (all values from column A in table 1 must appear exactly once in column A in table 2).
 >
-> Als je het interessant vindt, kun je kijken of je kunt achterhalen tussen welke kolommen de relatie gelegd is en welke "richting" deze heeft.
+> If you find it interesting, you try to find out between which columns the relationship is made and which "direction" it has.
 
-In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. Deze data gaan we nu inladen.
+In another source system, we also collected some information about stores. We are now going to load this data.
 
-* server: sigmadatalearning.database.windows.net
+* server: wortellsmartlearning.databas.windows.net
 * database: AdventureWorksLT
-* tabel: SalesLT.Store
+* table: SalesLT.Store
 
-Probeer nu de vrachtkosten per winkel weer te geven. Dit doe je door in het rapport een Tabel visualisatie toe te voegen met daarin de volgende twee velden:
+Try to display the freight cost per store. You do this by adding a Table visualization in the report containing the following two fields:
 
 1. SalesLT.Store -> Name
 2. 2014-01 -> Freight
 
 ![Aanvinken van store en 2014-01](img/store-aanvinken.gif)
 
-Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven. Dit is uiteraard niet correct!
-Het geeft aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Freight]`) geen relatie bestaat. In een volgende module kijken we hoe we deze relatie kunnen vormgeven.
+As you can see, exactly the same amount of freight ("freight") is displayed for each store. This is obviously not correct!
+It indicates that there is no relationship between these fields (`'Sales LT Store'[Name]` and `'2014-01'[Freight]`). In the next module we will look at how we can shape this relationship.
 
-## Oplossing
+## Solution
 
-Hier vind je het eindpunt van deze opdracht: [05-02-Solution](../05-self-service-reporting/05-02-Solution.pbix)
+Here's the endpoint of this lab: [05-02-Solution](../05-self-service-reporting/05-02-Solution.pbix)
 
 ## Video
 
-Hier vind je de [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
+Here is a [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
 
+## Next modules
 
-## Volgende modules
+The next module is Module 6: Data Modeling 101. We start with [Relations](../06-data-modeling-101/07-relaties.md). Below is a complete overview of all available modules:
 
-De volgende module is Module 7: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../06-data-modeling-101/07-relaties.md).
-
-Hieronder vind je een overzicht van alle modules:
-
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
-3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
+1. [Introduction Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+2. [Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+3. [Visuals and interaction](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md) (huidige module)
+   * [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md)
+   * [Loading data from SQL Databases](../05-self-service-reporting/06-sql-inladen.md) (current module)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/07-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
+   * [Relations](../06-data-modeling-101/07-relaties.md)
+   * [Cleaning up your Data Model](../06-data-modeling-101/08-opschonen.md)
+7. [Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publishing and Collaboration in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns in DAX](../09-dax/11-calc-columns.md)

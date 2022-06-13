@@ -1,102 +1,99 @@
-# 06-02 Opschonen en introductie calculated columns
+# 06-02 Improving your Dataset: Cleaning your Data Model; introduction of Calculated Columns
 
-Met alle relaties op de plaats kunnen we allerhande analyses uitvoeren op dit datamodel. Voordat we echter verder gaan maken we een korte pas op de plaats: kunnen we dit model wellicht wat gebruiksvriendelijker inrichten?
+With all relations in place, we can perform all kinds of analyzes on this data model. Before we continue, however, let's make a short stop: could we perhaps make this model a bit more user-friendly?
 
-## Voorbereiding
+## Preparation
 
-We gaan verder met het rapport uit het vorig onderdeel van deze module.
+Let's continue with the report we built on a CSV file.
 
-Alternatief als je de vorige opdracht niet correct hebt afgerond:
+Alternatively if you didn't complete the previous assignment correctly:
 
-**Open** het bestand [06-01-Solution](06-01-Solution.pbix)
+**Open** [06-01-Solution](06-01-Solution.pbix)
 
+## Cleaning your model and calculated columns
 
-## Opschonen van je model en calculated columns
+In order to make the current model - which comes directly from a "3NF" source system - more readable, we can apply some fixes easily:
 
-Om het huidige model - dat direct uit een 3NF-bronsysteem afkomstig is - beter leesbaar te maken, kunnen we enkele zaken eenvoudig oppakken:
+* Assign meaningful names to tables and columns
+* Remove unnecessary fields
+* Hide technical fields (like ID fields)
+* Reduce number of levels in tables
 
-* Begrijpelijke namen toewijzen aan tabellen en kolommen
-* Overbodige velden verwijderen
-* Technische velden (zoals sleutels) verbergen
-* Aantal niveaus in tabellen terugdringen
+## Basic cleaning of the data model
 
-## Basis opschonen model
+To keep the model more readable, we can remove or hide unnecessary columns.
 
-Om het model leesbaarder te houden, kunnen we overbodige kolommen verwijderen of verbergen.
+* Deleting a column removes it from the data model.
+  * The column then no longer takes up space.
+  * We do this, for example, for unused columns that have no relevant meaning for us, or columns that take up a lot of space, such as:
+    * XML data
+    * Globally Unique IDentifiers (GUID fields)
+    * Pictures
+* When hiding a column, it is invisible to a user by default.
+  * This makes the model more accessible, but keeps the columns available.
+  * This is useful, for example, for ID columns: they have no meaning, but are important to establish a relationship, for example.
 
-* Bij verwijderen van een kolom wordt deze uit het datamodel verwijderd.
-  * De kolom neemt dan geen ruimte meer in.
-  * Dit doen we bijvoorbeeld voor niet-gebruikte kolommen die geen relevante betekenis voor ons hebben, of kolommen die bijzonder veel ruimte innemen zoals:
-    * XML-data
-    * Globally Unique IDentifiers (GUID-velden)
-    * Afbeeldingen
-* Bij verbergen van een kolom is deze standaard onzichtbaar voor een gebruiker.
-  * Dit maakt het model meer toegankelijk, maar houdt de kolommen wel beschikbaar.
-  * Dit is bijvoorbeeld handig voor ID-kolommen: die hebben geen betekenis, maar zijn wel belangrijk om bijvoorbeeld een relatie te leggen.
+To make the model more readable, do the following:
 
-Voer de volgende zaken uit om het model leesbaarder te maken:
-
-* Hernoem de tabellen
+* Rename the tables
   * Person CountryRegion -> Country-Region
-  * Sales SalesTerritory -> Sales Territory
-  * Production Product -> Product
-  * Production ProductSubcategory -> Product Subcategory
-  * Production ProductCategory -> Product Category
+  * Sales Sales Territory -> Sales Territory
+  *Production Product -> Product
+  * Production Product Subcategory -> Product Subcategory
+  *Production ProductCategory -> Product Category
   * "2014-01" -> Sales
-* Hernoem de kolommen "Name" in elke tabel, zodat duidelijk is welke naam iets is
-  * Bijv. in de tabel "Store" de kolom "Name" -> "Store Name"
-* Hernoem de kolom "Group" in de tabel "Sales Territory" naar "Sales Territory Group"
-* Verberg alle ID-kolommen
-* Verwijder kolommen met XML- en GUID-data, en kolommen met de naam "ModifiedDate"
+* Rename the columns "Name" in each table so that it is clear what name something is
+  * E.g. in the table "Store" the column "Name" -> "Store Name"
+* Rename the column "Group" in the table "Sales Territory" to "Sales Territory Group"
+* Hide all ID columns
+* Remove columns with XML and GUID data, and columns named "ModifiedDate"
 
 ## Calculated Columns
 
-In de "Data"-weergave van Power BI kun je eenvoudig bekijken welke data er momenteel in het datamodel zit.
+In the "Data" view of Power BI, you can easily view what data is currently in the data model.
 
-We kunnen hier kolommen toevoegen die gevuld worden op basis van een DAX-expressie. Dit noemen we "Calculated columns".
+We can add columns here that are filled based on a DAX expression. We call this "Calculated Columns".
 
-* Voeg een nieuwe kolom toe aan de tabel "ProductSubcategory"
+* Add a new column to the "ProductSubcategory" table
 
 ![Calculated Column](img/addcalc.png)
 
-  * Typ de onderstaande expressie handmatig in:
-  * Expressie: `Product Category = RELATED('Product Category'[Product Category Name])`
+* Manually type the expression below:
+* Expression: `Product Category = RELATED('Product Category'[Product Category Name])`
 
 ![Calculated Column](img/calculatedcolumn.png)
 
-* Verberg nu de gehele tabel ProductCategory
+* Now hide the entire table ProductCategory
 
-Wanneer je nu naar de Report-weergave gaat, zul je zien dat er een tabel minder staat, en de naam van een productcategorie wordt weergegeven onder de tabel Product Subcategory. Er staat een klein "F(x)" teken bij om aan te geven dat het een calculated column is.
+Now when you go to the Report view, you will see that there is one less table, and the name of a product category is displayed under the table Product Subcategory. It has a small "F(x)" sign next to it to indicate that it is a calculated column.
 
-* Herhaal bovenstaande stappen om nu de namen van zowel de *productcategorie* als de *productsubcategorie* direct op te nemen in de *Product* tabel. Verberg ook de tabel *Product Subcategory*
-* Voeg op dezelfde wijze de naam uit *Country-Region* toe aan *Sales Territory*, en verberg de tabel *Country-Region*
+* Repeat the above steps to now include the names of both the *product category* and the *product subcategory* directly in the *Product* table. Also hide the table *Product Subcategory*
+* Similarly, add the name from *Country-Region* to *Sales Territory*, and hide the *Country-Region* table
 
-Zoals je ziet kun je hiermee relatief eenvoudig je model "platslaan" en meer toegankelijk maken voor gebruikers van Power BI.
+As you can see, this makes it relatively easy to "flatten" your model and make it more accessible to Power BI users.
 
-## Oplossing
+## Solution
 
-Hier vind je het eindpunt van deze opdracht: [06-02-Solution](06-02-Solution.pbix)
+Here's the endpoint of this lab: [06-02-Solution](06-02-Solution.pbix)
 
 ## Video
 
-Hier vind je de [Walkthrough video](https://vimeo.com/584747355/e3b8b0302a)
+Here is the [Walkthrough video](https://vimeo.com/584747355/e3b8b0302a)
 
-## Volgende modules
+## Next modules
 
-De volgende module is [Module 7: Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+The next module is [Module 7: Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md). Below is a complete overview of all available modules:
 
-Hieronder vind je een overzicht van alle modules:
-
-1. [Introductie Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
-2. [Rapporteren op Power BI Datasets en eerste visualisatie](../02-reporting-on-dataset/02-reporting-on-dataset.md)
-3. [Visuals en interactie](../03-visuals-and-interaction/03-visuals-and-interaction.md)
+1. [Introduction Power BI Desktop](../01-introduction/01-introduction-powerbi-desktop.md)
+2. [Reporting on a Dataset](../02-reporting-on-dataset/02-reporting-on-dataset.md)
+3. [Visuals and interaction](../03-visuals-and-interaction/03-visuals-and-interaction.md)
 4. [Drillthrough](../04-drillthrough/04-drillthrough.md)
 5. Self-service reporting
-   * [CSV-bestanden inladen](../05-self-service-reporting/05-csv-inladen.md)
-   * [SQL data inladen](../05-self-service-reporting/06-sql-inladen.md)
+   * [Loading CSV files](../05-self-service-reporting/05-csv-inladen.md)
+   * [Loading data from SQL Databases](../05-self-service-reporting/06-sql-inladen.md)
 6. Data Modeling 101
-   * [Relaties](../06-data-modeling-101/07-relaties.md)
-   * [Opschonen van je datamodel](../06-data-modeling-101/08-opschonen.md) (huidige module)
-7. [Introductie Power Query (GUI)](../07-power-query-gui/09-power-query.md)
-8. [Publiceren en samenwerken in workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
-9. [Calculated Columns met DAX](../09-dax/11-calc-columns.md)
+   * [Relations](../06-data-modeling-101/07-relaties.md)
+   * [Cleaning up your Data Model](../06-data-modeling-101/08-opschonen.md) (current module)
+7. [Introduction to Power Query (GUI)](../07-power-query-gui/09-power-query.md)
+8. [Publishing and Collaboration in Workspaces](../08-publishing-and-collaboration-in-workspaces/10-publishing-and-collaboration-in-workspaces.md)
+9. [Calculated Columns in DAX](../09-dax/11-calc-columns.md)
