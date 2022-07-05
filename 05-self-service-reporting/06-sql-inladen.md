@@ -16,7 +16,7 @@ Alternatief als je de vorige opdracht niet correct hebt afgerond:
 Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoegen. 
 
 1. Maak hiervoor verbinding met de **SQL Database** die op Azure staat:
-   * Adres: sigmadatalearning.database.windows.net
+   * Adres: wortellsmartlearning.database.windows.net
    * Database: AdventureWorks2019
 1. Laat de Data Connectivity mode op "Import" staan:
    ![Connect to SQL Server](img/sqlserver-connect.png)
