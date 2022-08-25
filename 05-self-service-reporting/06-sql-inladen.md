@@ -55,7 +55,7 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 
 In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. Deze data gaan we nu inladen.
 
-* server: sigmadatalearning.database.windows.net
+* server: wortellsmartlearning.database.windows.net
 * database: AdventureWorksLT
 * tabel: SalesLT.Store
 
