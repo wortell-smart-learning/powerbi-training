@@ -1,5 +1,5 @@
 # 02 Rapporteren op de dataset: Power BI als rapportageschil
-
+ 
 Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikken op bestaande "datasetsen".
 
 > ### Wat is een dataset
