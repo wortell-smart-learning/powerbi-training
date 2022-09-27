@@ -46,7 +46,7 @@ Voordat we met deze dataset van start kunnen, moet je de dataset op jouw eigen P
 
 Je hebt zojuist een Power BI dataset voor jezelf klaargezet. Dit was een stukje voorbereiding dat we nu zelf moesten doen, maar normaal gesproken kan dit ook door iemand anders gebeuren. Bijvoorbeeld door iemand uit een Business Intelligence- of Data Engineering-team, die data heeft klaargezet die breed gebruikt wordt op diverse plekken in de organisatie.
 
-
+{:start="6"}
 6. Open **Power BI Desktop**
 6. Maak verbinding met een **Power BI Dataset**:
    * Klik op het pijltje onder "Get Data"
