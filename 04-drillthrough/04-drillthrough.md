@@ -20,13 +20,7 @@ Klik dan op **edit** en kies vervolgens de **AdventureWorks** dataset in je eige
 
 Binnen **Adventure Works** is je leidinggevende bijzonder te spreken over de geografische mogelijkheden van Power BI. Het is echter niet heel handig om alle geografische achtergrondinformatie over een regio in elk rapport te herhalen. Het liefst zou ze bij bijvoorbeeld een uitschieter in verkopen in een bepaald land willen kunnen "doorklikken" naar alle informatie van dat land. Bijvoorbeeld de trend in verkopen de afgelopen jaren, het aantal vestigingen in dat land, etc..
 
-Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land. Hieronder staat een voorbeeld **zoals het aan het einde van de module gaat werken** (zodat je ziet hoe een drillthrough werkt).
-
-![Bewegend voorbeeld van drillthrough](img/01-drillthrough-sample.gif)
-
-![Voorbeeld van een drillthrough - gebruiker rechtsklikt op tabblad "Page 2"  op het land " Germany](img/01a-drillthrough-sample-step1.png)
-![Voorbeeld van een drillthrough - gebruiker kiest in context menu voor de optie "Drill through", daarna "Country Details"](img/01a-drillthrough-sample-step2.png)
-![Voorbeeld van een drillthrough - Het tabblad "Country Details" opent, nu gefilterd op basis van Germany](img/01a-drillthrough-sample-step3.png)
+Dit "doorklikken" wordt in een BI tool **drillthrough** genoemd. In [module 3](../03-visuals-and-interaction/03-visuals-and-interaction.md) hebben we al gekeken naar de *drilldown*. De *drillthrough* houdt in de basis in dat je een getal onder de loep neemt op een andere pagina of in een ander rapport. Op deze manier kun je eenvoudig de context bekijken - bijvoorbeeld van de verkopen binnen een bepaald land.
 
 ## Drillthrough binnen een rapport
 
