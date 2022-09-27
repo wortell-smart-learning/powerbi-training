@@ -20,9 +20,10 @@ Om de data nu nuttiger te maken, gaan we er data uit andere tabellen aan toevoeg
    * Database: AdventureWorks2019
 1. Laat de Data Connectivity mode op "Import" staan:
    ![Connect to SQL Server](img/sqlserver-connect.png)
-
+ 
 In het volgende venster word je gevraagd hoe je verbinding met deze database wilt maken.
 
+{:start="3"}
 3. Kies voor een **Database** login en vul de volgende login-gegevens in:
    * User: PowerBIUser
    * Password: PowerBI2  
@@ -30,6 +31,7 @@ In het volgende venster word je gevraagd hoe je verbinding met deze database wil
 
 Het venster "Navigator" opent. Je ziet nu eerst een lijst van _views_, daaronder de _tabellen_ en uiteindelijk _table-valued functions_. Merk op dat hier verschillende icoontjes voor zijn! 
 
+{:start="4"}
 4. Selecteer de volgende _tabellen_:
    * Person.CountryRegion
    * Sales.SalesTerritory
@@ -41,6 +43,7 @@ Je kunt hier de zoekfunctie voor gebruiken:
 
 ![Power BI Navigator zoekfunctie](img/powerbi-navigator-zoekfunctie.png)
 
+{:start="5"}
 5. Klik op **Load** om de data in te laden.
 
 Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritory. Vervang ProductID door de kolom "Name" uit ProductCategory. Zet de weergave van de X-as weer aan voor deze grafiek.

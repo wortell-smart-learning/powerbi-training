@@ -11,9 +11,7 @@ Start Power BI Desktop met een nieuw, leeg rapport.
 ## CSV-Data inladen
 
 1. Om een CSV-bestand in te laden ga je naar **Get Data** -> **Text/CSV**
-
-![Get data](img/importeer-csv.png)
-
+  ![Get data](img/importeer-csv.png)
 2. Selecteer het bestand ["2014-01.csv"](csv/2014-01.csv) uit de map "csv".
 
 Power BI maakt nu een inschatting van de structuur van het CSV-bestand. CSV is echter niet het meest duidelijke datatype.
@@ -30,12 +28,14 @@ Power BI maakt een aanname op basis van de landinstellingen van Windows: in een 
 
 ![Foute aanname door Power BI](img/2014-01.png)
 
+{:start="3"}
 3. Klik daarom onderin het venster op **Transform Data** om dit aan te passen.
 
 Het Power Query venster opent zich nu.
 
 Aan de rechterzijde zie je onder **Applied steps** de stappen die Power BI heeft genomen om je CSV-bestand te verwerken.
 
+{:start="4"}
 4. Klik onder de **applied steps** op de verschillende stappen, van boven naar beneden.
    * Bekijk wat voor wijzigingen er zijn gebeurd bij het inladen van de CSV.
    * Waar gaat het mis?
@@ -45,15 +45,18 @@ Met het verwijderen van de **Changed Type** stap hebben we de informatie over *d
 
 ![ABC icoontje zegt "dit is tekst"](img/alles-is-tekst.png)
 
+{:start="6"}
 6. Selecteer nu de eerste vier kolommen: **TotalDue**, **SubTotal**, **TaxAmt** en **Freight**
    * Je kunt meerdere kolommen selecteren door de **Ctrl**-toets ingedrukt te houden op je toetsenbord
 
 Zoals je eerder zag, interpreteerde Power BI de getallen (incorrect) door de instellingen voor land en regio vanuit Windows te gebruiken. In het Engels worden deze instellingen *Locale* genoemd. We gaan daarom Power BI opnieuw vertellen hoe deze data geïnterpreteerd moet worden, maar nu met de juiste regio-instellingen / *Locale*.
 
+{:start="7"}
 7. Rechtsklik op één van de kolommen en kies **Change Type** -> **Using Locale...**
 
 ![Change Type using Locale](img/change-type-using-locale.png)
 
+{:start="8"}
 8. Kies nu:
    * **Data Type**: **Decimal Number**
    * **Locale**: **English (United States)**
@@ -62,6 +65,7 @@ Onder *Sample input values:* geeft Power BI hoe de data nu verwacht wordt:
 
 ![Change Type venster](img/change-type-using-locale-venster.png)
 
+{:start="9"}
 9. Selecteer nu alle andere kolommen:
    * ProductID
    * StoreID
@@ -73,6 +77,7 @@ Onder *Sample input values:* geeft Power BI hoe de data nu verwacht wordt:
 
 Power BI herkent nu op basis van de inhoud van de andere kolommen wat voor data erin zit.
 
+{:start="11"}
 11. Kies op het lint onder **Home** nu **Close & Apply** om de CSV-data in te laden.
 
 ![Close & Apply knop](img/power-query-close.png)

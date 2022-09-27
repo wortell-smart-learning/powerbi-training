@@ -77,6 +77,7 @@ We gaan nu twee Power BI visualisaties maken:
 
 Deze is redelijk eenvoudig:
 
+{:start="8"}
 8. Zoek in het **Fields** pane via de zoekbox de *measure* **Internet Total Sales**. Klik deze aan.  
    ![Search box for fields in Power BI](img/internet-total-sales-searchbox.png)
 9. Zoek nu naar "Country", en vink **Country Region Name** aan.
@@ -85,6 +86,7 @@ Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de hoevee
 
 ### Internet Total Tax per Total Children
 
+{:start="10"}
 10. Probeer nu stappen 8 en 9 opnieuw uit te voeren, maar maak deze keer de grafiek te maken voor **Internet Total Tax Amt** (de hoeveelheid betaalde BTW voor internetverkopen) en **Total Children** (het aantal kinderen dat een klant heeft)
 
 ![Total Children verkeerd weergegeven](img/01-total-children-wrong.png)
@@ -93,6 +95,7 @@ Omdat *Total Children* een numerieke waarde is, maakt Power BI hier automatisch 
 
 ![Het sigma-teken duidt een *measure* aan](img/01b-measure-sign.png)
 
+{:start="11"}
 11. Zorg er nu voor dat de grafiek die je zojuist gemaakt hebt geselecteerd is.
 12. Verplaats nu in de **Eigenschappen** van de grafiek (onder de **visualizations** pane) het veld **Total Children** van het kopje **Value** naar **Axis**.
 
@@ -107,11 +110,10 @@ Stel dat we nu een extra uitsplitsing zouden willen doen naar het aantal kindere
 ![Implicit Measure voor children at home](img/04-sigma-children-at-home.png)
 We kunnen er echter ook expliciet aangeven hoe Power BI dit veld toevoegt aan een grafiek:
 
+{:start="13"}
 13. Zorg er nu voor dat de grafiek die je zojuist gemaakt hebt geselecteerd is.
 14. Sleep het veld **Number of Children at Home** vanuit de **Fields** lijst naar het kopje **Legend**
-
-![Sleep Number of Children at Home direct naar Legend](img/05-sleep-children-at-home.png)
-
+    ![Sleep Number of Children at Home direct naar Legend](img/05-sleep-children-at-home.png)
 15. *Resize* de grafiek zodat deze netjes wordt weergegeven:
 
 ![Children at Home - resultaat](img/06-children-at-home-correct.png)
@@ -128,6 +130,7 @@ Aangezien Power BI nieuw is binnen Adventure Works, is je leidinggevende bijzond
 
 Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Dit is bewust (zodat je ervaring met de tool vergroot wordt) - maar tegelijkertijd is het heel normaal dat je ergens niet uitkomt. Dan helpt het niet om lang te zitten tobben - vraag gerust om hulp!
 
+{:start="16"}
 16. Maak een nieuwe pagina, genaamd 'Product Sales'
 16. Schakel naar deze nieuwe pagina
 16. Maak een grafiek waarin je de **Internet Total Sales** uitzet tegenover *Product Subcategory Name** (*neem deze uit de dimensie Product Subcategory*!)
@@ -136,6 +139,7 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Dit
 
 ![Top N filtering](img/08-top-n-filter.png)
 
+{:start="21"}
 21. Filter deze op de top 6, sleep het veld "**Internet Total Sales** naar het kopje **by value**.
 21. Klik **Apply filter**
 21. Probeer nu zelf een **map visual** toe te voegen (dit is het "witte" wereldbolletje onder **Visualizations**). Zet hierin de **Country Region Name** uit tegen **Internet Total Sales**. Maak de grafiek vervolgens breed genoeg zodat alle landen waar verkocht wordt duidelijk zichtbaar zijn.
@@ -153,9 +157,10 @@ Hieronder staan op een iets hoger niveau de stappen om een rapport te maken. Dit
     * **Internet Total Units**
 
 > Om te ontdekken wat een **Card** visual is, zul je de namen van de tooltips moeten verkennen. De naam van een visual wordt weergegeven als *tooltip* wanneer je de cursor er enige tijd op laat rusten:
-> 
+>
 > ![Voorbeeld van een tooltip](img/08b-tooltip.png)
 
+{:start="28"}
 28. Zet de drie **Card** visuals strak naast elkaar direct onder de titel. Verklein de tekst indien nodig.
 28. Maak de pagina af met een willekeurig bedrijfslogo rechtsbovenin (je kunt hier bijvoorbeeld het AdventureWorks-logo opzoeken, of je eigen bedrijfslogo)
 
