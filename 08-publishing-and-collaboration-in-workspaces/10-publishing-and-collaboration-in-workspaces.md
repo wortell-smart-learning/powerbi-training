@@ -9,12 +9,12 @@ Wanneer je een rapport *publiceert*, komt deze in de online Power BI portal te s
 
 De dataset die oorspronkelijk bij het rapport hoorde kun je niet direct benaderen. Daarom krijg je de foutmelding **Unable to connect**
 
-![Unable to connect](img/00-unable-to-connect.png)
+![Unable to connect](../03-visuals-and-interaction/img/00-01-unable-to-connect.png)
 
 * Klik op **Edit**
 * Selecteer de **AdventureWorks** dataset uit je eigen workspace, en klik op **Create**
 
-![Kies AdventureWorks](img/SelectModelFromPBI.png)
+![Kies AdventureWorks](../03-visuals-and-interaction/img/00-02-select-dataset.png)
 
 * Sla je rapport op in de map waar je de cursusbestanden bewaart. Geef het de naam "Module 8"
 * Onder de **Home** ribbon, klik op **Publish**

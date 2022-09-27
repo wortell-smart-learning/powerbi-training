@@ -39,6 +39,11 @@ Er mist momenteel een relatie tussen de tabel "2014-01" en de tabel "Store". Leg
 
 Keer nu terug naar de "report" weergave en verifieer dat de weergave van vrachtkosten per winkel correct gaat.
 
+Maak vervolgens ook relaties aan voor:
+
+* Sales Territory (TerritoryID) naar 2014-01 (TerritoryID)
+* Production Product (ProductID) naar 2014-01 (ProductID)  
+
 ## Oplossing
 
 Hier vind je het eindpunt van deze opdracht: [06-01-Solution](06-01-Solution.pbix)

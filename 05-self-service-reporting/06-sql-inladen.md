@@ -47,11 +47,9 @@ Vervang nu in de rapportage de TerritoryID met de kolom "Name" uit SalesTerritor
 
 ![TotalDue by Territory, TaxAmt by Category](img/pbi-secondviz.png)
 
-> ### Automagie
+> **Let op!** Zoals je ziet wordt voor elke regio en productcategorie exact hetzelfde bedrag weergegeven. Wanneer dit het geval is, is er meestal iets mis in je datamodel.
 >
-> Power BI heeft hier enkele relaties voor je aangelegd, zodat de data die je zojuist hebt ingeladen gekoppeld kon worden aan de data die uit een CSV-bestand kwam. Dit doet Power BI op basis van de kolomnamen, en op basis van de inhoud daarvan (alle waarden uit kolom A in tabel 1 moeten exact één keer voorkomen in kolom A in tabel 2).
->
-> Als je het interessant vindt, kun je kijken of je kunt achterhalen tussen welke kolommen de relatie gelegd is en welke "richting" deze heeft.
+> In de volgende module zullen we hier oplossingen voor vinden.
 
 In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. Deze data gaan we nu inladen.
 
@@ -61,13 +59,12 @@ In een ander bronsysteem hebben we ook wat informatie over winkels verzameld. De
 
 Probeer nu de vrachtkosten per winkel weer te geven. Dit doe je door in het rapport een Tabel visualisatie toe te voegen met daarin de volgende twee velden:
 
-1. SalesLT.Store -> Name
+1. SalesLT Store -> Name
 2. 2014-01 -> Freight
 
 ![Aanvinken van store en 2014-01](img/store-aanvinken.gif)
 
-Zoals je ziet wordt voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven. Dit is uiteraard niet correct!
-Het geeft aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Freight]`) geen relatie bestaat. In een volgende module kijken we hoe we deze relatie kunnen vormgeven.
+Zoals je ziet wordt ook hier voor elke winkel exact hetzelfde bedrag aan vrachtkosten ("freight") weergegeven, **maar ook dat het totaal exact hetzelfde is**. Dit geeft opnieuw aan dat tussen deze velden (`'Sales LT Store'[Name]` en `'2014-01'[Freight]`) geen relatie bestaat. In een volgende module kijken we hoe we deze relatie kunnen vormgeven.
 
 ## Oplossing
 
