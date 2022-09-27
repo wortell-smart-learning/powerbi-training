@@ -4,7 +4,7 @@
 
 ### Downloaden van Power BI
 
-Power BI Desktop is gratis te downloaden en op elke Windows-machine installeren. Mocht dat op jouw computer nog niet gedaan zijn, dan kun je Power BI downloaden vanaf de Windows Store, of vanaf [www.powerbi.com](https://powerbi.microsoft.com/nl-nl/). Wanneer het mogelijk is, installeer Power BI Desktop dan vanuit de Windows Store: dit zorgt ervoor dat je automatisch updates e.d. krijgt, en deze niet handmatig hoeft te downloaden.
+Power BI Desktop is gratis te downloaden en op elke Windows-machine installeren. Mocht dat op jouw computer nog niet gedaan zijn, dan kun je Power BI downloaden [vanaf de Microsoft Store](https://aka.ms/pbidesktopstore), of vanaf [www.powerbi.com](https://www.microsoft.com/nl-nl/download/details.aspx?id=58494). Wanneer het mogelijk is, installeer Power BI Desktop dan vanuit de Microsoft Store: dit zorgt ervoor dat je automatisch updates e.d. krijgt, en deze niet handmatig hoeft te downloaden.
 
 Wanneer je Power BI wilt installeren vanuit de Windows Store, let dan goed op! Zoals je ziet zijn er namelijk drie edities:
 
@@ -12,7 +12,7 @@ Wanneer je Power BI wilt installeren vanuit de Windows Store, let dan goed op! Z
 * **Power BI Desktop** is de tool waarmee je rapporten kunt bewerken en vormgeven
 * **Power BI Report Builder** is de tool waarmee je gepagineerde rapporten kunt maken
 
-Kies voor Power BI Desktop.
+Kies in de Microsoft Store voor **Power BI Desktop**.
 
 ![Kies de juiste Power BI Desktop](img/juiste-powerbi-uit-store.png)
 

@@ -51,7 +51,7 @@ Je hebt zojuist een Power BI dataset voor jezelf klaargezet. Dit was een stukje 
    * Klik op het pijltje onder "Get Data"
    * Kies **Power BI Datasets**
    * Kies het model **AdventureWorks**
-   * Klik op **Create**
+   * Klik op **Connect**
 
 ![Selecteer dataset AdventureWorks](img/SelectModelFromPBI.png)
 
@@ -84,7 +84,7 @@ Zoals je ziet, gaat deze grafiek eigenlijk automatisch goed. En hoewel de hoevee
 
 ### Internet Total Tax per Total Children
 
-10. Probeer nu stappen 8 en 9 opnieuw uit te voeren, maar maak deze keer de grafiek te maken voor **Internet Total Tax Amt** en **Total Children** (de laatste is een eigenschap van een klant)
+10. Probeer nu stappen 8 en 9 opnieuw uit te voeren, maar maak deze keer de grafiek te maken voor **Internet Total Tax Amt** (de hoeveelheid betaalde BTW voor internetverkopen) en **Total Children** (het aantal kinderen dat een klant heeft)
 
 ![Total Children verkeerd weergegeven](img/01-total-children-wrong.png)
 

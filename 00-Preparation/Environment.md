@@ -11,5 +11,6 @@ Voor de training "Power BI: Rapporten en Dashboards" zijn de volgende zaken nodi
   * Een SQL Database beschikbaar
 
 * Per cursus
-  * Cursusmateriaal op GitHub, export naar PDF, of gedrukt
+  * Dit cursusmateriaal op GitHub, export naar PDF, of gedrukt
+  * Voor het Power BI leertraject: daarnaast het PL-300 materiaal. Dit is alleen online (op MS Learn) beschikbaar
   * Opdrachten met bijbehorende bronbestanden
