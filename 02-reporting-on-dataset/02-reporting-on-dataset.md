@@ -2,7 +2,7 @@
  
 Power BI kan als volledige "self-service" tool gebruikt worden, maar ook inprikken op bestaande "datasets".
 
-> ### Wat is een dataset
+> ## Wat is een dataset
 >
 > Een dataset is een datamodel (verzameling aan tabellen en onderlinge verwijzingen) dat klaar staat voor analyse. Allerlei logica kan vooraf ingebouwd worden, zodat je door een paar klikken nieuwe vragen kunt stellen. Een paar termen die hier veel bij voorkomen:
 >
