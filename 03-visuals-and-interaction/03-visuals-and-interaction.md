@@ -75,7 +75,7 @@ In de datamodellen die we vanuit een dataset of Power BI-model afnemen, wordt da
 * Selecteer de *measure* **Internet Total Sales**
 * Selecteer de *hiërarchie* **Category** in de tabel **Product**
 * Bekijk de grafiek-eigenschappen. 
-  * Onder "Axis" staat *Category*
+  * Onder "X-axis" staat *Category*
   * Je ziet hier diverse niveaus (Category, Subcategory, Model, Product), toch is in de grafiek momenteel enkel het hoogste niveau zichtbaar.
 * Maak de grafiek wat breder, zodat je de volledige titel kunt zien. De titel is momenteel "Internet Total Sales by Category": het zichtbare niveau dus.
 
