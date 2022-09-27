@@ -10,7 +10,6 @@ Alternatief als je de vorige opdracht niet correct hebt afgerond:
 
 **Open** het bestand [06-01-Solution](06-01-Solution.pbix)
 
-
 ## Opschonen van je model en calculated columns
 
 Om het huidige model - dat direct uit een 3NF-bronsysteem afkomstig is - beter leesbaar te maken, kunnen we enkele zaken eenvoudig oppakken:
