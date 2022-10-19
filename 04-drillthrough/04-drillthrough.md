@@ -46,7 +46,7 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 * Onder het kopje **Drillthrough** vind je nu een vakje "Add drillthrough filters here". Sleep hier het veld **Country Region Name** heen (tabel *Geography*)
 * Ga terug naar de pagina *Page 2*, en rechtsklik op één van de landen in de grafiek. Als het goed is heb je nu een submenu *Drillthrough* naar de *Country Details*-pagina
 
-Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer de pagina naar een workspace, publiceer deze als app, en bekijk het resultaten in de app.
+Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer het rapport naar een workspace, publiceer deze als app, en bekijk het resultaat in de app.
 
 Probeer nu zelf een tweede drillthrough-pagina "Product Category Details" aan te maken waarbij je alle gegevens binnen een productcategorie op een rij zet. Filter op basis van het veld **Product Subcategory Name** (tabel *Product Subcategory*). Geef de volgende zaken weer:
 
