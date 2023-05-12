@@ -78,7 +78,7 @@ We gaan nu twee Power BI visualisaties maken:
 Deze is redelijk eenvoudig:
 
 {:start="8"}
-8. Zoek in het **Fields** pane via de zoekbox de *measure* **Internet Total Sales**. Klik deze aan.  
+8. Zoek in het **Data** pane via de zoekbox de *measure* **Internet Total Sales**. Klik deze aan.  
    ![Search box for fields in Power BI](img/internet-total-sales-searchbox.png)
 9. Zoek nu naar "Country", en vink **Country Region Name** aan.
 
