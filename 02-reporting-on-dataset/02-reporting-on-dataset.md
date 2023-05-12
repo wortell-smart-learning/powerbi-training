@@ -105,14 +105,14 @@ Hiermee geven we aan dat "Total Children" niet een veld is dat we willen optelle
 
 ![Total Children correct weergegeven](img/03-total-children-correct.png)
 
-Stel dat we nu een extra uitsplitsing zouden willen doen naar het aantal kinderen dat nog thuis is (*Number of Children at Home*), dan zien we in de fields-lijst ook hier een sigma-teken voor staan. 
+Stel dat we nu een extra uitsplitsing zouden willen doen naar het aantal kinderen dat nog thuis is (*Number of Children at Home*), dan zien we in de Data-lijst ook hier een sigma-teken voor staan. 
 
 ![Implicit Measure voor children at home](img/04-sigma-children-at-home.png)
 We kunnen er echter ook expliciet aangeven hoe Power BI dit veld toevoegt aan een grafiek:
 
 {:start="13"}
 13. Zorg er nu voor dat de grafiek die je zojuist gemaakt hebt geselecteerd is.
-14. Sleep het veld **Number of Children at Home** vanuit de **Fields** lijst naar het kopje **Legend**
+14. Sleep het veld **Number of Children at Home** vanuit de **Data** lijst naar het kopje **Legend**
     ![Sleep Number of Children at Home direct naar Legend](img/05-sleep-children-at-home.png)
 15. *Resize* de grafiek zodat deze netjes wordt weergegeven:
 
