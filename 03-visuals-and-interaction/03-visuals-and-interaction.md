@@ -74,6 +74,7 @@ In de datamodellen die we vanuit een dataset of Power BI-model afnemen, wordt da
 * Maak een nieuw tabblad
 * Selecteer de *measure* **Internet Total Sales**
 * Selecteer de *hiërarchie* **Category** in de tabel **Product**
+* Klik nu in de visualisatie drie keer op het pijltje naar boven
 * Bekijk de grafiek-eigenschappen. 
   * Onder "X-axis" staat *Category*
   * Je ziet hier diverse niveaus (Category, Subcategory, Model, Product), toch is in de grafiek momenteel enkel het hoogste niveau zichtbaar.
