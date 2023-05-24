@@ -112,7 +112,7 @@ De hiërarchie is nu *in deze grafiek* Jaar-Maand-Dag geworden. Verifieer dit.
 ### Handmatige hiërarchie
 
 * Selecteer nu opnieuw de linkergrafiek *Internet Total Sales by Category*
-* Sleep vanuit het **Fields** *pane* het veld **Country Region Name** uit de tabel **Geography** naar het **Axis** veld. Plaats het veld *boven* de *Category* hiërarchie.
+* Sleep vanuit het **Data** *pane* het veld **Country Region Name** uit de tabel **Geography** naar het **Axis** veld. Plaats het veld *boven* de *Category* hiërarchie.
 
 De grafiektitel is nu *Internet Total Sales by Country Region Name*, en we kunnen via een *drilldown* verder afdalen door de *Category* hiërarchie, op basis van het land dat we bekijken.
 
