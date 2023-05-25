@@ -33,7 +33,7 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 
 ### Drillthrough instellen in je rapport
 
-* Open het rapport 'startpunt-module-4.pbit'
+* Open het rapport '04-Start.pbit'
   * Selecteer zo nodig opnieuw je eigen *AdventureWorks* dataset (dit heb je in module 3 ook gedaan)
 * Voeg een pagina toe met de naam "Country Details"
 * Voeg hierop een *map visual* toe (![Icon of map visual](img/02-map-visual.png)). Configureer deze als volgt:
