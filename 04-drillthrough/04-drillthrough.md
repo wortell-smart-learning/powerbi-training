@@ -38,7 +38,7 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
 * Voeg een pagina toe met de naam "Country Details"
 * Voeg hierop een *map visual* toe (![Icon of map visual](img/02-map-visual.png)). Configureer deze als volgt:
   * **Location**: **State Province Name** (tabel *Geography*)
-  * **Size**: **Internet Total Sales** (tabel *Internet Sales*)
+  * **Bubble size**: **Internet Total Sales** (tabel *Internet Sales*)
 * Voeg nu ook een zgn. "Treemap" toe voor *Internet Total Sales by Product Category Name*:
   * Gebruik hier het veld **Product Category Name** uit de tabel **Product Category**
 ![Voorbeeld treemap](img/03-treemap.png)
