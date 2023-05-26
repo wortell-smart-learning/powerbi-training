@@ -98,7 +98,7 @@ Maak nu drie Power BI visualisaties. Zorg ervoor dat de "per" velden (*per* Terr
    * Voeg een titel toe aan de X-as
 2. **TaxAmt** per **ProductID**
    * Maak de X-as **Categorical**, en zet deze vervolgens uit
-   * Stel als **Data colors** een **Conditional formatting** in (hint: klik op de puntjes naar *Default color*)
+   * Stel als **Column colors** een **Conditional formatting** in (hint: je hebt dit al eerder gedaan met **Color** op Field Name)
      * Stel de minimum-kleur in op de lichtste grijstint binnen de thema-kleuren
      * Stel de maximum-kleur in op de donkerste grijstint (niet zwart) binnen de thema-kleuren
      * Laat de overige instellingen standaard staan
