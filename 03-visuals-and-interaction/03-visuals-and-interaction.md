@@ -71,7 +71,7 @@ Veel van de data die we analyseren heeft een hiërarchie in zich:
 
 In de datamodellen die we vanuit een dataset of Power BI-model afnemen, wordt data vaak al in een hiërarchie aangeboden. Bijvoorbeeld de Category-hiërarchie in de tabel *Product*:
 
-* Maak een nieuw tabblad
+* Maak een nieuwe pagina
 * Selecteer de *measure* **Internet Total Sales**
 * Selecteer de *hiërarchie* **Category** in de tabel **Product**
 * Klik nu in de visualisatie drie keer op het pijltje naar boven
