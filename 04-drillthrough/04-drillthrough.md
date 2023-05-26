@@ -43,7 +43,7 @@ Wanneer je een drillthrough binnen een rapport mogelijk wilt maken, moet je de v
   * Gebruik hier het veld **Product Category Name** uit de tabel **Product Category**
 ![Voorbeeld treemap](img/03-treemap.png)
 * Klik ergens op het canvas zodat er geen *visual* meer geselecteerd is.
-* Onder het kopje **Drillthrough** vind je nu een vakje "Add drillthrough filters here". Sleep hier het veld **Country Region Name** heen (tabel *Geography*)
+* In het **Visualizations paneel** Onder het kopje **Drillthrough** vind je nu een vakje "Add drillthrough filters here". Sleep hier het veld **Country Region Name** heen (tabel *Geography*)
 * Ga terug naar de pagina *Page 2*, en rechtsklik op één van de landen in de grafiek. Als het goed is heb je nu een submenu *Drillthrough* naar de *Country Details*-pagina
 
 Om het af te maken, kun je nu de **Country Details** pagina verbergen (rechtsklik op de tab, kies **Hide Page**). Publiceer het rapport naar een workspace en bekijk het resultaat.
