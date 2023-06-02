@@ -107,14 +107,14 @@ Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te d
 6. Zodra je een nieuwe(re) versie van een rapport wilt publiceren, publiceer je de app opnieuw. De eindgebruiker krijgt nu automatisch de nieuwste versie van het rapport.
 
 * Open nu de werkruimte die je eerder hebt aangemaakt
-* Rechtsklik bovenin op de knop Create App
+* Klik bovenin op de knop Create App
 
 ![Publish app button](img/05-publish-app.png)
 
 * Voer een beschrijving in van de app
-* Schakel naar het tabblad **Navigation**
+* Schakel naar de stap **Content**
   * Zoals je ziet, staat er momenteel slechts één rapport in deze workspace. Wanneer dit er meer waren zijn, kun je hier een eenvoudige navigatie toevoegen.
-* Schakel naar het tabblad **Permissions**
+* Schakel naar de stap **Audience**
 * Wijs één of meer collega's binnen de cursus aan die jouw "app" mogen gaan gebruiken.
 * Publiceer de app
 
