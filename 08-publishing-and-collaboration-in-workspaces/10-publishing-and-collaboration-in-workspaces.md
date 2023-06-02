@@ -139,7 +139,7 @@ Test dit:
 * Maak wat wijzigingen in je rapport
 * Publiceer het opnieuw naar je eigen workspace
 * Kijk bij jezelf en/of bij een collega die de app gebruikt of de wijzigingen inderdaad verborgen blijven
-* Publiceer de app workspace
+* Werk de app bij
 * Controleer of de wijzigingen inderdaad doorkomen
 
 ## Oplossing
