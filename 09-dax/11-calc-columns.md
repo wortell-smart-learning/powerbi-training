@@ -49,8 +49,7 @@ Na de aanpassing van deze definities en codes, is het tijd om wat zaken aan te g
 
 * Ga terug naar de *Report* weergave van Power BI, en voeg hier een nieuwe pagina toe
 * Zorg ervoor dat deze er als volgt uit gaat zien.
-  * Tip: je zult hier ook nog wat aanpassingen moeten doen aan de instellingen van je datamodel ...
-  * ... maar je hoeft geen extra DAX-expressies, measues of calculated columns toe te voegen
+  * Je hoeft geen extra DAX-expressies, measues of calculated columns toe te voegen
 
 ![Doelopmaak rapport](img/screenshot-pbi-doel.png)
 
