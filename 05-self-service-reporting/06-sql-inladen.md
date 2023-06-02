@@ -80,7 +80,7 @@ Hier vind je de [Walkthrough video](https://vimeo.com/584747225/22f90d1d60)
 
 ## Volgende modules
 
-De volgende module is Module 7: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../06-data-modeling-101/07-relaties.md).
+De volgende module is Module 6: Data Modeling 101. Het eerste onderwerp hier is [Relaties](../06-data-modeling-101/07-relaties.md).
 
 Hieronder vind je een overzicht van alle modules:
 
