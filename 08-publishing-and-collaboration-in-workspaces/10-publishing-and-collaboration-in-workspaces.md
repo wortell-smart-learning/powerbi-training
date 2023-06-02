@@ -122,16 +122,15 @@ Om op een nette, eenvoudige en stabiele manier rapporten met eindgebruikers te d
 
 * Schakel nu naar het onderdeel **Apps** in het menu aan de linkerzijde van de Power BI Portal
 
-Dit is de weergave voor de gebruikers van Power BI apps. Als je een app publiceert, ben je zelf automatisch ook gebruiker, zodat je goed kunt zien hoe de app er voor je eindgebruikers uit zou zien.
+Dit is de weergave voor de gebruikers van Power BI apps. Als je een app publiceert, ben je zelf automatisch ook gebruiker, zodat je goed kunt zien hoe de app er voor je eindgebruikers uit zou zien. Het downloaden van de app is niet nodig, het staat al voor jou klaar. Heeft een collega een app met jou gedeeld dan moet je die wel downloaden.
 
 * Selecteer de gele knop "Get apps" (in het Nederlands is deze knop een beetje gek vertaald met "Apps downloaden")
 
 ![Get apps NL](img/06-get-apps.png)
 
-* Selecteer in het venster de app die je zojuist hebt toegevoegd door op de blauwe tekst "Get it now" / "Nu downloaden" te klikken.
-* Je app is nu toegevoegd aan het menu met Apps.
+* Selecteer in het venster de app die jouw collega zojuist hebt toegevoegd door op de blauwe tekst "Get it now" / "Nu downloaden" te klikken.
+* De app is nu toegevoegd aan het menu met Apps.
 * Klik op een app om het achterliggende rapport automatisch te openen
-* Probeer ook enkele apps van collega's te openen
 
 Zoals hierboven verteld, zijn de wijzigingen die je in de workspace maakt niet zichtbaar voor eindgebruikers zolang je de app niet publiceert.
 
