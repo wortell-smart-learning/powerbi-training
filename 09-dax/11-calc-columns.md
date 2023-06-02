@@ -5,9 +5,9 @@ Met *calculated columns* kun je in een kolom voor elke rij van een tabel een ber
 In deze module kijken we naar andere mogelijkheden van _calculated columns_.
 ## Voorbereiding
 
-Ga verder met het bestand dat je in de vorige module hebt gebruikt.
+Ga verder met het bestand dat je in module 6 hebt gebruikt.
 
-Alternatief als je de vorige opdracht niet hebt afgerond:
+Alternatief als je die opdracht niet hebt afgerond:
 
 Open het Power BI template-rapport [06-02-solution](../06-data-modeling-101/06-02-Solution.pbix)
 
