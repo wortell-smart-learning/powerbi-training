@@ -29,7 +29,7 @@ Hieronder staan een paar opdrachten - kijk in hoeverre je ze kunt oplossen met e
   * Probeer de weergave zo te krijgen dat dit als een geheel getal wordt weergegeven in het datamodel
 * In de tabel "Product" willen we het prijssegment ook een label geven
   * Kolomnaam: "prijssegment"
-  * 0: "Geen geld"
+  * _Blank_: "Geen geld"
   * 1: "Goedkoop"
   * 2: "Minder goedkoop"
   * 3: "Duur"
