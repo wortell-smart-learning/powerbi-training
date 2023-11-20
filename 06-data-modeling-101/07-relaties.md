@@ -28,7 +28,7 @@ In bovenstaand plaatje:
 
 * De relatie loopt tussen _Production ProductSubcategory_ en _Production Product_
 * De relatie ligt aan beide zijden op de kolom _ProductSubcategoryID_
-* De kolom _ProductSubcategoryID_ is uniek binnen de tabel _Production Product_ (dit is aangegeven door de "1" bij de relatie)
+* De kolom _ProductSubcategoryID_ is uniek binnen de tabel _Production ProductSubcategory_ (dit is aangegeven door de "1" bij de relatie)
 * Wanneer je de tabel _Production ProductSubcategory_ filtert (door bijvoorbeeld in een rapport te klikken op een subcategorie), dan werkt deze filter door in de lijst met weergegeven producten.
 
 Probeer dit laatste uit in de Report-weergave van Power BI.
